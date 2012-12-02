@@ -1,0 +1,36 @@
+Survex 1.0.25
+Copyright © 1990-2003 Olly Betts
+
+Removing trailing traverses...
+
+Concatenating traverses between nodes...
+
+Simplifying network...
+
+Solving one equation
+
+Solving to find x coordinates...
+
+Calculating network...
+
+Calculating traverses between nodes...
+
+Calculating trailing traverses...
+
+Calculating statistics...
+
+Survey contains 913 survey stations, joined by 914 shots.
+There are 2 loops.
+Total length of survey shots = 6145.90m (6146.10m adjusted)
+Total plan length of survey shots = 4273.53m
+Total vertical length of survey shots = 2802.58m
+Vertical range = 943.87m (from tormenta2002.ent.0 at 1541.24m to texa98_2.1 at 597.37m)
+North-South range = 546.24m (from texa98_1.3 at 10094.39m to tormenta2002.s.2 at 9548.15m)
+East-West range = 785.49m (from texa98_2.1 at 5399.36m to tormenta2002.g.14 at 4613.86m)
+  36 1-nodes.
+ 842 2-nodes.
+  33 3-nodes.
+   1 4-node.
+   1 5-node.
+CPU time used  0.11s
+Done.

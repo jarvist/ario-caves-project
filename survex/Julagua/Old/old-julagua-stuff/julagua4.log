@@ -1,0 +1,16 @@
+Survex 1.0.35
+Copyright ¸ 1990-2005 Olly Betts
+
+Survey contains 1017 survey stations, joined by 1019 legs.
+There are 3 loops.
+Total length of survey legs = 6891.11m (6893.19m adjusted)
+Total plan length of survey legs = 4858.92m
+Total vertical length of survey legs = 3139.61m
+Vertical range = 1036.79m (from tormenta2002.ent.0 at 1541.24m to texa_05_04.9 at 504.45m)
+North-South range = 588.90m (from texa_05_04.9 at 10138.25m to tormenta2002.s.2 at 9549.34m)
+East-West range = 878.10m (from texa_05_04.9 at 5492.40m to tormenta2002.g.14 at 4614.30m)
+  40 1-nodes.
+ 937 2-nodes.
+  37 3-nodes.
+   2 4-nodes.
+   1 5-node.

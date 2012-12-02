@@ -1,0 +1,26 @@
+; OUCC - Picos Survey Data
+;
+; Sistema Julagua
+; (Pozu Tormenta & Asopladeru la Texa)
+
+; 2005-07-19 JPNP: Created file
+
+*begin Julagua
+
+*begin texa
+*include texa/texa.svx
+*end texa
+
+*include tormenta/tormenta.svx
+
+; Connect the two caves
+;*equate tormenta.texa_connection texa.texa_97.51 
+
+; Surface survey tieing the two entrances
+
+*include Surface/surface_05_01.svx
+
+*equate surface_05_01.1  texa.entrance
+*equate surface_05_01.36 tormenta.entrance
+
+*end Julagua

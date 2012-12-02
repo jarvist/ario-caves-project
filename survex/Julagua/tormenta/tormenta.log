@@ -1,0 +1,16 @@
+Survex 1.0.35
+Copyright ¸ 1990-2005 Olly Betts
+Survey has no fixed points. Therefore I've fixed tormenta.2002.ent.0 at (0,0,0)
+
+Survey contains 664 survey stations, joined by 665 legs.
+There are 2 loops.
+Total length of survey legs = 4546.70m (4546.90m adjusted)
+Total plan length of survey legs = 3600.25m
+Total vertical length of survey legs = 1757.74m
+Vertical range = 845.48m (from tormenta.2002.ent.0 at 0.00m to tormenta.2003.q.9 at -845.48m)
+North-South range = 516.49m (from tormenta.2003.p.2 at 130.97m to tormenta.2002.s.2 at -385.52m)
+East-West range = 652.98m (from tormenta.2003.q.9 at 609.31m to tormenta.2002.g.14 at -43.68m)
+  25 1-nodes.
+ 614 2-nodes.
+  24 3-nodes.
+   1 5-node.

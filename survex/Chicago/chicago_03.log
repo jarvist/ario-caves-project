@@ -1,0 +1,15 @@
+Survex 1.0.35
+Copyright ¸ 1990-2005 Olly Betts
+Survey has no fixed points. Therefore I've fixed chicago_03.1 at (0,0,0)
+
+Survey contains 20 survey stations, joined by 19 legs.
+There are 0 loops.
+Total length of survey legs =  108.69m ( 108.69m adjusted)
+Total plan length of survey legs =   37.74m
+Total vertical length of survey legs =   85.06m
+Vertical range = 76.76m (from chicago_03.19 at 70.10m to chicago_03.5 at -6.67m)
+North-South range = 17.03m (from chicago_03.1 at 0.00m to chicago_03.19 at -17.03m)
+East-West range = 9.84m (from chicago_03.14 at 3.33m to chicago_03.7 at -6.51m)
+   4 1-nodes.
+  14 2-nodes.
+   2 3-nodes.

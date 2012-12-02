@@ -1,0 +1,31 @@
+;Topo Dani, kiku i Marc 23 i 26/6/2009
+
+
+; following is in European datum 1950
+; *fix xapa.0	0344997	4789890	1492 
+;*fix xapa.0	4997	9890	1492 
+
+; following is translation into GPS-WGS94 (I think!)
+*fix xapa.xapa-ERE.0 4896 9680 1492
+
+;*include ../Calib/2009.svx
+*entrance xapa.xapa-ERE.0
+
+*begin xapa
+*include xapa-ERE
+
+*include xapa-A
+*equate xapa-ERE.0 A.0
+;*equate xapa-ERE.4 A.3 ; top of second pitch
+;*equate xapa-ERE.8 A.7 ; top of third pitch
+;*equate xapa-ERE.14 A.12 ; cairn
+
+*include xapa-B
+*equate B.1 A.12
+;*equate B.8 xapa-ERE.27
+
+*include xapa-C
+*equate C.0 B.15
+
+*end xapa
+		

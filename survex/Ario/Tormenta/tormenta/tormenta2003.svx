@@ -1,0 +1,118 @@
+
+
+;*fix N.1 0 0 0
+
+*begin N
+*title "Los Lagos to Peral Pitch-Head"
+*date 2003.08.03
+*team "Paul Garver" tape
+*team "Chris Rogers" book, instruments
+
+; Entered from logbook 2003.09.09 by David Legg
+
+; data order
+; from to tape compass clino
+1 2 7.56 25 -02 ; PSS 1 = L.59 ;JPNP U.59??+++
+2 3 2.32 74 +02
+3 4 4.15 354 +42
+4 5 13.15 - up
+5 6 1.63 275 +13
+6 7 3.37 18 +40
+7 8 3.31 300 +11
+8 9 3.61 296 -23
+9 10 4.81 34 -35
+10 11 1.82 339 -37
+11 12 5.09 34 -24
+12 13 2.38 357 +08 ; PSS 13 = square of paper
+
+*end N
+
+*equate N.13 O.15
+
+*begin O
+*title "Pearl Pitch Survey"
+*date 2003.08.06
+*team "JC" book, instruments
+*team "Gareth" tape
+
+; Entered from logbook 2003.09.09 by David Legg
+
+; data order
+; from to tape compass clino
+1 2 5.20 266 -12
+2 3 2.54 131 -10
+3 4 3.20 150 +10
+4 5 1.97 198 0
+5 6 4.92 265 +40
+6 7 6.46 238 +01
+7 8 4.50 322 +05
+8 9 6.40 266 +14
+9 10 4.12 300 +07
+10 11 16.00 168 +52
+11 12 6.75 160 +50
+12 13 23.67 - up
+13 14 11.05 - up
+14 15 1.25 120 -15 ; PSS 15 = PSS PG + CR 03/08/03
+
+*end O
+
+*equate O.1 P.21
+
+*begin P
+*title "Shark's Teeth to head of Fenris"
+*date 2003.08.12
+*team "JC" book
+*team "Simon Flower" instruments
+*team "Geoff O'Dell" tape
+
+; Entered from logbook 2003.09.10 by David Legg
+
+; data order
+; from to tape compass clino
+2 1 9.59 132 +01 ; 1= PSS
+3 2 17.80 050 -08
+4 3 9.25 031 -01
+5 4 14.50 095 +01
+6 5 9.05 052 +02
+7 6 6.50 301 +01
+8 7 5.56 349 0
+9 8 13.79 101 -01
+10 9 5.08 145 -01
+11 10 8.42 041 -12
+12 11 4.19 056 +08
+13 12 6.63 120 -03
+14 13 13.19 005 -01
+15 14 20.06 146 -04
+16 15 5.29 180 -35
+17 16 15.50 165 -22
+18 17 5.52 212 -02
+19 18 21.60 220 -80
+20 19 2.42 150 -61 
+21 20 2.72 020 -64 ; 21 = PSS
+
+*end P
+
+*equate P.1 Q.1
+
+*begin Q
+*title "Fenris to Asopladeru La Texa"
+*date 2003.08.17
+*team "Chris Densham" book
+*team "Simon Flowe" tape
+*team "David Legg" instruments
+
+; Entered from logbook 2003.09.10 by David Legg
+
+; data order
+; from to tape compass clino
+1 2 4.10 123 +08 ; 1 = PSS head of Fenris
+2 3 12.10 160 -83
+3 4 12.45 106 -02
+4 5 3.05 122 +43
+5 6 1.75 188 -14
+6 7 20.20 110 -77
+7 8 0.7 135 -27
+8 9 12.4 090 -45 ; 9 = PSS Blue hanger in La Texa!
+
+*end Q
+

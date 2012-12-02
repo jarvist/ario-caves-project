@@ -1,0 +1,106 @@
+; OUCC Area Survey, including surrounding caves
+
+; All coordinates GPS UTM in square 034 478
+
+*title "Complete area survey"
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Ario caves
+
+*begin 2_7  ;Pozu Jultayu or Pozu del Ojo de la Bruja
+*include .\Ario\2_7\2_7
+*end 2_7
+
+*begin xitu  ;Xitu (1/5) all entrances
+*include .\Ario\Xitu\Xitu
+*end xitu
+
+*begin Can  ; Canalizos
+*include .\Ario\Canalizos\can
+*end Can
+
+*begin 27_9 ; 27/9
+*include .\Ario\27_9
+*end 27_9
+
+; *equate Julagua.0 tormenta.tie-in
+*begin tormenta
+*include Ario/Tormenta/julagua
+*end tormenta
+
+*include Ario/small
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;; Top Camp caves
+
+*begin F64
+*include .\TopCamp\F64\f64
+*end F64
+
+*begin F41 
+;  Not included, because I don't know the entrance coordinates
+*include .\TopCamp\f41.svx
+*end F41
+
+*begin C3C4
+*include .\TopCamp\C3C4\systc4c9
+*end C3C4
+
+*begin vasco
+*include .\TopCamp\Vasco\vascod7
+*end vasco
+
+*begin ridge
+*include ./TopCamp/Ridge/ridge
+*end ridge
+
+*begin F20
+*include .\TopCamp\F20\f20
+*end F20
+
+*begin jorcada
+*include .\TopCamp\F2F7\F2F7
+*end jorcada
+
+*begin F88 ; aka F56
+*include TopCamp/f88
+*end F88
+
+*begin F57
+*include TopCamp/F57
+*end F57
+
+*include TopCamp/small
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;; SIE caves
+
+;Main SIE cave entrances cf: josep Guarro 09/02/96
+;The reference fixed point is the summit of Cabeza Julagua (OUCC procedinngs
+;13, page 102), The caves locations were fixed on a map, and then calculated
+;relative to Cabeza Julagua summit. (ie. not strictly accurate)
+;data entered by J.Hooper 13/2/96, updated 19/3/95 using info. from Josep (SIE)
+;UTM coordinates within grid square 30TUN,
+
+*begin cuerries
+*include .\SIE\cuerries
+*end cuerries
+
+; *begin la_texa
+; *include .\SIE\texa
+; *end la_texa
+
+*begin muxa
+*include SIE/Muxa
+*end muxa
+
+;;; Other caves
+
+*begin oliseda
+*include .\Other\oliseda
+*end oliseda
+
+*begin culiembro
+*include .\Other\culiembr
+*end culiembro
+
+;;; Mountains
+
+*include .\mountains

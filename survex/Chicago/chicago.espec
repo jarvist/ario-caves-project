@@ -1,0 +1,12 @@
+; Extended elevation configuration file
+
+*start chicago_01.entrance
+
+*eleft chicago_02.v1 ; start of Wild West Passage
+
+*eright chicago_03.5 chicago_03.7
+*eswap chicago_04.9
+*eswap chicago_04.11 ; two legs double back
+
+*eswap chicago_e.8 ; cave doubles back at bottom of P40
+

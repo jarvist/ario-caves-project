@@ -1,0 +1,25 @@
+
+*begin N
+*title "Los Lagos to Peral Pitch-Head"
+*date 2003.08.03
+*team "Paul Garver" tape
+*team "Chris Rogers" book, instruments
+
+; Entered from logbook 2003.09.09 by David Legg
+
+; data order
+; from to tape compass clino
+1 2 7.56 25 -02 ; PSS 1 = L.59 ;JPNP U.59??+++
+2 3 2.32 74 +02
+3 4 4.15 354 +42
+4 5 13.15 - up
+5 6 1.63 275 +13
+6 7 3.37 18 +40
+7 8 3.31 300 +11
+8 9 3.61 296 -23
+9 10 4.81 34 -35
+10 11 1.82 339 -37
+11 12 5.09 34 -24
+12 13 2.38 357 +08 ; PSS 13 = square of paper
+
+*end N

@@ -1,0 +1,20 @@
+g.1 - g.2
+Original length   9.75m (  1 legs), moved   0.00m ( 0.00m/leg). Error   0.00%
+0.000000
+H: 0.000000 V: 0.000000
+
+g.2 - g.3 - g.4 - g.6 - g.13 - g.15 - g.2
+Original length  98.83m (  6 legs), moved   5.07m ( 0.85m/leg). Error   5.13%
+9.473734
+H: 12.563105 V: 2.845709
+
+m.pss1 - m.1 - m.2 - m.4 - m.5 - m.6 - m.7 - m.12 - m.13 - m.14 - m.15 - m.16 - m.pss1
+Original length 194.91m ( 12 legs), moved   2.62m ( 0.22m/leg). Error   1.34%
+3.397218
+H: 4.018171 V: 2.405455
+
+m.pss1 - d.22 - d.21 - d.20 - d.19 - d.18 - d.17 - d.16 - d.14 - d.13 - d.12 - d.11 - d.10 - d.9 - d.8 - d.7 - d.6 - d.5 - d.4 - d.3 - d.2 - d.1
+Original length 114.86m ( 21 legs), moved   0.00m ( 0.00m/leg). Error   0.00%
+0.000000
+H: 0.000000 V: 0.000000
+

@@ -1,0 +1,15 @@
+*date 2006.7.23
+*team Gavin instruments, tape
+*team Gareth book
+
+*begin chicago_F
+0	1	14.15	323	76
+; 0 is top of spike on RHS of ledge at bottom of P48
+; 1 is lower bolt on P48
+1	2	27.99	345	88
+; 2 is upper bolt on P48
+2	3	5.99	355	78  
+3	4	7.55	10	41
+4	5	17.35	25	57
+; 5 is deviation on P35
+*end chicago_F

@@ -1,0 +1,27 @@
+; OUCC - Picos Survey Data 
+
+; 2005-07-29 JPNP: tidied for use in 2005 Julagua survey
+
+*begin tormenta
+
+*begin 2002
+*include ../Calib/2002
+*include tormenta2002
+*end 2002
+
+; connection points
+*equate 2002.entrance entrance
+*equate 2003.Q.9 texa_connection
+
+; Tie in 2003 connection
+*equate 2002.U.59 2003.N.1
+
+;Tie in Breeze block survey with Area4 from 2002
+*equate 2003.R.1 2002.E.18
+
+*begin 2003
+*include ../Calib/2003
+*include tormenta2003
+*end 2003
+
+*end tormenta

@@ -1,0 +1,93 @@
+*begin ent
+
+*equate entrance ent.0
+
+*begin ent
+*title "entrance series" ; 2001 discovery, resurveyed
+*date 2002.08.12
+*team "Geoff O'Dell"
+*team "Al Wilson"
+*team "Rosa Clements"
+; entered from logbook 2002-08-23 by SGR
+0	1	2.50	300	-85 ;stn 0 - bolt on entrance
+1	2	2.54	090	-75
+2	3	2.95	120	-73.5 ;stn 2 - bolt on rebelay
+3	4	2.51	100	-53
+4	5	12.64	102	-78.5	;stn 4 - bolt on dev
+5	6	20.49	024	-66.5
+6	7	2.55	014	-37.5 ;stn 6 - bolt at start velcro sq.
+7	8	20.8	001	-87 ;stn 7 - krab on devn.
+8	9	1.84	171	+21
+9	10	3.89	199	0  
+10	11	13.45	190	-86.5 ;10 - knot on y-hang thunder pitch
+11	12	2.57	244	-27  ;12 - knot on y-hang subtle knife =3D A.1
+*end ent
+
+*equate ent.12 A.1
+
+*begin A
+; Cave: Tormenta
+; Location: Subtle Knife -> Area 4 Chamber
+; Date: 2002-07-17
+; Book: ???
+; Instruments: ???
+
+; Entered from Logbook photocopy 2002-08-11 by JPNP, Anita M
+
+;0  1  70     -  down  ; last year's - needs real data
+			     ;  now added, see 2002.08.12, section *ent
+1  2  13.11  -  down  ;1 =3D Knot on Subtle Knife pitch
+2  3  18.70  -  down
+3  4   7.72 192 +9
+4  5   8.30 215 +16
+5  6   4.10 124 -21
+6  7   3.80  -  down
+7  8   1.38 043 -21  ;??? compass
+8  9   6.28  -  down
+9  10  3.74 159 -19  ;??? compass
+10 11  2.98 180 -27
+11 12  5.13 185 -33
+12 13  2.75 196 -32
+13 14  4.48 021 -22
+14 15  3.19  -  down
+15 16  4.13 236 -9 
+16 17  1.76 219 -3
+17 18  4.01  -  down
+18 19  2.20 156 +1
+19 20  3.38 247 -25
+20 21  2.82 236 -4
+21 22  1.63 111 -15
+22 23  7.16 194 -1
+23 24  4.75 185 0
+24 25  1.89 266 +2
+25 26  2.90 167 -5
+26 27  4.27 186 +22
+27 28  2.34 210 +9
+28 29  6.66 184 -1
+29 30  8.82 204 -16
+30 31  2.85 214 +18
+31 32  8.05 208 -1
+32 33  4.46 197 -9
+33 34  6.19 198 -3
+34 35  5.60 197 -18
+35 36  3.14 202 -22
+36 37  1.62 128 -29
+37 38  8.93 223 -5
+38 39  8.90 196 -36
+39 40  4.59 135 -24 ;??? clino
+40 41  3.96 187 +9
+41 42  1.82 103 +52
+42 43  2.06 104 -10
+43 44 14.70 187 -3
+44 45 16.44 153 +4
+45 46 10.64 118 -16
+46 47 13.43 229 +9
+47 48 14.76 187 -19
+48 49 19.69 179 +3
+49 50  5.23 169 -39
+50 51  3.16 205 -15 ;PSS 51 =3D Bolt on pitch 'Singin In The Rain'
+
+;+++ Needs checking 4's and 6's hard to distinguish in logbook
+
+*end A
+*end ent

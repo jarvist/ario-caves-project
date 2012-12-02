@@ -1,0 +1,18 @@
+; Ridge Cave (1/6) and Pozu Conjurtao (2/6)
+
+*include ../../Calib/1985.svx  ; throught the system
+
+; *fix ridge.entrance   -1097   300     1916.7;Ridge Cave 1/6 entrance [Old]
+; E 41 236.6, N 88 115.3, A 1916.7
+; *fix conjurtao.entrance -1176.22,   210.26,  1981.96 ; via surface survey
+; E 41 166.8, N 88 020.5, A 1983.6. [Old]
+
+*fix ridge.entrance 1236.6 8115.3 1916.7
+*fix conjurtao.entrance 1166.8 8020.5 1983.6 ; [GN]
+
+*include ridge1
+
+*include conjurtao
+*equate conjurtao.ridgeD1 ridge.D1
+
+; *include conjurtaoRidge

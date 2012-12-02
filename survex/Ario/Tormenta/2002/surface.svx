@@ -1,0 +1,30 @@
+; This needs to be tied in using
+
+;*fix 1 4650.58 9451.70 1720.24
+
+*title "Surface Cabeza Julagua -> Tormenta"
+*date 2002.08.06
+*team "Hilary" instruments
+*team "Chris R" book
+
+; Entered from Logbook photocopy on 2002-08-18 by JPNP, AnitaM
+
+2  1  30.00 324   +20 ; PSS 1 = Cabeza Julagua
+2  3  30.16 132   -15
+4  3  29.45 260.5 +28
+4  5  30.62 089   -24.5
+6  5  30.47 259.5 +13
+6  7  30.43 095   -16
+8  7  30.42 289.5 +19
+8  9  27.00 103   -19
+10 9  29.80 234   +21.5
+10 11 30.59 164.5 -9.5
+12 11 27.81 270   +14.5 ; 12 = Cairned lump near shaft with Beech Tree
+12 13 30.45 123.5 -21.5
+14 13 29.95 308   +11
+14 15 30.29 069   -17.5
+16 15 30.49 274.5 +24.5
+16 17 14.63 110.5 +8.5
+18 17 30.19 219   +59
+18 19 27.62 002.5 -29.5
+20 19  8.49 141.5 +21.5 ; PSS 20 = bolt backup at Tormenta Entrance

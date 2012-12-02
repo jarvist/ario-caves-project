@@ -1,0 +1,38 @@
+
+; OUCC Texa survey
+;
+; Please log all changes below:
+;
+;  Date        Who    What
+;
+; 2008-08-04  Madphil   Data entered
+
+
+; Texa, Upper stream, up stream Sump Pool to 1st Climb
+;
+; Surveyed;
+; Book: Chris Jewel
+; Instruments (WRPC set): Hilary Greeves
+
+*begin texa_2008_06
+
+*data normal from to length compass clino
+
+
+2	1	1.86	349.00	21.00
+3	2	5.14	321.00	-2.00
+4	3	2.16	4.00	-5.00
+5	4	6.16	293.00	5.00
+6	5	5.25	221.00	1.00
+7	6	7.16	332.00	-2.00
+8	7	1.52	311.00	4.00
+9	8	20.24	315.00	1.00
+10	9	17.35	280.00	2.00
+11	10	7.04	258.00	5.00
+
+;The last two Points are bodged for the sump
+12	11	30	258	20	
+13	12	12	230	-60
+
+*end texa_2008_06
+*include texa_2008_07

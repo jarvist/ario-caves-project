@@ -1,0 +1,4 @@
+;; Translate coordinates in Euro format into WGS94
+
+*CALIBRATE X -109.49
+*CALIBRATE Y -211.49

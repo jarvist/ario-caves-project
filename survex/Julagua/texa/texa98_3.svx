@@ -1,0 +1,23 @@
+;fitxer texa98_3.svx
+;poligonal Mora, Marc 16/8/98 tornada desde la punta fins fi topo 97
+;via del colector
+
+*equate texa98_3.15 texa_97.64
+*begin texa98_3
+
+0       1       4       110     5       ;sifo
+1       2       2.5     127     10      ;riu
+2       3       11.5    65      -8      ;riu
+3       4       2.5     0       90
+4       5       3.7     27      -20
+5       6       4.4     117     0
+6       7       2.5     38      -2      ;sifo
+5       8       8       0       90      ;P-8
+8       9       6       15      20      ;peu corda
+9       10      3.2     47      2       ;galeria
+10      11      5.5     0       -90     ;pou 1 spit
+9       12      4       259     2       ;corda
+12      13      11      0       90      ;pou 1 spit
+13      14      1       0       90      ;1 spit
+14      15      8.5     0       90      ;3 spits
+*end texa98_3

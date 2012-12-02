@@ -1,0 +1,384 @@
+*begin area4
+
+*begin B
+; Cave: Tormenta
+; Location: S.I.T.R. -> Streamway below Area 4
+; Date: 2002-07-20 ???
+; Book: ???
+; Instruments: ???
+
+; Entered from Logbook phototcopy 2002-08-11 by JPNP, Anita M.
+
+1  2   1.45 317 -56 ; PSS 1 =3D bolt on S.I.T.R.
+2  3   9.60  -  down
+3  4   3.51 353 +61
+4  5  15.80 292 +2
+6  5   8.49 218 -10 ;??? Only back leg
+6  7  10.58 082 -20
+7  8  10.35 192 -42
+8  9   7.86 079 -54
+9  10  5.86 125 -53
+10 11  3.09 278 -58
+11 12  4.57 095 -31
+12 13  8.57 133 -49
+13 14  6.77 104 -14
+14 15  4.70 122 -16
+15 16  2.31 064 +4
+16 17  1.81 007 +7
+17 18  3.83 112 +11
+18 19  6.78 116 -8
+19 20  2.00 208 -10
+20 21  2.01 150 +4
+21 22  2.27 112 +6
+22 23  3.93 172 +9
+23 24  3.20 114 -8
+24 25  4.31 032 -8
+25 26  1.63 094 -4
+26 27  3.55 333 +4
+27 28  3.62 018 -11
+28 29  1.60 060 +11
+29 30  3.10 181 +3
+30 31  1.27 147 -14
+31 32  3.03 237 -20
+32 33  4.76 158 +12
+33 34  1.66 178 -19
+34 35  3.45 126 -4
+35 36  3.66 092 +1
+36 37  4.54 126 -14
+37 38  2.69 122 -50
+38 39  2.10 128 -30
+39 40  1.27 118 -7
+40 41  1.88 188 -5
+41 42  2.39 114 +3
+42 43  3.51 118 -63
+43 44  4.25 123 0
+44 45  4.22 104 -48
+45 46  5.15 034 -1
+46 47  5.10 151 +3
+47 48  3.02 172 -7
+48 49  3.76 237 -3
+49 50  5.02 164 +2
+50 51  3.83 160 -2
+51 52  2.77 056 +11
+52 53  2.99 094 +3
+53 54  1.28 117 -3
+54 55  2.61 213 0
+55 56  2.73 151 -2
+56 57  2.68 112 -2
+57 58  2.83 040 -2
+58 59  2.55 143 +10
+59 60  3.67 232 -3
+60 61  2.48 152 -3
+61 62  1.62 090 +1
+62 63  5.54 160 0
+63 64  4.82 271 -9
+64 65  2.85 249 -6
+65 66  3.12 230 -7
+66 67  2.98 253 +1
+67 68  3.09 158 +8
+68 69  2.05 123 0
+69 70  1.55 212 -12 ; PSS 70 =3D Tin foil cross
+
+*end B
+
+*equate B.70 C.15
+
+*begin C
+; Cave: Tormenta
+; Location: Streamway above Balrog pitch
+; Date: 2002-07-24
+; Book: Pete J ???
+; Instruments: Paul G. ???
+
+; Entered from Logbook photocopy 2002-08-11 by JPNP, Anita M
+
+1  2   5.09 344 +03
+2  3   8.04 351 +61
+4  3   8.81 142 -15
+4  5   2.60 346 -10
+6  5   6.80 245 -77
+7  6   3.10 282 -03
+8  7   2.80 204 -17
+9  8   3.63 243 +27
+10 9   3.65 233 +06
+11 10  1.81 219 -30
+12 11  6.31 325 -09
+13 12  2.39 264 -01
+14 13  2.77 181 -12
+15 14  1.51 104 +08 ; PSS 15 =3D Tin foil cross in streamway (B.70)
+
+*end C
+
+
+; *equate A.51 D.1
+*equate B.1 D.1
+
+*begin D
+; Cave: Tormenta
+; Location: Singing in the rain -> Troll Chamber
+; Date: 2002-07-25
+; Surveyors: Nobby, Fleur, Rosa
+
+; Entered from Logbook photocopy 2002-08-11 by JPNP, AnitaM
+
+1  2   7.63 056 +36
+2  3  12.70 157 +29
+3  4   8.37 160 +49
+4  5   2.21 138 +8
+5  6   2.85 351 +18
+6  7   3.66 094 -3
+7  8   5.13 032 +16
+8  9  10.56 027 -1
+9  10  4.44 081 +2
+10 11  4.95 048 -19
+11 12  1.60 102 -12
+12 13  4.06 118 -37
+13 14  3.90 210 -13
+14 16  2.70 094 +19
+16 17 11.40 059 -51
+17 18  3.85 161 -21
+18 19  4.67 101 -24
+19 20  2.00 134 -19
+20 21  1.90 065 +16
+21 22  8.28 102 -5
+22 23  8.00 158 -28 ; PSS 23 =3D Cairn in Troll Chamber
+
+*end D
+
+*equate D.7 E.2 ;Note from logbook
+
+*begin E
+; Cave: Tormenta
+; Location: Troll Chamber, calcite hole to Breeze block chamber
+; Date: 2002-07-24
+; Surveyors: Dave L, Rose, Chris P (Vlad)
+
+; Entered from Logbook photocopy 2002-08-11 by JPNP, AnitaM
+
+;+++ Dodgy Compass readings by Dave? reading % scale
+
+1  2   2.98 054 +9
+2  3   4.78 343 +11
+3  4   3.29 342 +9
+4  5   2.21 204 +63 ;(140%)
+5  6   3.69 340 +29.3 ;(65%)
+6  7   3.87 311 -8.1 ;(-18%)
+7  8   4.70 028 -35.1 ;(-78%)
+8  9   3.21 317 +54 ;(120%)
+9  10  8.31 351 -4
+10 11  5.79 347 -13.5 ;(-30%)
+11 12 10.77 351 +5.9 ;(13%)
+12 13  5.12 304 0
+13 14  3.72 253 +8
+14 15  4.13 310 +8
+15 16  2.85 285 +2
+16 17  5.1  006 +3
+17 18  6.38 342 +12
+
+*end E
+
+*equate F.bolt B.1
+; *equate F.bolt A.51
+
+*begin F
+; Cave: Tormenta
+; Location: Area4 -> Death Star pitch
+; Date: 2002-07-29 ???
+; Surveyors: JNH ???
+
+; Entered from Logbook photocopy 2002-08-11 by JPNP, AnitaM
+
+bolt  knot1   2.86 044 +24
+knot1 knot2  22.18  -  up
+knot2 PSS     4    038 +21
+PSS   muddyc 30    100 +40
+
+*end F
+
+; *equate G.1 A.51
+*equate G.1 B.1
+
+*begin G
+*title "Area 4 Survey"
+*date 2002.07.25
+*team "Hilary"
+*team "Chris Rogers"
+
+; Entered from Logbook photocopy 2002-08-12 by JPNP, AnitaM
+
+1  2   9.75 035 +32 ; PSS 1 =3D bolt on SITR
+3  2  19.22 198 +3  ; 2 =3D Cairn
+3  4  11.96 351 +8
+4  6  10.92 332 +23
+7  6  13.22 217 +25 ; PSS 7 =3D Cairn
+7  8  11.10 291 +18
+9  8  18.93 049 -38 ; PSS 8 =3D Cairn
+11 9   5.29 056 -2
+11 12 12.60 172 -38
+13 6  18.41 032 -4
+13 15 14.74 202 -37
+15 2  23.58 122 +9
+4  5  18.32 241 -21 ; PSS 5 =3D Cairn
+13 14 21.63 253 +4
+9  10 11.88 080 -37
+
+*end G
+
+
+*equate M.PSS1 D.23
+
+*begin M
+*title "Troll Chamber"
+;date ???
+;team ???
+
+;Entered from Logbook photocopy 2002-08-15 by JPNP, AnitaM
+
+PSS1 1    27.6  259 +14 ; PSS1 ?=3D Cairn in Troll chamber ???
+1    2    12.18 214 +21
+2    3    13.25 283 +8
+2    4    15.34 175 +36
+4    4a   25    200 +40
+4    5    18.71 133 -9
+5    5a   10    150 0
+5    6    10.34 108 -17
+6    7    26.25 063 -27
+8    9     7.77 063 -10 ; ??? questioned in logbook notes
+9    10   20.49 359 +19
+10   11    5.2  297 +45
+11   7     4.46 230 +17
+7    12    5.22 323 +42 ; 5.22 ???
+12   13   26.64 265 +19
+13   14   13.31 343 -3
+14   15   11.63 335 -38
+15   16   12.32 076 -6
+16   17   15.51 133 +14
+16   PSS1 15.37 064 -15 ; PSS1, or another PSS - not clear in logbook
+
+; +++ check station links, unclear from logbook
+
+*end M
+
+
+*equate D.23 O.38
+
+*begin O
+*title "Turner Prize Series"
+*date 2002.08.01
+*team JPNP book
+*team "Paul G" instruments
+
+; Entered from Logbook photocopy on 2002-08-18 by JPNP, AnitaM
+
+1  2   1.64 062 -5 ; PSS 2 =3D Cairn in inlet chamber (bottom of rope)
+2  3  18.04  -  up
+3  4   1.07 082 +63
+4  5   3.20 049 -02
+6  5   3.48 204 +15
+6  7   5.98 024 +16
+7  8   2.76 347 +3
+8  9   2.10 009 +12
+9  10  4.46 205 -01
+10 11  1.78 012 +04
+11 12  2.59 309 -26
+12 13  5.49 005 +08
+13 14  4.14 005 +03
+14 15  2.06 071 +36
+16 15  7.79 135 +04
+17 16  4.73 177 -07
+18 17  4.37 126 -11
+18 19  2.08 036 -34
+19 20  3.21 354 -29
+20 21  6.71 336 +09
+22 21  4.04 252 -13
+23 22  4.00 159 -09
+23 24  3.93 008 -07
+24 25  7.06  -  up ; 8.06/7.06 ??? unclear ; 25 =3D maillon
+25 26  3.73 334 +55 ; 3.73/2.73 notes unclear ; 26 =3D maillon
+26 27  5.71 240 +31
+27 28  6.05 046 +84
+28 29  2.70 220 +68
+29 30  3.78 176 +31
+30 31  6.70 175 -02
+32 31  8.33 059 +1
+32 33  7.01 199 +24
+34 33  3.56 066 -56
+35 34  5.96 156 -34
+35 36  3.92 232 +03
+37 36  3.22 343 -31
+37 38  4.00 204 -06
+
+*end O
+
+
+
+*equate G.7 P.19
+
+*begin P
+*title "Rubby 9mm"
+*date 2002.08 ;???
+*team PeteG book
+*team "Adrian Hooper" instruments
+
+; Entered from Logbook photocopy 2002-08-15 by JPNP, AnitaM
+
+2  1  2.25 175 -07
+3  2  1.50 266 -04
+4  3  2.57 168 -03
+5  4  3.88 225 -01
+6  5  2.40 156 -09
+7  6  9.70 268 -03
+8  7  3.82 229 -10
+9  8  6.53 330 -18
+10 9  8.67  -   down
+11 10 4.37 006 -24
+12 11 4.28 217 -23
+13 12 4.15 319 -23
+14 13 2.78 043 -45
+15 14 5.50 216 -24
+16 15 6.56  -  down
+17 16 3.13 188 -50
+18 17 7.80 336 -55
+18 19 1.82 080 +30 ; PSS 19 =3D 7 from Area 4 Hil, CR 26/7/02
+
+*end P
+
+*equate D.1 V.0 ; guessed by SGR but may not be right.
+
+*begin V
+*title "Singing in the Rain to Drums in the Deep"
+*date 2002.08.13 ;? between 12 and 15 anyway
+*team "Rosa Clements"
+*team "Pippa Crosby"=20
+*team "Al Wilson"
+; entered from logbook 2002-08-23 by SGR & SCB
+1	0	2.38	281	-23 ; 0 is Paul's bolt
+1	2	4.76	049	-41
+2	3	11.57	049	-16
+3	4	11.35	159	+22 ; 4 is near the pitch to stream
+4	5	8.30	183	-44
+5	6	5.73	124	-39
+6	7	4.04	181	+0.5
+7	8	5.46	091	-3
+8	9	3.44	342	+33
+9	10	8.99	103	-9
+10	11	7.85	165	-11
+11	12	4.49	178	-5
+12	13	2.14	124	-66
+13	14	3.27	160	-23
+14	15	2.61	135	-7
+15	16	3.00	151	-28
+16	17	7.40	189	-23
+17	18	4.32	151	-27
+18	19	5.45	204	-10
+19	20	3.54	103	-7 ; 19 is cairn
+20	21	2.12	135	+1
+; survey from here is out of cave back to point 21
+31	30	7.42	076	-57 ; 30 is drums pitch
+31	32	8.29	272	+39
+33	32	14.63	076	+6
+33	34	7.85	295	+2
+34	21	4.15	291	+31
+*end V
+
+*end area4

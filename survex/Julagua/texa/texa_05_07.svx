@@ -1,0 +1,35 @@
+; OUCC - Picos Survey Data
+
+; 2005-07-24 JPNP: Entered data
+
+*begin texa_05_07
+
+*title "Texa Upstream Chamber & Waterfall"
+*date 2005.07.21
+*team Hils instruments, tape
+*team "Neil Pacey" book
+
+; Instruments compass: 05-1
+;             clino:   05-A
+
+*data normal from to tape compass clino
+002   001   14.23   298.5     0
+002   003    5.65   149     -14
+004   003    5.23   285      -3
+004   005    9.58   097.5    +1
+006   005    4.32   170     +50
+006   007    5.45   274     -46.5
+
+; 1=Cairn at Large boulder end of pool
+; 7=P-5 from SPanish survey of 19th Jul
+
+;LRUD
+; 001  1    1.5   30?  0.7
+; 002  5    0.5   30?  2
+; 003  1.5  0.5   30?  2
+; 004  1.5  0.5    3   1b
+; 005  2    2      5   1.5
+; 006  1    2.5    1   1.5
+; 007  2    2      5   0.2
+
+*end texa_05_07

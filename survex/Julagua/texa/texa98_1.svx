@@ -1,0 +1,29 @@
+;fitxer texa98_1.svx
+;poligonal Maira, Josep 12/8/98 tornada desde la punta fins -760m Sala Oston
+;via de les galeries fossils
+
+*equate texa_97.57 texa98_1.16
+;;fs*equate texa_05_01.034i texa98_1.0
+*begin texa98_1
+
+0       1       21.8    300     7       ;amplada 9.9m cap‡alera pou
+1       2       9.6     305     35      ;al sostre s'obre una finestra
+2       3       13.1    310     -25
+3       4       14.1    250     -23
+4       5       25      170     -12
+5       6       6.5     64      0
+6       7       5.4     95      -30     ;balco sobre el riu (tirolina)
+7       8       9.6     150     -16     ;encreuament
+8       9       9.5     119     -4      ;pou no davallat
+8       10      9.7     262     2       ;passama (pou no davallat)
+10      11      5.3     342     5       ;passama
+11      12      2.8     225     50
+12      13      9       255     -36     ;cornisa sobre el riu
+13      14      7.9     241     0
+14      15      5.4     266     -2
+15      16      8.4     167     -27     ;base corda sala oston -758
+; The following vertical plummed legs were superceded by rigging down 
+; one of the routes
+; 9       9b      30      0       -90     ;tirada ficticia pou no baixat
+; 10      10b     30      0       -90     ;tirada ficticia pou no baixat
+*end texa98_1

@@ -1,0 +1,5 @@
+; This file was automatically generated from a pre-0.90 survex command line
+; Process this file using the command line:
+; cavern --output area __svxtmp.svx
+
+*include "area"

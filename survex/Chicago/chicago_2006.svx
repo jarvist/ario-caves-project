@@ -1,0 +1,18 @@
+; Chicago survey data, 2006
+
+*fix chicago_A.24 0 0 0
+
+*include chicago_A
+*include chicago_B
+*include chicago_C
+*include chicago_D 
+*include chicago_E
+*include chicago_F
+
+*equate chicago_B.17 chicago_A.1
+*equate chicago_C.9  chicago_B.0
+*equate chicago_D.9  chicago_C.2
+*equate chicago_E.12 chicago_D.0
+*equate chicago_F.5  chicago_E.1
+
+

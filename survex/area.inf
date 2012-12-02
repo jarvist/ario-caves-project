@@ -1,0 +1,17 @@
+Survey contains 5381 survey stations, joined by 5389 legs.
+There are 56 loops.
+Survey has 48 connected components.
+Total length of survey legs = 45770.92m (45884.62m adjusted)
+Total plan length of survey legs = 32037.99m
+Total vertical length of survey legs = 21219.61m
+Vertical range = 2020.81m (from \traviesos.0 at 2388.22m to \culiembro.main.62 at 367.41m)
+North-South range = 4384.92m (from \cuerries.cuerries.158 at 10990.27m to \traviesos.1 at 6605.35m)
+East-West range = 5910.65m (from \culiembro.ent at 6779.00m to \ridge.ridge.j17 at 868.35m)
+ 326 1-nodes.
+4559 2-nodes.
+ 259 3-nodes.
+ 129 4-nodes.
+  80 5-nodes.
+  16 6-nodes.
+   7 7-nodes.
+   5 8-nodes.

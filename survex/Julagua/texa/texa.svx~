@@ -1,0 +1,93 @@
+; OUCC - Picos Survey
+
+; 2005-07-24 JPNP: connect in more 2005 surveys
+; 2010-01-04 NCE: Connect in 2008 and 2009 surveys
+
+;SIE survey
+;fitxer texa.svx
+;coordenades UTM referenciades per poligonal exterior al refugi d'Ariu
+;UTM coords are referred by surface survey to Airo refuge point.
+;also known as Asopladeru
+;*fix texa_95.0   45228.37       89807.86        1370.68 [Euro], presumably
+;*fix texa_95.0	2895	1992	1370	; [Old]
+
+
+;*fix texa_95.0 5228.37 9807.86 1370.68
+
+*include ../Calib/1995.svx 
+*include texa_95
+
+*include ../Calib/1996.svx 
+*include texa_96c
+*include texa_96v
+*include texa_96j
+
+*include ../Calib/1997.svx 
+*include texa_97
+
+*include ../Calib/1998.svx 
+*include texa98_1
+*include texa98_2
+*include texa98_3
+
+*include ../Calib/2005.svx
+*include texa_05_01
+*include texa_05_02
+*include texa_05_03
+*include texa_05_04
+*include texa_05_05
+*include texa_05_06
+*include texa_05_07
+
+*include ../Calib/2008.svx
+*include texa_2008_01
+*include texa_2008_02
+*include texa_2008_03
+*include texa_2008_04
+*include texa_2008_05
+*include texa_2008_06
+*include texa_2008_07
+
+*include ../Calib/2009.svx
+*include texa_2009_01
+*include texa_2009_02
+
+*equate texa_95.0 entrance
+
+*equate texa_05_02.11  texa98_2.2
+*equate texa_05_02.20  texa_05_01.014
+*equate texa_05_02.11  texa_05_03.26
+*equate texa_05_03.0   texa_05_04.0
+*equate texa_05_04.9   texa_05_05.21
+
+*equate texa_05_05.5   texa_05_07.007
+*equate texa_05_05.0   texa_05_06.002
+
+*equate texa_2008_01.0 texa98_3.5; bottom of rope of Spanish pitch to upper streamway ** SURE OF
+
+*equate texa_2008_02.0 texa_05_04.9; bottom of knife pitch ** SURE OF
+
+*equate texa_2008_03.200 texa_2008_02.200 ; Last section in who needs divers 2008 **SURE OF
+
+;*equate texa_2008_04.12 texa_05_07.001 ; Not 100% sure this is correct. Equated upstream of lake from 2008 survey with boulder at far end of pool from 2005
+ 
+*equate texa_2008_04.13 texa_05_07.002 ; Not 100% sure this is correct, but better than any of the other options, and is almost consistent with LRUD data 
+;*equate texa_2008_04.14 texa_05_07.003 ; Not 100% sure this is correct 
+;*equate texa_2008_04.1 texa_2008_01.37 ; Not 100% sure this is correct either. But it is perhaps logical they would have surveyed as far up as the previous trips survey, right? No, because the survey states it starts at the bottom of the final waterfall
+			; staion 14 is triangle on right hand side 
+			; looking down stream
+			; this 2 metres up stream from begining of passage
+			; where neil and me (P. Windle)  did a bolt climb in 2006
+
+;*equate texa_2008_05.200 texa98_3.1 ; Sump pool from Spanish survey (this si where survey claims it leaves from) 
+*equate texa_2008_05.200 texa_2008_01.2 ; Since first survey leg is up pitcht o sump bypass, tie to survey station at bottom of pitch from 2008_01 survey, as this is well positioned wrt Spanish survey
+
+*equate texa_2008_06.13 texa98_3.0 ; Upstream sump pool (for cheesecak streamway) ** SURE OF
+*equate texa_2008_07.100 texa_2008_06.1 ; Cheesecake streamway **SURE OF
+
+*equate texa_2009_01.621 texa_2008_03.300 ; To limit in who needs divers ** SURE OF
+*equate texa_2009_02.708 texa_2008_07.126 ; To limit in Cheesecake streamway ** SURE OF
+
+
+
+

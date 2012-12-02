@@ -1,0 +1,42 @@
+
+; OUCC Texa survey
+;
+; Please log all changes below:
+;
+;  Date        Who    What
+;
+; 2008-07-22  pw   Data entered
+
+
+; Texa, down up stream way
+;
+; Surveyed: 2008-07-20
+; Book: paul windle
+; Instruments (WRPC set): Paul windle
+; Tape: Sv
+;grade 2
+
+*begin texa_2008_04
+*include ../bcra3.svx
+*data normal from to length compass clino
+
+1	2	1.5	310	-70
+2	3	3.8	75	-50
+3	4	7.5	-	down
+5	4	2.5	192	0
+5	6	2.2	63	0
+6	7	8	350	-65
+7	8	42.9	-	down
+8	9	11.8	115	5
+9	10	2.2	115	-15
+10	11	3.5	146	-40
+11	12	23	-	down
+12	13	6	65	0	;clino notrecorded  but across lake
+14	13	17	285	5
+
+;staion 14 is triangle on right hand side
+;looking down stream
+;this 2 metres up stream from begining of passage
+;where neil and me did a bolt climb in 2006
+
+*end texa_2008_04

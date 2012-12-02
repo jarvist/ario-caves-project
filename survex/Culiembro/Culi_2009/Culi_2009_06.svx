@@ -1,0 +1,25 @@
+
+; CDG Culiembro survey
+;
+; Please log all
+;  Date        Who    What
+;
+; 2009-07-31  Madphil   Data entered
+
+
+; Sump 4 - estimated
+;
+; Surveyed by
+; Book: 
+; Instruments:
+;Tape: 
+
+*begin 2009_06
+
+
+*data normal from to length compass clino
+
+
+sump4_Ent Sump4_Exit 50 220 0
+
+*end 2009_06

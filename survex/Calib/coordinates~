@@ -1,0 +1,26 @@
+We have used several different coordinate systems in the past.  The source of
+all entrance coordinates should be indicated as follows:
+
+[GN] Gerhard Niklasch et al.'s surface survey from the late 1980s, documented
+in OUCC Proc 13, using the European UTM datum.  This is highly accurate.
+
+[GPS-WGS94] Readings from a GPS using the WGS94 UTM datum.
+
+[GPS-Euro] Readings from a GPS using the European datum.
+
+[Old] Old entrance coordinate system, relative to Verdelluenga, using magnetic
+north from an unknown year (possibly mixed with some grid norths).  Most of
+these are derived from [GN], but some have been tied in via surface survey
+(often ignoring magnetic deviation).
+
+In future, we should locate only using the European UTM datum.  
+
+Experiments in 2000 suggested that [GPS-WGS94] differs from [GN] by (107,205),
+and that [GPS-Euro] differs from [GN] by (-5,5).  However, in theory the
+difference is (99,209), and that is the figure used in the translations.
+Here are figures for translating *from* various formats into European datum:
+
+[GPS-WGS94] add (99,209)
+[Old]       add (2333.6,7815.3)
+
+

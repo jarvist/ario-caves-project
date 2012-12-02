@@ -1,0 +1,311 @@
+;"Sil de Oliseda", Ms-42
+;Grupo Espeleol¢gico Matallana, G.E.M. (Aptdo. Correos 174, Le¢n)
+;Navarro - Survex 1.996
+
+;Topo de 1.986 -------------------------------------------------------------
+
+*include ../Calib/1986.svx ; 
+
+;*fix oliseda.ent       -213    -420    2068 ; [Old]
+; following data from "Oliseda: 18 a~nos de campa~nas leonesas en Picos de 
+; Europa", Subterranea 4, P16
+;*fix entrada.1  342120  4787390  2068 
+;*fix entrada.1  42120  87390  2068
+; *fix ent  2120  7390  2068 ; [Euro]
+*fix ent 2010.51 7178.51  2068 ; translation into [WGS95]
+
+*equate	ent	entrada.1
+
+*begin entrada
+;Desde la entrada hasta el fondo del 'Pozo de los Ca¡nes'
+
+;Del   Al      Dist.   Br.     Cl.
+;---   --      -----   ---     ----
+1       2       3.5     356     0
+2       3       5.1     0       -90
+3       4       5.2     342     -33 ; Final rampa acceso
+4       5       22.3    0       -90
+5       6       24.1    0       -90
+6       7       43.1    27      -85
+7       8       21.8    43      -80
+8       9       12.3    39      -75
+9       10      18.6    0       -90
+10      11      19.8    0       -90
+11      12      8.4     52      -80
+12      13      2.3     331     -11 ; Fondo del P 170
+13      14      6.1     342     60  ; Paso de la Raposa
+14      15      2.1     0       -90
+15      16      4.8     300     46
+16      17      1.4     0       -90
+17      18      13.6    0       -90
+18      19      3.2     0       -90
+19      20      8.3     0       -90
+20      21      3.4     292     -61 ; Fondo P 36
+21      22      10.2    0       -90
+22      23      19.8    0       -90
+23      24      30.4    0       -90
+24      25      14.6    0       -90
+25      26      22.1    0       -90
+26      27      84.3    0       -90
+27      28      25.5    0       -90
+28      29      2.1     0       -18
+29      30      97.1    0       -90 ; Fondo del Pozo de los Ca¡nes (P 308)
+*end entrada
+
+;Topo a partir de 1.992 ----------------------------------------------------
+
+*include ../Calib/1992.svx ; 
+
+*equate Aranda.2 entrada.30
+
+*begin Aranda
+;Ventana Aranda
+
+;Del   Al      Dist.   Br.     Cl.
+;---   --      -----   ---     ----
+1       2       16.5    140      4
+1       3       36      320     85
+3       4       81      0       -90  ;Rampa de piedras
+4       5       5       320     -26
+5       6       38      0       -90
+*end Aranda
+
+
+*equate Campamento.14 Aranda.6
+
+*begin Campamento
+;Continuaci¢n de 1.992, tercer pozo gordo.
+
+;Del   Al      Dist.   Br.     Cl.
+;---   --      -----   ---     ----
+1       3       8.1     326     30
+1       6       7       297     -24
+1       2       19.7    275     -20
+1       7       5.5     40      -10
+1       4       13.3    54      -24
+1       5       11      353     -19 ; Enlace Meandro Pile¢n
+5       8       23      0       90  ; Enlace Pasamanos hacia Salida
+8       9       7       15      60
+9       10      8       13      -20
+10      11      7.8     0       0
+11      12      7.5     10      -5
+12      13      16      0       90
+13      14      6       31      5   ; Base P 120, Sala Dos-Seiscientos
+14      15      7       45      55
+*end Campamento
+
+*equate Pileon.22 Campamento.5
+
+*include ../Calib/1993.svx ; 
+
+*begin Pileon
+;Meandro Pile¢n, a¤o 1.993.
+
+;Del   Al      Dist.   Br.     Cl.
+;---   --      -----   ---     ----
+1       5       22      0       90
+5       6       3       270     45
+6       7       5       270     0
+7       8       22      0       90  ; Sala GEM
+8       9       8       137     0
+9       10      4.5     55      3
+10      11      5       110     0
+11      12      5       66      2   ; Pozo del Casca
+2       1       3       280     4   ; Inicio ramal CH-N '93
+2       3       4.1     65      2
+3       4       5       0       0   ; Punta Faquir
+12      13      5       218     -10
+13      14      2       0       90
+14      15      3.2     40      2
+15      16      21      65      2
+16      17      6.5     65      8
+17      18      4       135     0
+18      19      8.4     0       90
+19      20      65      135     5
+20      21      35      0       90
+21      22      5       34      3   ;Uni¢n Campamento con M.Pile¢n
+*end Pileon
+
+*equate G_Copon.17 Pileon.8
+
+*include ../Calib/1994.svx ; 
+
+*begin G_Copon
+;Galer¡a del Cop¢n, a¤o 1.994.
+
+;Del   Al      Dist.   Br.     Cl.
+;---   --      -----   ---     ----
+1       2       6.7     200     20
+2       3       7.2     0       90
+3       4       22      277     80
+4       5       12      168     0
+5       6       18.9    246     40
+6       7       10.6    180     0
+7       8       16.5    286     40
+8       9       20      200     25
+9       10      15.5    220     35 
+10      11      15      269     41
+11      12      20      196     14
+12      13      20      229     36
+13      14      6.7     155     0
+14      15      10      195     0
+15      16      7.5     185     45 ;Pasamanos Sala GEM
+16      17      8      0        90 ;P‚ndulo heavy Sala GEM 
+*end G_Copon
+
+*equate Sifon_IV.5 G_Copon.1
+
+*begin Sifon_IV
+;Sif¢n Terminal IV, punta Chorbo-Navarro, a¤o 1.994.
+
+;Del   Al      Dist.   Br.     Cl.
+;---   --      -----   ---     ----
+1       3       9       205     0   ;Sif¢n IV
+1       2       15      30      0   ;Sif¢n IV
+1       4       7       235     40
+4       5       25      235     10  ;Pasamanos S.IV
+*end Sifon_IV
+
+*equate P_Sifon_I_B.11 G_Copon.16
+
+*include ../Calib/1993.svx ; 
+
+*begin P_Sifon_I_B
+;Pozos del Punto 'B' Roman a la sala GEM, a¤o 1.993.
+;Pileon.8
+
+;Del   Al      Dist.   Br.     Cl.
+;---   --      -----   ---     ----
+1       2       9.1     345     89  ;Punto 'B'
+2       3       3.7     30      50
+3       4       5.6     295     45
+4       5       7.3     330     89
+5       6       3.1     28      31
+6       7       5.5     270     70
+6       8       5.1     345     82
+8       9       3       30      0
+7       10      6.8     20      48
+10      11      6       50      0   ;Ca¡da de la Cuerda Sala GEM
+*end P_Sifon_I_B
+
+*equate P_Sifon_I.9 P_Sifon_I_B.1
+
+*begin P_Sifon_I
+;Pozos del Sif¢n Lateral Terminal 1 al punto 'B' Roman, a¤o 1.993.
+
+;Del   Al      Dist.   Br.     Cl.
+;---   --      -----   ---     ----
+1       2       8       310     70
+2       3       6.7     211     42
+3       4       15.3    257     89
+4       5       4.4     343     42
+5       6       3       208     10
+6       7       9       310     70
+7       8       4.8     290     80
+8       9       4       310     80  ;Punto 'B' Roman
+*end   P_Sifon_I
+                                             
+*equate Sifon_I.1 P_Sifon_I.1
+
+
+*begin Sifon_I
+;Sif¢n Lateral Terminal 1, a¤o 1.993.
+
+;Del   Al      Dist.   Br.     Cl.
+;---   --      -----   ---     ----
+1       2       7.1     40      -2
+2       3       16.4    40      -4
+3       4       19.6    32      0
+4       5       25      32      0
+*end Sifon_I
+
+*equate C_Principal.33 Sifon_I.1
+
+*include ../Calib/1994.svx ; 
+
+*begin C_Principal
+;Colector Principal, a¤o 1.994.
+
+;Del   Al      Dist.   Br.     Cl.
+;---   --      -----   ---     ----
+1       2       5       290     0   ;Sif¢n III (Aporte)
+2       3       5       250     -1
+3       4       7       314     -1
+4       5       6.5     325     -1
+5       6       16      332     -2
+6       7       17.5    33      -2
+7       8       20      87      -3
+8       9       23      53      0   ;Sif¢n II (Aporte)
+9       10      15      31      -1
+10      11      20      7       -3
+11      12      11      2       -3
+12      13      8.5     343     -2
+13      14      10.5    270     -1
+14      15      8.5     235     -3
+15      16      20      34      -3
+16      17      15      40      -4
+17      18      17      35      -1
+18      19      13      55      -1
+19      20      11      62      -2
+20      21      7       25      -1
+21      22      14.5    55      0
+22      23      4       72      0
+23      24      21      49      -1
+24      25      19      41      -1
+25      26      20      34      0
+26      27      13.5    55      0
+27      28      14      42      0
+28      29      11.5    18      -1
+29      30      13.5    21      -1
+30      31      20      32      -2
+31      32      11.5    40      -2
+32      33      14      33      -1  ;Uni¢n a Sif¢n I
+*end C_Principal
+
+*equate R_Sifon_IV.0 Sifon_IV.5
+
+*include ../Calib/1995.svx ; 
+
+*begin R_Sifon_IV
+;Rampa sobre el Sif¢n IV, v¡a de 1.995.
+
+;Del   Al      Dist.   Br.     Cl.
+;---   --      -----   ---     ----
+0       1       20      35      -15
+1       2       11.5    24      -13
+2       3       20      301     48
+3       4       10.7    345     48
+4       5       10.4    300     66
+5       6       12.2    280     56
+6       7       3.5     310     50
+7       8       14.8    295     44
+8       9       20      10      23
+9       10      5.15    55      16
+10      11      4.1     205     0
+10      12      4       0       90
+12      13      7.5     350     23
+13      14      12.5    65      -55
+14      15      43      0       -90  ;Sala tras la rampa.
+;Enlace con el Sif¢n IV por el punto 2, en croquis. Fin exploraci¢n 1.995.
+*end R_Sifon_IV
+
+*equate Tejure.11 Aranda.4
+
+*begin Tejure
+;Ramal del Pozo Tejure y Sala del Mufloncillo (60x40x80), a¤o 1.995.
+
+;Del   Al      Dist.   Br.     Cl.
+;---   --      -----   ---     ----
+0       1       81      0       90  ;Sala del mufloncillo
+1       2       5       351     -20
+1       3       10      185     65
+1       4       5       152     -13
+4       5       5.5     57      56
+5       6       9.5     147     42
+6       7       2.7     86      24
+6       8       9.6     146     27
+8       9       6.8     163     4
+8       10      7       63      -5
+8       11      6       48      -23 ;Enlace en rampa de piedras
+
+*end Tejure

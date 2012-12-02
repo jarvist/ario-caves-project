@@ -1,0 +1,45 @@
+; OUCC - Picos Survey Data
+
+; 2005-07-23 JPNP: Created
+; 2005-07-28 JPNP: Added in chicago_04
+
+;GPS fix to rock beneath tree in entrance
+; JPNP 2005-07-22
+; WSG84 UTM30T 0344797 4790102
+; Garmin etrex quoted accuracy 5m
+;*fix chicago_01.entrance 44797 90102 1461 5 10
+*fix chicago_01.entrance 4797 10102 1461 5 10
+
+*include chicago_01
+*include chicago_02
+*include chicago_03
+*include chicago_04
+
+*equate chicago_01.V1 chicago_02.A
+*equate chicago_02.V2 chicago_03.19
+*equate chicago_04.11 chicago_03.1
+
+; 2006 data
+
+*include chicago_A
+*include chicago_B
+*include chicago_C
+*include chicago_D 
+*include chicago_E
+*include chicago_F
+
+*equate chicago_A.24 chicago_04.0
+*equate chicago_B.17 chicago_A.1
+*equate chicago_C.9  chicago_B.0
+*equate chicago_D.9  chicago_C.2
+*equate chicago_E.12 chicago_D.0
+*equate chicago_F.5  chicago_E.1
+
+; 2007 data
+; Added 2008-03-12 by JPNP
+
+;*begin 2007
+;;*include chica2007
+;*end 2007
+
+;*equate 2007.L.0 chicago_F.0

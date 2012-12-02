@@ -1,0 +1,9 @@
+; Surface survey, Ridge to Conjurtao 
+
+*equate CR.ridge ridge.entrance
+*equate CR.conjurtao conjurtao.entrance
+
+*begin CR
+ridge	surf	135.5	220.5	30
+surf	conjurtao 5.5	230	-67
+*end CR

@@ -1,0 +1,12 @@
+
+Data Set Attribute	Attribute Value
+Entity ID	SRTM3N43W005V2
+Date Acquired	February 2002
+Resolution	3-ARC
+Compressed File Size	825987
+Date Updated	
+NW Corner	44°00'00.00"N, 5°00'00.00"W
+NE Corner	44°00'00.00"N, 4°00'00.00"W
+SW Corner	43°00'00.00"N, 5°00'00.00"W
+SE Corner	43°00'00.00"N, 4°00'00.00"W
+

@@ -1,0 +1,14 @@
+
+traverse \rift.14->\main.s e=(0.00, -0.00, 0.00) mag=0.00 OK
+
+Original length 316.60m ( 16 legs), moved   0.00m ( 0.00m/leg). Error   0.00%
+0.000000
+H: 0.000000 V: 0.000000
+
+
+traverse \rift.14->\rift.14 e=(-0.42, -0.30, -0.36) mag=0.63 OK
+
+Original length  65.91m ( 15 legs), moved   0.63m ( 0.04m/leg). Error   0.95%
+0.903619
+H: 0.923425 V: 0.865985
+

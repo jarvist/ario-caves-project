@@ -1,0 +1,226 @@
+; Postman Pat and related surveys
+; includes downstream of Primula Point, Bod, Sopu Dragon
+
+*include ../../Calib/1989.svx
+
+; Traverse from Primula Point to Dreadful Druscilla Choke
+; Notes Fred Whickham, C&C Lynn Smith, Tape Dave Hetherington
+; 14.7.89
+
+QB34	QC2	7.6	347.0	55.0
+QC2	QC3	8.6	84.0	-12.0
+QC3	QC4	14.8	86.0	-14.0
+QC4	QC5	12.5	79.0	12.0
+QC5	QC6	8.0	66.0	13.0
+QC6	QC7	17.4	36.0	-22.0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+; Climb above Primula Point
+; Described as a side passage below Cuthbert
+; Notes, William, C&C Mel, Tape Katya
+; 3.8.89
+; Possibly "Poo Corner" the sandy passage full of surprises 
+; that JC and Tony had a look at in 98.
+
+qP2	qp1	5.22	079	11.5
+qp2	qp3	3.30	245	-14.8
+qp4	qp3	8.12	179.5	-10
+qp4	qp5	15.03	192.6	-17.3
+qp6	qp5	11.97	075.2	18.7
+qp6	qp7	13.67	219.9	28
+qp8	qp7	15.11	49.5	-9.6
+qp8	qp9	2.85	230.4	-10.3
+qp10	qp9	2.29	050.3	-2.8
+qb34	qp10	13.00	023.5	25.4;
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+; Start of Druscilla
+; Iestyn, Su Yong, Andy QB and Dave M.
+
+
+QC7	QK2	13.7	53.5	-12.7; Start of Druscilla
+QK3	QK2	11.0	135.5	3.0
+QK3	QK4	6.3	347.0	-3.5
+QK5	QK4	5.6	235.5	24.5
+QK5	QK6	3.1	330.5	5.5
+QK7	QK6	5.9	211.0	17.0
+QK7	QK8	3.3	31.5	-6.0
+QK9	QK8	2.3	290.0	-1.5
+QK10	QK9	2.6	264.5	-28.5
+QK10	QK11	3.0	92.5	-13.0
+QK12	QK11	3.0	263.0	5.5
+QK12	QK13	3.3	102.5	1.5
+QK14	QK13	16.1	229.5	-3.5
+QK14	QK15	5.0	10.0	-15.0
+QK16	QK15	6.6	205.0	1.5
+QK16	QK17	1.5	2.0	9.0
+QK17	QK18	2.3	64.5	24.0
+QK19	QK18	2.7	278.0	-50.5
+QK19	QK20	4.2	110.0	36.5; could not find way through
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+; From start of Druscilla to Postman Pat 
+; Notes Paul Mann, Tape Fred, C&C SGR
+; 22.7.89
+
+QI1	QC7	15.1	47.0	-18.0; Start of Druscilla
+QI1	QI2	6.6	316.0	76.0
+QI3	QI2	6.2	137.0	-37.0
+QI3	QI4	1.7	321.0	41.0
+QI5	QI4	6.3	183.0	-56.0
+QI5	QI6	6.4	25.0	33.0
+QI7	QI6	4.0	202.0	-12.0
+QI7	QI8	5.6	50.0	8.5
+QI9	QI8	4.5	148.0	-34.0
+QI9	QI10	8.1	244.0	43.0; Stations qh1 and qh2 from Gavin survey
+QI10	QI11	11.3	170.0	-21.0
+QI12	QI10	8.9	74.0	-21.0
+QI12	QI13	16.0	24.0	26.0
+QI14	QI13	6.5	78.0	-7.0
+QI15	QI13	21.4	168.0	-32.0
+QI15	QI16	18.2	17.0	46.0
+QI17	QI16	6.8	211.0	-27.0
+QI18	QI17	13.8	182.0	-48.0
+QI18	QI19	8.9	17.0	45.0
+QI19	QI20	11.0	57.0	6.0; Bolt
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+; Postman Pat to Gavin Cairn
+; Notes, William, C&C Mel, Tape Katya
+; 4.8.89
+
+qr2	qr1	6.37	272	-38.5; Climb into Postman Pat
+qr2	qr3	4.39	027.8	-3; 2=Quartz cairn
+qr4	qr3	4.76	214	-26.2
+qr4	qr5	4.98	350	31
+qi10	qr5	6.38	100	-42.5
+qi10	qr7	10.82	257	20; st6=QI10 from Gavin's survey
+qr8	qr7	28.28	199	-29
+qr8	qr9	26.80	292	31.5
+qr10	qr9	8.10	190	-13
+qr10	qr11	3.52	287.5	-2.5; limit (dot by S on rock)
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;Druscilla bypass aka Bod
+; Notes Gavin, C&C Dirk
+; 24.7.89
+
+QI9	QH1	8.1	244.0	42.0; Qi19 (st.0) = Cairn
+QH2	QH1	5.9	132.0	-44.0
+QH2	QH3	9.6	352.0	37.0
+QH4	QH3	5.0	251.0	-14.0
+QH4	QH5	6.7	94.0	-22.0
+QH6	QH5	6.3	206.0	16.0
+QH6	QH7	8.1	44.0	3.0
+QH8	QH7	28.3	234.0	-32.0
+QH8	QH9	16.8	311.0	-2.0; 9=Cairn by 3s drop
+QH8	QH10	29.1	41.0	28.0
+QH11	QH10	6.3	221.0	-37.0
+QH11	QH12	24.9	327.0	22.0
+QH11	QH13	4.4	70.0	-15.0
+QH13	QH14	6.2	80.0	-33.0
+QH14	QH15	18.0	77.0	-44.0
+QH16	QH15	12.5	244.0	22.0
+QH16	QH17	19.4	76.0	-30.0
+QH18	QH17	14.4	254.0	8.0
+QH18	QH19	13.6	12.0	29.0
+QH20	QH19	5.1	219.0	10.0
+QH20	QH21	8.9	44.0	-37.0
+QH22	QH21	11.5	276.0	-4.0
+QH22	QH23	17.1	90.0	-12.0
+QH24	QH23	5.1	243.0	-16.0 ; Tantalus
+QH24	QH25	11.3	110.0	-32.0
+QH25	QH26	5.6	126.0	-61.0
+QH26	QH27	13.7	223.0	-67.0
+QH27	QH28	14.5	131.0	-49.0; 
+QLINK1	QH28	0.3	-	down; 28=Base of Cairn at bottom of pitch 
+Qd9	QLINK1	14.5	267.0	8.0; Connection to Stream survey
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+; *include ../../Calib/1998.svx
+; 
+; ;Tantalus
+; ;Pitch in Soup Dragon
+; ;Explored 1992 by Paul Mann and others
+; ;Believed to drop below main stream
+; ;Surveyed 1998 Paul Mann, Jo Whistler
+; ;NB No data from Soup Dragon at present
+; 
+; *begin tant
+; 1	0	5.08	125	-25; Bottom of stream fissure
+; 2	1	3.49	103	-01
+; 3	2	3.35	169	-04
+; 4	3	3.48	150	-52
+; 4	5	4.00	000	-19
+; 6	5	6.50	178	04
+; 6	7	3.87	032	0
+; 8	7	5.26	128	-55
+; 8	9	2.33	310	48
+; 10	9	3.66	067	-07
+; 11	10	7.65	172	-22
+; 11	12	12.00	134	06
+; 10	13	12.50	315	-07
+; 13	14	23.93	0	90
+; 14	15	5.24	222	82
+; 15	16	21.54	062	84
+; 16	17	7.52	305	80
+; 17	18	7.38	288	45
+; 19	18	5.41	328	-49
+; 20	19	1.00	306	18
+; 21	20	5.20	263	15
+; 22	21	29.91	251	12
+; 22	23	6.25	072	-14; cairn in soup dragon
+; 23	24	30	0	-90; guessed leg to join in with BOD
+; *end tant 
+; 
+; *equate qh22	tant.24
+; 
+; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; 
+; ;Bright lights Aven
+; ;Spotted by JC and ADS in 1992
+; ;Spotted again by PM and LSB in 1998
+; ;Scaled by Paul Mann, Tony Seddon, Alex Hartley, Chris Densham and John Sherry
+; ;Surveyed Fleur and Harvey
+; ;Pitches rigged, not quite bottomed and grade 1 surveyed by Gavin and JC
+; 
+; *begin paulclimb
+; 1 	2	8.24	205	19.5
+; 2	3	9.33	184	16.5
+; 3	4	10.56	155	+90	;2m horiz. 10.56 diag.
+; 4	5	3.58	128	38
+; 5	6	12.88	114	31
+; 6	7	14.19	153.5	44
+; 7	8	5.15	141	53.5
+; 8	9	4.40	167	49
+; 9	10	6.10	140	90
+; 10	11	25.28	124	42
+; 11	12	8.36	152	28	; bolt over top of crossrift
+; 
+; ;Hunt the Crowbar
+; ;Pitches back to stream way below Paul's Climb
+; ;Pushed Gavin Lowe and Jonathan Cooper
+; ;Grade 1 survey data by JC
+; 12	13	40	0	-90; Pitch down to inlet stream
+; 13	14	8	320	0; 8m diameter chamber
+; 14	15	3	0	-90; Climb down
+; 15	16	5	310	0; 2m dia chamber and 3m of rift
+; 16	17	15	0	-90; Pitch
+; 17	18	10	330	0; 10m dia chamber
+; 18	19	4	325	-;Low stream passage
+; 19	20	4	270	-;Low stream passage
+; 20	21	6	325	-10; High stream passage
+; 21	22	7	335	-10; High stream passage
+; 22	23	3	340	-45; Rift to tight pitchhead
+; 23	24	15	0	-90; 15-20m pitch
+; *end paulclimb
+; 
+; *equate qi11 paulclimb.1
+; 

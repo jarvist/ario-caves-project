@@ -1,0 +1,16 @@
+Survey contains 217 survey stations, joined by 216 legs.
+There is 1 loop.
+Survey has 2 connected components.
+Total length of survey legs = 2192.06m (2192.01m adjusted)
+Total plan length of survey legs = 1372.88m
+Total vertical length of survey legs = 1013.82m
+Vertical range = 234.85m (from \surface.0 at 1645.95m to \upstream.9a at 1411.10m)
+North-South range = 302.66m (from \choke.a at 9270.13m to \pshaft.21 at 8967.47m)
+East-West range = 165.63m (from \phreas.26 at 3081.81m to \lead.14 at 2916.18m)
+  26 1-nodes.
+ 147 2-nodes.
+  17 3-nodes.
+   6 4-nodes.
+  13 5-nodes.
+   5 6-nodes.
+   3 8-nodes.

@@ -1,0 +1,14 @@
+Survex 1.0.35
+Copyright ¸ 1990-2005 Olly Betts
+
+Survey contains 49 survey stations, joined by 48 legs.
+There are 0 loops.
+Total length of survey legs =  356.91m ( 356.91m adjusted)
+Total plan length of survey legs =  122.04m
+Total vertical length of survey legs =  287.18m
+Vertical range = 171.95m (from chicago_01.2 at 1461.17m to chicago_03.5 at 1289.23m)
+North-South range = 48.79m (from chicago_04.0 at 90144.59m to chicago_02.a at 90095.80m)
+East-West range = 35.37m (from chicago_04.3 at 44817.09m to chicago_02.v1 at 44781.71m)
+   5 1-nodes.
+  41 2-nodes.
+   3 3-nodes.

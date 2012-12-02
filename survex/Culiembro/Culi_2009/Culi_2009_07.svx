@@ -1,0 +1,44 @@
+
+; CDG Culiembro survey
+;
+; Please log all
+;  Date        Who    What
+;
+; 2009-07-31  Madphil   Data entered
+
+
+; Sump 4 to end
+;
+; Surveyed by
+; Book: Madphil Rowsell
+; Instruments:Madphil (Madphil's set) 
+; Tape: Chris Jewel  
+
+*begin 2009_07
+
+*data normal from to length compass clino
+
+
+602	601	5.70	32.00	-20.00
+603	602	7.31	75.00	-12.00
+604	603	25.53	29.00	-4.00
+605	604	13.20	55.00	0.00
+606	605	19.22	60.00	-11.50
+607	606	4.92	317.00	-2.00
+607	608	20.00	22.00	-15.00
+				
+609	606	16.19	17.00	-7.00
+610	609	6.84	34.00	-27.00
+611	610	2.28	91.00	5.50
+		
+621	601	19.53	224.00	46.00
+622	621	7.33	293.00	1.00
+623	622	15.08	200.00	10.00
+624	623	12.76	126.00	19.00
+625	624	16.65	225.00	-3.00
+626	625	20.20	238.00	36.00
+626	627	2.43	23.00	-29.00 ;627 is the start of the line (Sump4_Exit)
+
+
+
+*end 2009_07

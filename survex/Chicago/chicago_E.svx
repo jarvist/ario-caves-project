@@ -1,0 +1,22 @@
+*date 2006.7.21
+*team CJD book
+*team Chris S instruments
+*team Mike tape
+
+*begin chicago_E
+1	2	14.67	100	67
+; 1 is deviation krab on P35
+; 2 is knot at top of P35
+2	3	56.23	228	88
+; 3 is knot at top of P56
+3	4	6.71	97	-3
+4	5	9.93	76	86
+5	6	7.75	71	30
+6	7	6.09	86	35
+7	8	11.58	92	37
+8	9	34.35	-	up
+9	10	19.89	240	80
+10	11	27.07	-	up
+11	12	4.20	232	-5
+; 12 is bolt at start of traverse to P45
+*end chicago_E

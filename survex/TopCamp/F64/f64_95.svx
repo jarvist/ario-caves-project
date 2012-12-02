@@ -1,0 +1,66 @@
+; F64	Torca del Fuego
+; 1995 Expedition extentions
+; Entered by Alex Harding
+
+*include ../../Calib/1995
+
+*equate O1	A.12
+*equate M1	A.21
+*equate M12	D.11
+*equate L1D	N19
+*equate L5	J.8
+
+;Section O - Bargain Basement
+;From	To	Tape	Compass	Clino
+
+O1	O2	5.90	313	16	; O1 = A12
+O2	O3	9.93	299	-29
+O3	O4	3.14	332	-47
+O4	O5	10.21	-	down
+
+;Section M - M6 Bypass (compass correction -0.5, clino correction -0.5 not added)
+;From	To	Tape	Compass	Clino
+
+M2	M1	1.39	134	-9.5	; M1 = A21
+M2	M3	5.23	216.5	34
+M3	M4	5.15	183	29.5
+M4	M5	6.45	235	60.5
+M5	M6	12.43	345.5	55
+M6	M7	2.41	026	-4
+M7	M8	9.92	007	-68.5
+M8	M9	18.30	-	down	; no clino correction
+M9	M10	9.30	345.5	-22.5
+M10	M11	8.22	304	31
+M11	M12	3.09	315	-19	; M12 = D11
+
+;Section N - Death Trap Dungeon (compass correction -0.5, clino correction -0.5 not added)
+;From	To	Tape	Compass	Clino
+
+N2	N1	5.60	213	-0.5
+N3	N2	3.60	325	-59
+N4	N3	8.46	297.5	-55
+N5	N4	5.04	302	-57
+N6	N5	5.45	064	-50
+N7	N6	6.06	014.5	-72.5
+N8	N7	2.76	039	-24
+N9	N8	2.15	001	-51
+N10	N9	4.05	177	-59
+N11	N10	2.96	313	-55
+N12	N11	3.77	036	-37
+N13	N12	0.74	124	-15	; bolt
+N14	N13	5.50	121	-40
+N15	N14	1.50	-	down	; no clino correction
+N15	N16	6.95	356.5	-9	; bottom of hading rift, heads 275
+N13	N17	29.94	219	-48
+N18	N17	18.05	50.5	24
+N18	N19	1.50	-	down	; no clino correction, N19 = L1D
+
+;Section L - Myxamatosis (compass correction +1 not added)
+;From	To	Tape	Compass	Clino
+
+L1	L1D	20.00	-	down	; L1D = N19
+L1D	L2	21.30	027	29
+L5	L4	4.24	042	0	; L5 = J8
+L4	L3	9.93	350	-50
+L3	L1	8.72	173	-85
+

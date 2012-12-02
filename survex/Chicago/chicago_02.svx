@@ -1,0 +1,24 @@
+; OUCC - Picos Survey Data
+
+; 2005-07-23 JPNP: Created, added virtual leg from drawn survey
+
+*begin chicago_02
+
+*title "Wild West passage"
+*date 2005.07.22
+*team Rosa book
+*team JPNP instruments, tape
+
+; Single linking leg missing from last years survey
+
+*data normal from to tape compass clino
+A     B     8.72  290   -79
+
+;A = bolt on Don't Stop rebelay
+;B = KNobble of rock, 1st station of 2004 Wild West survey
+
+;Virtual leg taken from survey in 2004 report
+V1 V2 34   065  -15
+*equate V1 B
+
+*end chicago_02

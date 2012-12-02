@@ -1,0 +1,25 @@
+
+; CDG Culiembro survey
+;
+; Please log all
+;  Date        Who    What
+;
+; 2009-07-31  Madphil   Data entered
+
+
+;Survey name:- Round Window-Sump5
+;
+; Surveyed by
+; Book: 
+; Instruments:
+;Tape: 
+
+*begin 2010_03
+
+*data diving from to tape compass fromdepth todepth
+
+Sump5Out 1 		5 	120 	0 	-3.5
+1	 2 		3 	60	-3.5	-6.1
+2	 3 		2 	40	-6.1	-4.5
+3	 Sump5in	8 	80 	-4.5 	0
+*end 2010_03

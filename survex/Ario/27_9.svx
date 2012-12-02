@@ -1,0 +1,37 @@
+; 27/9
+; Explored OUCC 1998
+; Surveyed 19.8.1998, Chris densham, Becca Lawson, Rob Garrett
+; Book CJD, Instr. RL
+; Survey set ?, but only two working clinoes that year
+; Survey out of cave
+
+*include ../Calib/1998
+
+;*fix entrance   620 915  1790 ; Guess. Needs surveying
+*fix entrance	2983 8514 1790 ; [GPS--WGS94] 2000, altitude still guessed
+;*fix entrance 3092.49 8725.49 1790 ; translation of above
+ 
+*equate entrance	exp98.20	
+
+*begin	exp98
+1	0	7	300	-;bearing along rift
+1	2	2.43	233	-27; St.1=PSS
+3	2	17.49	0	-90; P18
+4	3	2.89	279	-16
+5	4	4.41	001	-16
+5	6	8.30	125	4
+7	6	6.91	291	2
+8	7	27.11	0	-90;P28
+9	8	10.72	046	-73
+10	9	2.19	055	21
+10	11	18.56	0	90;P20
+12	11	2.70	023	-56
+13	12	2.61	035	-6
+14	13	1.49	009	-33
+15	14	3.02	273	-23
+16	15	2.92	003	-7
+17	16	4.95	0	-90;P5
+18	17	7.63	023	-63
+19	18	2.23	027	-26
+20	19	7.70	025	-86;P8, 20=Rightmost bolt at entrance
+*end exp98

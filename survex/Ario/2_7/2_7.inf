@@ -1,0 +1,14 @@
+Survey contains 1151 survey stations, joined by 1157 legs.
+There are 7 loops.
+Total length of survey legs = 12632.29m (12741.43m adjusted)
+Total plan length of survey legs = 10520.86m
+Total vertical length of survey legs = 4390.18m
+Vertical range = 812.97m (from \entrance.start at 1851.94m to \pimpernell.qd12 at 1038.96m)
+North-South range = 882.08m (from \upstream.2000d.16 at 8802.21m to \upstream.2000f.99 at 7920.13m)
+East-West range = 1958.85m (from \pimpernell.qd18 at 4857.67m to \upstream.2000c.10 at 2898.82m)
+  72 1-nodes.
+ 984 2-nodes.
+  60 3-nodes.
+  25 4-nodes.
+   8 5-nodes.
+   2 6-nodes.

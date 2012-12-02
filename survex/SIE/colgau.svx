@@ -1,0 +1,28 @@
+;SIE survey
+;fitxer colgau.svx
+;pozu colgau de la texa, topo 13/8/97  Maira, Josep, Edu
+;Cinta: Maira, Instruments i llibreta: Josep
+;punt 0 es el cercle de la pintada SIE 97, equival a boques.8
+;boca descoberta el 11/8/97 per Alberto Castellanos
+;coordenades UTM referenciades al Refugi d'Ariu per poligonal exterior
+
+*fix colgau.13          45173.92        89768.12        1422.79
+*prefix \colgau
+
+0       1       2.85    183     14
+1       2       11.5    111     -25     ;base corda
+2       3       7.8     47      -24
+3       4       4       0       90      ;tub ascendent
+2       5       3.4     114     2
+5       6       5.4     159     26
+6       7       2.2     286     0
+7       8       2.3     0       -90
+8       9       2.5     296     -41
+2       10      15.4    0       90      ;1 spit
+10      11      3.8     350     30      ;1 spit
+11      12      3.1     36      18      ;2 spits cap‡alera
+12      13      2.25    150     43      ;cercle pintada SIE 97
+
+
+
+

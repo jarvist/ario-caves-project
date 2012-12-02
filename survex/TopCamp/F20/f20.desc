@@ -1,0 +1,69 @@
+As luck would have it, I have just this weekend converted the F20 data to
+survex format from the scanned BBC Basic printouts Steve gave me. See
+attached message. I wrote a programme to do the conversion, so if there
+are other data in the same format I can convert them fairly easily if
+someone scans them.
+
+I think you did the right thing with the C3/C4 data, despite the reduciton
+in depth.
+
+L
+
+---------- Forwarded message ----------
+From: Lev Bishop <quee0367@sable.ox.ac.uk>
+To: Steve Roberts <steve.roberts@materials.oxford.ac.uk>
+Date: Mon, 29 May 2000 03:52:58 +0100 (BST)
+Subject: F20 survey
+
+As promised, here is a version of the F20 survey in survex format.
+
+I found that the FineReader OCR software from ABBYY seems to do a pretty
+good job with the scans, though I had to manually straighten them in a
+graphics programme first. I have a trial version of FineReader which I
+think allows me to use it for 15 days or 50 recognitions, after which I'll
+have to register. It's not clear, but it appears that it would cost $99 to
+register. According to the license agreement, I'm not allowed to use the
+trial software to "accomplish [my] employee duties, the duties of [my]
+colleges or of third parties". Which probably means I shoudn't be giving
+you these data...
+
+I wrote a little shell script to clean up most of the OCR blunders (','
+instead of '.', spaces between decimal point and digits, blank lines, etc)
+and a C programme to convert the data into survex format. It does quite a
+lot of sanity checking (makes sure tape is positive and a multiple of
+0.01, compass is in range (0,360) and a multiple of 0.5, clino is in range
+(-90,90) and a multiple of 0.5, index goes up by 1 each time, x/xp/y/z go
+up by the right increment each time, ext is the right value for the given
+r/phi, sumlen goes up by r each time, etc, etc). It chooses
+forwards/backwards on each leg based on the whichever gives the smaller L1
+norm of the difference between the actual change in the (x,xp,y,z) vector
+between the two stations and the vector calculated using the r/theta/phi
+data. It recognises branches as having r=theta=phi=0 and to find the
+branch point it searches backwards for the best match (x,xp,y,z), again
+looking for the minimum L1 norm, and joins directly back to that station
+(so the ID of the branch doesn't ever get written out (otherwise you'd
+have lots of duplicate stations all called "Branch" :-) ).
+
+The original data used F7 and F8 twice, so I renamed the first occurences
+to FF7 and FF8, as otherwise you get some bizarre loop closures...
+
+The F20.pos data match the x/y/z data from the scans, to the nearest 0.1m,
+so everything appears to work. I haven't tested my programme with any
+other value for the projection angle than 0 degrees, though, so there
+might be a sign error or two in that part of the programme.
+
+If you have a machine with egrep, sed, gcc then I can send you the
+programme and script.  The programme uses the "filename:linenumber:error
+message" format of error messages so if you have emacs or another
+similarly smart editor then you can automatically jump to the various
+errors, which speeds up the final cleaning up of the data quite
+significantly.
+
+L
+
+ ----------------------------------------------------------------
+| Lev Bishop            The Queen's College, Oxford, OX1 4AW     |
+| Physics student                                                |
+| mail: lev.bishop@queens.oxford.ac.uk (quee0367@sable.ox.ac.uk) |
+| http://users.ox.ac.uk/~quee0367/      ICQ# 21136345            |
+ ----------------------------------------------------------------

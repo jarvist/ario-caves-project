@@ -1,0 +1,30 @@
+*begin 2000D
+; I think this survey is by Hilary and Lynn, but they haven't bothered to
+; write their names on it.
+
+2 	1	4.50	228	59
+; 1 is PSS, 6m down to terminal chamber floor
+
+; The compass on the following is reportedly 363.  Hmmm.
+2	3	3.79	3	-25
+4	3	3.90	288	5
+4	5	7.34	204	5
+6	5	2.24	188	24 ; 6 is a PSS
+
+7	3	5.19	117	52
+8	7	4.72	61	52
+9	8	10.37	180	75
+10	9	7.70	040	71
+11	10	9.67	184	-2 ; side leg
+
+12	10	6.77	130	57
+13	12	5.36	30	41 ; side leg
+
+14	12	11.41	60	0
+15	14	9.12	85	44 ; 15 is PSS in main streamway
+15	16	19.88	333	-1
+17	16	18.48	75	2
+17	18	7.03	41	18 
+; 18 is carbide mark by sump, station 36 of survey C
+18	19	1.13	-	down
+*end 2000D

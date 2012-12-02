@@ -1,0 +1,46 @@
+; Topcamp area survey 
+; Updated: 12/2/96
+; Includes: F64,C9
+; 
+; Surveyed 1994, 1995
+
+;*data normal bcra_5 from to length bearing gradient
+
+;;;;;;;;;;; Entrance coordinates
+
+*fix c3GPS 	2562 	7688 	1945.71   ; [GPS--WGS94], 2000, old altitude
+;*fix c3GPS 	2671.49 7899.49	1945.71   ; translation of above into Euro
+c3.entrance 	c3GPS 	4 	340 	0 ; approx tie in leg
+
+*fix c4GPS 	2487 	7907 	1899.41   ; [GPS--WGS94], 2000, old altitude
+;*fix c4GPS 	2596.49 8118.49	1899.41   ; translation of above
+c4.entrance 	c4GPS 	5	150	0 ; approx tie in leg
+
+;;;;;;;;;; C3
+
+*begin c3
+*equate entrance 94.entrance.1
+
+*begin 94
+*include ../../Calib/1994
+*include c9_94exp
+*end 94
+
+*begin 95
+*include ../../Calib/1995
+*include c9_95exp
+*end 95
+
+*equate 94.kling.8 95.klingon.1
+*end c3
+
+;;;;;;;;;; C4
+
+*begin C4
+*include ../../Calib/1996
+*equate entrance r.2
+;*fix entrance   241.16  235.34  1899.41
+*include c4
+*end C4
+
+*equate C4.h.1	C3.95.upstream2.30

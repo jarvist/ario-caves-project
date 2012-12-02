@@ -1,0 +1,390 @@
+
+;Survey of Torca del Vasco (D8) 1996.
+;From   To      Tape    Compass Clino
+
+*fix entrance   -473.33 748.65  1779.89                              
+*fix d7.1       -390.97  719.98  1766.91;surveyed from vasco
+*equate Entrance \A.1
+*label Entrance Entrance
+
+*begin \A
+;Survey from entrance to top of Gone with the Gear (6th pitch)
+;Book Michael, instruments Andy
+;Instrument Set 3
+1       2       8.80    182     -59
+2       3       17.80   208.5   -67
+3       4       5.50    109.5   -11.5
+4       5       4.40    77.5    -25
+5       6       5.49    89.5    -41
+6       7       9.28    53.5    -26
+7       8       4.13    38.5    -9.5    ;8=highest Spanish bolt on LHS of 2nd pitch
+8       9       14.68   -       down
+9       10      3.96    88      -1
+10      11      4.70    112     -61
+11      12      3.49    46      -16
+12      13      5.28    93      +6.5
+13      14      8.86    83      -51
+14      15      6.62    53      +69
+15      16      6.71    93.5    +8.5
+16      17      5.01    9       -44
+17      18      22.33   -       down
+18      19      2.45    108     -3
+19      20      7.50    358     -52
+20      21      1.72    72.5    -7
+21      22      1.77    343     +43
+22      23      4.58    98.5    +21
+*end \A
+
+*equate \A.23 \B.1
+*label \A.2 Entrance_pitch
+*label \A.8 2nd_pitch_(Here_A_Bolt)
+*label \A.13 3rd_pitch_(Thera_A_Bolt)
+*label \A.17 4th_pitch_(Red_For_Danger)
+*label \A.19 5th_pitch
+*label \A.23 6th_pitch_(Gone_With_The_Gear)
+
+*begin \B
+;Survey from Gone with the Gear to The Big Sleep
+;Book Alex, instruments / tape Jason & Olly
+;Instrument Set 2
+1       2       24.11   -        down
+3       2       2.27    268.5   -3
+3       4       3.80    -       down
+5       4       4.90    251     -15
+5       6       6.40    102.5   +9
+6       7       1.59    120.5   -49
+7       8       5.40    -       down    ;7=bolt, furtherest out on RHS of The Needle (7th pitch)
+9       8       2.10    285     -1
+9       10      9.92    102.5   +2.5
+10      11      3.70    109     -22
+11      12      6.22    101     -74
+12a     12      3.70    85      -14.5
+12b     12a     2.30    135.5   -13.5
+12b     12c     5.85    264     -51.5
+12c     12d     4.60    282     -18.5
+12      13      5.94    -       down
+13      14      28.81   -       down
+14      15      4.86    -       down
+16      15      4.91    270     -22
+16      17      6.17    105     +57
+17      18      3.45    195     -10
+18      19      8.13    114     -66.5
+19a     19      7.24    078     +54
+20      19      5.52    183     +20
+21      20      2.48    248     +20
+22      21      2.67    156     +24     ;22=bolt, hang for Open all 'ours?
+22      23      6.08    -       down
+23      24      4.19    342     +74
+25      24      3.62    221     +30
+25      26      3.75    91      -14
+27      26      2.50    305     -15
+27      28      2.08    90      -25
+28      29      4.09    32      -35
+29      30      3.34    99      -26
+30      31      1.66    120     +8
+31      32      0.86    168     -3
+32      33      2.40    92      -24
+33      34      2.87    123     -23
+34      35      2.34    219     -41
+*end \B
+
+*equate \B.35 \C.1
+*label \B.7 7th_pitch_(The_Needle)
+*label \B.11 Pitch_7a
+*label \B.12 8th_pitch
+*label \B.18 9th_pitch
+*label \B.22 Open_All_'ours
+*label \B.30 Anita's_Hole
+*label \B.35 The_Big_Sleep
+
+*begin \C
+;Survey from The Big Sleep to The Marge Tub
+;Book Alex, tape/instruments Andy
+;Instrument Set 3
+1       2       6.82    -       down
+3       2       2.24    52      +18
+3a      3       4.17    113     +35.5
+4       3       3.84    274     +47
+4       5       4.42    -       down
+6       5       3.42    264     -21
+7       6       3.77    179.5   -35
+7       8       3.39    119     -27
+8       9       1.80    132     -25.5
+9       10      1.57    209.5   -36
+10      11      2.86    123     +33
+12      11      1.45    356.5   -16
+13      12      0.54    272     -3.5
+13      O       1.09    51      -17.5
+M       O       1.34    286     +2
+M       L       4.49    130     -14.5
+K       L       2.28    242.5   +21.5
+J       K       1.28    190     +14.5
+J       I       1.28    318.5   -28
+H       I       0.89    234     +17.5
+H       G       0.69    16.5    +4.5
+F       G       3.60    219     +54
+F       E       4.69    42      -34.5
+E       D       2.53    2       -28.5
+C       D       3.70    164     +66
+B       C       5.51    11      +31.5
+B       A       5.99    254.5   -32
+*end \C
+
+*equate \C.C \D.21
+*label \C.O Getaway_Alley
+*label \C.D Cereal_Killer
+*label \C.A The_Marge_Tub
+
+*begin \D
+;Survey from The Marge Tub to Another Fine Mess
+;Book Alex/Jason, instruments/tape Alex/Anita/Fumpa/Jason
+;Instrument Set 3
+2       1       19.00   -       down
+2a      2       4.00    95      -9
+2b      2a      6.70    10      +9
+2       3       2.03    198     -2.5
+4       3       9.13    -       down
+4       5       4.37    257     -25
+6       5       1.40    348     +50
+7       6       1.07    325     +2
+8       7       1.50    347     -43
+9       8       1.94    339     +14
+10      9       2.51    305     +39
+11      10      3.13    015     -18     ;the direction of this leg is uncertain
+12      11      1.85    334     -54     ;the direction of this leg is uncertain
+13      12      2.56    325.5   -15     ;the direction of this leg is uncertain
+14      13      3.10    346     -44
+15      14      4.90    060     -24     ;the direction of this leg is uncertain
+16      15      16.18   -       down
+17      16      4.70    47      +14
+18      17      4.50    -       down
+19      18      3.58    35      -31
+20      19      1.35    26      -45
+21      20      3.63    334.5   -44
+*end \D
+
+*equate \D.1 \E.1
+*label \D.18 Lucky_13
+*label \D.16 Bolt_Farming
+*label \D.4  Another_Girl
+*label \D.2  Another_Planet
+
+*begin \E
+;Survey from Another Fine Mess to I'm Not Going
+;Book John, instruments Anita, tape Alex/Anita
+;Instrument Set 1
+2       1       4.30    211     -9
+2       3       16.03   -       down
+3       4       1.44    35      +27
+5       4       2.00    260     +51
+6       5       1.98    168     +21
+6       7       1.80    75      -17
+8       7       6.16    110     +4
+9       8       1.61    219     +6
+9       10      8.95    342     +33
+11      10      4.58    230     -39
+11      12      3.47    005     +29
+13      12      6.03    237     -1
+13      14      3.68    339     -3
+15      14      8.75    261     +7
+15      16      2.98    145     -5
+16      17      2.90    134.5   -2
+18      17      5.10    230     +59
+19      18      2.01    255.5   +14
+19      20      4.16    116     +3
+21      20      3.89    200.5   +9
+21      22      3.50    010     -26
+23      22      3.85    270.5   +13     ; 23=backup bolt to p4
+23      24      7.29    069     -35     ; inlet comes in from left
+25      24      4.55    223.5   +20     ; 25=half depth bolt at start of traverse for I'm Not Going
+*end \E
+
+*equate \E.25 \F.20
+*label \E.2 Another_Fine_Mess
+*label \E.6 Nameless ;may not actually be \E.6
+*label \E.11 Climb
+*label \E.23 No_name
+
+*begin \F
+;Survey from I'm Not Going to Down in the Hollow
+;Book Alex, instruments Olly, tape Andy
+;Instrument Set 3
+2       1       7.00    84.5    -11.5   ;1=backup bolt for Down in the Hollow
+2       3       3.73    254     +18
+4       3       5.84    96.5    +18
+4       5       9.00    234     +22.5
+6       5       7.34    057     -6
+7       6       8.23    101.5   -31
+8       7       5.90    107.5   +4.5
+9       8       8.90    47.5    -3.5
+10      9       2.13    330.5   +24
+10      11      5.62    223     +11
+11      11a     6.00    195     0       ;11a=1st bolt of traverse for Giant's Hole
+11      12      7.82    198.5   +11.5
+13      12      6.09    101     -83
+14      13      2.63    091     -10.5
+14      15      5.34    218     +14.5
+16      15      5.68    037     -55
+17      16      6.46    041.5   -70.5
+18      17      3.68    038.5   +24
+19      18      2.73    017     +7
+19      20      0.62    304     -14
+*end \F
+
+*label \F.17 I'm_Not_Going
+*label \F.16 Down_There
+*label \F.11a Giant's_Hole
+*label \F.8 traverse
+*label \F.1 Down_in_the_Hollow
+
+*begin \G
+;Survey from There We Shall Wallow to Inglorious & mud sump and from Stone The Giants to In Their Brown Cars
+;Book Alex, instrumnets Alex/Nobby, tape Bill
+;Instrument Set 1
+1       2       6.59    227     +35.5
+3       2       15.16   27      -34
+3       4       7.99    198     0
+5       4       5.17    347     +9.5
+5       6       3.78    -       down
+7       6       3.05    179.5   -3.5    ;7=bolt for Mud
+7       8       5.95    -       down
+9       5       5.19    -       down
+9       10      1.70    180.5   +11
+11      10      6.44    316     -36
+11      12      3.60    152.5   +32.5
+13      12      6.05    284     -29     ;bolt for There We Shall Wallow
+B       A       2.54    172.5   0
+C       B       5.70    -       down
+D1      C       2.42    153.5   -12
+D1      D2      1.66    -       down
+E       D2      11.32   -       down
+*end \G
+
+*equate \F.1 \H.12
+*equate \G.13 \H.6
+*equate \G.E \H.1
+*equate \H.1 \H.A
+*label \G.1 mud_sump
+*label \G.7 Mud
+*label \G.10 Inglorious
+*label \G.13 There_We_Shall_Wallow
+*label \G.E Stone_the_Giants
+*label \G.C In_Their_Brown_Cars
+
+*begin \H
+;Survey from Stone the Giants to There We Shall Wallow to Down in the Hollow and from Stone the Giants to Small Spanish Boys
+;Book Alex, instruments Alex, tape Nick
+;Instrument Set 2
+2       1       4.93    295     +23.5
+2       3       7.82    136     -43
+4       3       7.56    286.5   +32
+4       5       4.03    189     -7.5
+6       5       2.06    289.5   -26     ;6=bolt for There We Shall Wallow
+6       7       11.00   171.5   +15.5
+8       7       9.81    37      -30.5
+8       9       8.41    201     +17.5
+10      9       8.12    311     -32.5
+10      11      15.31   219.5   +47
+12      11      3.28    131     +1      ;12=bolt for Down in the Hollow
+B       A       9.68    111     -50.5   ;B=carbide S
+B       C       2.31    351.5   +27
+D       C       3.75    127     -28
+D       E       7.29    266.5   +24
+F       E       4.35    118     -57.5
+F       G       2.21    261     -31.5
+H       G       1.27    40      +13
+H       I       2.03    196     -43
+*end \H
+
+*equate \F.11a \I.1
+
+*begin \I
+;Survey from Giant's Hole to Leemington Spa
+;Book Alex, instruments/tape Paul
+;Instrument Set 1
+2       1       5.19    220     +17
+2       3       7.93    188     -41
+4       3       6.72    211     +12
+4       5       5.68    278     -9
+5       6       5.37    259     -5
+6       7       2.60    278     +10
+7       8       3.76    273     +5
+8       9       3.34    286     +1
+9       10      2.82    323     -28
+10      11      3.52    306     +18
+11      12      5.74    306     -20
+13      12      1.10    008     -14
+13      14      10.08   219     -25
+15      14      7.78    051     +12
+15      15a     6.40    302     -28
+15      16      9.96    117     +17
+17      16      10.72   030     +32
+17      18      6.86    206     +16
+19      18      5.57    024     -5
+19      20      8.67    256     -5
+21      20      4.25    050     -4
+21      22      8.42    181     +11
+23      22      8.64    282     +5
+23      24      3.53    103     -21
+25      24      14.83   158     +24
+25      26      6.77    227     -16
+27      26      3.13    355     -50
+27      28      6.30    230     -1
+29      28      7.46    122     +36    :29=Bolt for Lizard's Tail
+29      30      11.07   357     -54
+30      31      8.21    031     -45
+32      31      5.47    154     +27
+33      32      5.42    219     +10
+33      34      8.85    326     -32
+35      34      9.07    217     +31
+35      36      3.37    087     -30
+37      36      10.23   178     +29
+37      38      4.84    035     -9
+39      38      9.69    168     +44
+39      39a     3.83    040     -29
+39a     39b     1.49    342     -25
+39b     39c     2.12    057     -10
+39      40      9.05    273     -9
+40      41      2.55    010     -42
+32      32a     11.46   251     0
+32a     32b     3.50    289     0
+32      32c     12.29   292     +11
+32d     32c     8.47    055     -24
+32d     32e     11.47   301     +4
+32e     32f     11.79   071     -19
+32      32g     3.60    318     -32
+32g     32h     6.21    -       down   ;32g=bolt below Lizard's Tail
+*end \I
+
+*label \I.18 Moon_Lizard
+*label \I.29 Lizard's_Tail
+*label \I.32g Unnamed
+*label \I.41 Leemington_Spa
+
+*equate \H.I \J.1
+
+*begin \J
+;Survey along Small Spanish Boys
+;Book Alex, instruments/tape Paul
+;Instrument Set 1
+1       2       1.98    000     +3
+2       3       2.38    027     -9
+3       4       2.25    041     -31
+4       5       2.04    079     -13
+5       6       2.80    023     -54
+6       7       2.50    340     -2
+7       8       1.48    348     -29
+8       9       2.97    051     -36
+9       10      6.29    298     -42
+10      11      5.62    027     -32
+11      12      5.40    008     -48
+12      13      8.21    035     -51
+13      14      2.65    018     +8      ;14=lower bolt of Y-hang on ?
+14      15      9.65    -       down
+16      15      1.54    210     -36
+16      17      5.72    351     -56
+*end \J
+
+*label \J.4 Small_Spanish_Boys
+*label \J.14 pitch
+

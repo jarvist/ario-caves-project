@@ -1,0 +1,44 @@
+; OUCC - Picos Survey Data
+
+; 2005-07-21 JPNP: Entered data from Rosa's original notes
+; 2005-07-23 JPNP: Added virtual leg for missing leg to Don't Stop
+;                  rebelay; Labled entrance
+
+*begin chicago_01
+
+*title "Pozu Chicago - Entrance"
+*date 2004.07.26
+*team Rosa book
+*team "Mike Hopley" instruments, tape
+
+*data normal from to tape compass clino
+1     2      1.0    260     +10 ; 1=bolt
+2     3      4.5    270     -75 ; 2=bolt
+3     4      3.0    315     -85
+4     5      6.7    260     -75 ; 4=bolt
+5     6      2.7    270     -20
+6     7      7.05   250     -73 ; 6=bolt
+7     8     16.7    215     -83 ; 7=bolt
+8     9      5.9    250     -43
+9     10     2.2    180     -20
+10    11    70.5      0     -90 ; 10=bolt
+
+*equate 1 entrance
+
+;LRUD
+;1   0.2  0.5   0   1.3
+;2   0    0.3   -   -
+;3   0.05 0.4   -   -
+;4   0.9  0     -   -
+;5   0.8  0     -   -
+;6   1.0  0     -   1?
+;7   2    0     -   -
+;8   0    3     -   1.5
+;9   1.5  2     -   1.5
+;10  0    4     -   -
+;11  1.5  1.3   -   0
+
+;Made up leg to rebelay (correct leg should be in 2004 logbook
+10  V1  35 - down
+
+*end chicago_01

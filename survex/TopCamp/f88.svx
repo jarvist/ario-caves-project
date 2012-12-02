@@ -1,0 +1,55 @@
+; F56/F88 Torca del Tyrolean Traverse
+
+; [GPS-WGS] 2000 : 2059 7469 2062
+; *fix a.1 2168.49 7680.49 2062; translation of above [Euro]
+*fix a.1 2059 7469 2062
+
+*include ../Calib/1997
+
+*Equate a.8	c.0
+*equate b.10	c.1
+
+;Entrance
+
+
+*begin A
+1	2	5.96	210	-20.5; 1=surface
+2	3	26.3	0	-90
+3	4	2.9	84	-21
+4	5	23.4	0	-90
+5	6	2.08	161	-40
+6	7	18.8	212	-54
+7	8	9.09	193	-38.5
+*end A
+
+
+;Traverse
+
+*begin B
+10	9	1.96	205	-25; 10=Bolt at start of traverse
+9	8	3.1	198	-3
+8	7	5.59	180	-80;8=Bolt at end of traverse
+7	6	23.54	192	-70
+6	5	14.8	165	-76
+5	4	13.92	62	7; 5=Bolt at bottom of P42
+4	3	3.46	50	-30
+3	2	11.79	44	-25
+2	1	7.2	65	-62
+1	0	7.87	45	-30; 0=Top bolt of Y above final P40 snow slope	
+0	A	40	45	-50	
+*end B
+
+;Connecting bit
+
+*begin C
+0	1	10.7	204	-42; 0=A8
+1	2	4.9	218	-18; 1=b10
+2	3	11.4	202	-49; ? end of tyrolean?
+3	4	6.9	228	16
+4	5	7.4	204	35
+5	6	3.1	279	57
+6	7	2.6	180	-11; 7=Pitch head
+7	8	14.8	202	-81
+8	9	12.7	245	-8; 9=carbide mark at far end of aven
+*end C
+

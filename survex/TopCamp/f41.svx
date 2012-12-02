@@ -1,0 +1,66 @@
+; Pozu del Polar Bear's Pack-lunch
+
+*fix entrance.0 2000 7800 1900 ; total guess, made in Oxford
+
+*Equate old.10 new.0
+*equate new.8 icespider.3
+*equate old.15 entrance.0
+
+*begin entrance
+0	1	8	0	90
+0	2	20	45	30
+*end entrance
+
+
+; Old way.
+; Survey 22/7/97
+; Ian Benson and Will Jeremy
+*begin old
+15	14	11.13 	224	-58; 15=Top of 1st pitch
+14	13	6.79	230	-69
+13	12	6.3	220	-87
+12	11	13.8	216	-68
+11	11a	1.5	126	0
+11a	10	10.9	0	-90 ; 10= Parting of ways.
+10	9	9	168	-52
+9	8	8.12	222	-54
+8	7	15.03	188	-41
+7	6	10.83	261	-21
+6	5	3.76	201	-32
+5	4	5.3	125	-69
+4	3	4.22	251	-16
+3	2	2.64	119	-35
+2	1	2.61	202	-7
+3	a	6.69	281	-9
+3	b	5.02	125	33
+b	c	7.98	220	-14
+*end old
+
+;New way to top of last pitch
+; Survey 28/7/97
+; Jonathan Cooper and Olly Hinton
+
+*begin new
+0	1	2.85	20.5	-15 ; 0=Parting of ways
+1	2	7.02	98.5	-67
+2	3	10.25	149	-81
+3	4	6.84	206	-78; 4= dodgy station in ice
+4	5	4.17	49	79
+5	6	19.4	0	-90
+6	7	12.98	0	-90
+7	8	26.21	44	-52.5; 8=PSS before final pitch
+*end new
+
+; Final Pitch
+; survey 11/8/97
+; Jonathan Cooper and Alison Waterfall
+*begin icespider
+0	a	10	132	-28; a,b and c are extremities of chamber
+0	b	17	92	-27
+0	c	16	22	-6
+0	1	5	252	6; 1 Pitch bottom
+1	2	50	0	90; Grade 1 due to survey knot disapearing
+2	3	16.4	219	55
+*end icespider
+
+

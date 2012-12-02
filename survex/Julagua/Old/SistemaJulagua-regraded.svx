@@ -1,0 +1,32 @@
+; OUCC - Picos Survey Data
+;
+; Sistema Julagua
+; (Pozu Tormenta & Asopladeru la Texa)
+
+; 2005-07-19 JPNP: Created file
+
+*begin Julagua
+
+*begin texa
+; Texa survey seems to be lower standard than tormenta
+; set it to BCRA Grade3
+*include bcra3.svx
+*include texa/texa.svx
+*end texa
+
+; Use BCRA Grade 5 for rest of data
+*include bcra5.svx
+
+*include tormenta/tormenta.svx
+
+; Connect the two caves
+*equate tormenta.texa_connection texa.texa_97.51 
+
+; Surface survey tieing the two entrances
+
+*include Surface/surface_05_01.svx
+
+*equate surface_05_01.1  texa.entrance
+*equate surface_05_01.36 tormenta.entrance
+
+*end Julagua

@@ -1,0 +1,48 @@
+;fitxer texa_96j.svx
+;poligonal 13/8/96  Joan C Juderias, Josep Guarro
+;topografiada de baixada (entrada a les 10 h, fi topo a -592 i inici remuntada
+;pous a les 15 h  sortida de la cavitat a les 21 h, recollim cordes a les
+;cap‡aleres des de -592 fins a -360, finestra)
+
+*equate texa_96v.19 texa_96j.0
+*begin texa_96j
+
+0       1       6       34      5
+1       2       12      0       -90     ; 2 spits
+2       3       6       52      -10               
+3       4       16      0       -90     ; 2 spits, inici Pous Electrics
+4       5       3.5     332     -3
+5       6       3.7     348     0
+6       7       4.5     303     5
+7       8       10      10      -53     ; 2 spits
+8       9       5.3     295     2
+9       10      6.2     348     -53     ; 2 spits
+10      11      6.5     0       -90     ; 1 spit (continua corda pou anterior)
+11      12      4.7     325     3
+12      13      3.8     252     8
+13      14      10.3    0       -90     ; 2 spits
+14      15      4.5     273     0
+15      16      7       0       -90     ; 2 spits (Ancoratge Y)
+16      17      6       335     28
+17      18      3.5     0       -90     ; 1 spit 
+18      19      4.2     343     -10
+19      20      10      355     10
+20      21      2       0       -90     ; 2 spits (inici Cab‚ Mayau)
+21      22      6.7     0       -90     ; 1 spit
+22      23      3       0       -90     ; 1 spit
+23      24      57      0       -90     ; 1 spit
+24      24b     5       3       0       ; tirada no topografiada, es una repisa que separa la segUent vertical
+24b     25      2       0       -90     ; 1 spit
+25      26      9.5     0       -90     ; 1 spit (trenca-collons)
+26      27      6.5     3       -8
+27      28      7       0       -90     ; 2 spits
+28      28b     2       3       0
+28b     29      5       0       -90     ; mateixa corda (cal fraccionar)
+29      29b     2       5       0 
+29b     30      25.5    0       -90     ; mateixa corda (cal fraccionar)
+
+; fi topo 1996, a la cap‡alera del P-25.5 es va intentar posar un Spit manual
+; pero es va trencar el spitador.
+
+
+*end texa_96j

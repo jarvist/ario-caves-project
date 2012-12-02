@@ -1,0 +1,31 @@
+; Pozu del Xitu, including Pozu la Cistra
+
+*include ../../Calib/1981.svx ; ** needs correcting **
+; *fix entrance     3565.2	9433.1	1637.0 ; [GN]
+; *fix entrance     3459	9232    1637.0  ; GPS 2000 + old altitude
+*fix entrance 3455.7 9221.6 1637.0 ; translation of [GN] to [WGS95] *
+
+*include Xitu1
+*equate s1.START entrance
+
+*include cistra
+
+;*fix cistra.entrance 1946.06  1126.03  1555.75 
+;    old surface survey, equivalent to [Euro] (4279.66,8941.33)
+*fix cistra.entrance 4169 8762  1555.75 ; [GPS-WGS94], 2000 + old altitude *
+;*fix cistra.entrance  4278.49 8973.49  1555.75   
+;    translation of above
+
+*equate cistra.xituConnection s1.O248
+
+; *include xituCistra  ; surface survey
+
+;*fix caracoles.entrance 1840.20  1330.29  1605.61
+;   old surface survey; equivalent to [Euro] (4173.8,9145.59)
+*fix caracoles.entrance 4093	8970  1605.61  ; GPS 2000 + old altitude *
+;*fix caracoles.entrance 4202.49 9181.49 1605.61
+
+*equate caracoles.Wingnut.xitu.K135 s1.K135
+*include caracoles
+
+; *include xituCaracoles  ; surface survey

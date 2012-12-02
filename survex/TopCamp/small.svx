@@ -1,0 +1,22 @@
+; small caves in the Top Camp area
+
+*begin F80
+*fix 0	1858	7149	2159 ; [GPS-WGS], 2000
+;*fix 0 	1967.49 7360.49	2159 ; translation of above
+;*fix 0 1985	7360	2157 ; GLE, Subterranea 4 (MS-67)
+*include ../Symbols/cave
+*end F80
+
+*begin C8
+; [GPS-WGS] 2000, guessed altitude : 2507 7688 1950
+;*fix 0 2616.49 7899.49 1950 ; translation of above [Euro]
+*fix 0 2507 7688 1950
+*include ../Symbols/cave
+*end C8
+
+*begin E12
+; [GPS-WGS] 2000 : 2279 8064 1857
+;*fix 0 2388.49 8275.49 1857; translation of above [Euro]
+*fix 0 2279 8064 1857
+*include ../Symbols/cave
+*end E12

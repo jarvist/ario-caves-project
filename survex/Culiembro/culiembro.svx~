@@ -1,0 +1,113 @@
+;survey Cueva Culiembro done in 1987 by Northern Peninne Club	
+;main.0 is the entrance, fixed point is at a self-drilling anchor	
+	
+*include ../Calib/1987.svx ; 	
+	
+*equate main.0	ent
+
+*fix ent      6779    9588    400 	
+	
+;;;******************************************************************
+;;;                           NPC Oringinal Data 
+;;;******************************************************************
+*include NPC_Original
+
+
+
+;;;******************************************************************
+;;;                    SUMP1 - from Stanton Paper Survey
+;;;******************************************************************
+;;Taken from the paper copy of Stanton Survey.Not the best - Altered by
+;;Madphil Rowsell to match new data.
+
+*include Sump1_RS
+*equate upsump.18 Sump1.1	
+
+
+
+;;;******************************************************************
+;;;                            2009 files
+;;;******************************************************************
+;alter mag Deg to 2009 value
+*include ../Calib/2009.svx ; 
+
+
+;sump 1 to sump 2 - not the best survey - mistakes and readings probably screwed by headlamp!!!
+*include ../Culiembro/Culi_2009/Culi_2009_01
+*equate Sump1.27 2009_01.715
+
+
+;sump 2
+*include ../Culiembro/Culi_2009/Culi_2009_02
+*equate 2009_01.701 2009_02.Sump2Ent
+
+
+;sump2 to sump3
+*include ../Culiembro/Culi_2009/Culi_2009_03
+*equate 2009_02.Sump2Out 2009_03.301
+
+
+;sump3
+*include ../Culiembro/Culi_2009/Culi_2009_04
+*equate  2009_03.321 2009_04.Sump3Ent
+
+
+;sump3 to sump4
+*include ../Culiembro/Culi_2009/Culi_2009_05
+*equate 2009_04.Sump3Out 2009_05.430
+
+
+;sump4
+*include ../Culiembro/Culi_2009/Culi_2009_06
+*equate 2009_05.401 2009_06.Sump4_Ent
+
+
+;sump4 to end
+*include ../Culiembro/Culi_2009/Culi_2009_07
+*equate 2009_06.Sump4_Exit 2009_07.627
+
+
+;Arch Window 1
+*include ../Culiembro/Culi_2009/Culi_2009_10
+*equate sump1.9 2009_10.541
+
+
+
+
+;;;******************************************************************
+;;;                            2010 files
+;;;******************************************************************
+
+*include ../Calib/2010.svx
+
+;The Holy Run Off
+*include ../Culiembro/Culi_2010/Culi_2010_01
+*equate 2010_01.1019 2009_05.406
+
+
+;Round Window - Xitu connection
+*include ../Culiembro/Culi_2010/Culi_2010_02
+*equate 2010_02.1121 2009_07.607
+
+
+;Round Window - Sump5
+*include ../Culiembro/Culi_2010/Culi_2010_03
+*equate 2010_03.Sump5In 2010_02.Sump5In
+*equate 2010_03.Sump5Out 2010_02.Sump5Out
+
+
+;Round Window - Sump6
+*include ../Culiembro/Culi_2010/Culi_2010_04
+*equate 2010_04.Sump6In 2010_02.Sump6in
+
+;Endpush1 28-07-10
+*include ../Culiembro/Culi_2010/Culi_2010_05
+*equate 2010_05.tiein 2009_07.611
+
+;Endpush2 31-07-10
+*include ../Culiembro/Culi_2010/Culi_2010_06
+*equate 2010_05.1201 2010_06.1320
+
+;Endpush2 03-08-10
+*include ../Culiembro/Culi_2010/Culi_2010_07
+*equate 2010_07.1420 2010_06.1300

@@ -1,0 +1,52 @@
+; OUCC Area Survey, including surrounding caves
+
+; All coordinates GPS UTM in square 034 478
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Ario caves
+
+
+
+; *equate Julagua.0 tormenta.tie-in
+;*begin tormenta
+;*include Ario/Tormenta/julagua
+;*end tormenta
+
+*include Julagua/SistemaJulagua
+
+*begin chicago
+*include Chicago/chicago
+*end chicago
+
+*include Chapa/xapa
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;; SIE caves
+
+;Main SIE cave entrances cf: josep Guarro 09/02/96
+;The reference fixed point is the summit of Cabeza Julagua (OUCC procedinngs
+;13, page 102), The caves locations were fixed on a map, and then calculated
+;relative to Cabeza Julagua summit. (ie. not strictly accurate)
+;data entered by J.Hooper 13/2/96, updated 19/3/95 using info. from Josep (SIE)
+;UTM coordinates within grid square 30TUN,
+
+;*begin cuerries
+;*include .\SIE\cuerries
+;*end cuerries
+
+; *begin la_texa
+; *include .\SIE\texa
+; *end la_texa
+
+*begin muxa
+*include SIE/Muxa
+*end muxa
+
+;;; Other caves
+
+
+;*begin culiembro
+;*include .\Other\culiembr
+;*end culiembro
+

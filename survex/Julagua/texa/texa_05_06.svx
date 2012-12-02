@@ -1,0 +1,31 @@
+; OUCC - Picos Survey Data
+
+; 2005-07-24 JPNP: Entered data
+
+*begin texa_05_06
+
+*title "Texa: Sump Pool"
+*date 2005.07.20
+*team "Paul Windle" instruments
+*team Hils tape
+*team "Neil Pacey" book
+
+; Instruments compass: 05-1
+;             clino:   05-A
+
+*data normal from to tape compass clino
+002   001    5.63   184     -10
+003   001    7.51   202       0
+003   004    1.7      -     down
+004   005   17      038       0
+
+; 1=Rock spike
+; 2=1st bolt in traverse (Spanish survey of 19th station 0)
+; 3=Spike Pinacle along sump pool
+; 5=Guestimated end of sump pool
+
+; LRUD
+; 001  1.5  4   4   2
+; 004  1    1   5   1.7
+
+*end texa_05_06

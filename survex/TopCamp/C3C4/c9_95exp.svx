@@ -1,0 +1,522 @@
+;Expedition Boca del Joon 95 - C9 
+
+*include ../../Calib/1995.svx
+
+*begin klingon
+
+;From Klingon to No More Heroes
+;Book & Tape:   Rob Garrett
+;Instruments:   James Hooper
+;Date: 10/08/95
+
+*calibrate compass -2.00
+*calibrate clino    0.00
+
+
+;*fix    1       114     386     -454
+
+1       2       4.80    324     -30.0 ;1 is PSS - over the "Klingon"      
+2       3       26.30   -       down
+2       4       5.09    007     0
+4       5       7.10    22.5    +49
+5       6       4.60    345     -19   ;5 is PSS (bolt) - base of "Hope & Glory"
+6       7       7.53    346     0     ;6 is PSS (bolt) - mid-traverse
+7       8       1.73    019     +28.5
+8       9       10.67   345     -28
+9       10      2.58    028     -62   ;10 is PSS (bolt) in "No More Heroes"
+*end klingon
+
+;-----------------------------------------------------
+
+*equate klingon.10 klingon2.1
+
+*begin klingon2
+
+;From No More Heroes to NNN19
+;Book: Paul Mann 
+;Tape:   Will C
+;Instruments:   James Hooper
+;A part of the bigger surveys
+;Date: 25/07/95
+
+*calibrate compass -2.00
+*calibrate clino    0.00
+
+1       2       11.33   354     +29
+3       2       10.99   153     +16
+*end klingon2
+
+;-----------------------------------------------------
+
+*equate Klingon.10 DGener.1
+
+*begin DGener
+
+;From No More Heroes to Well Jim
+;Book & Tape:   James Hooper
+;Instruments:   Wlodek S.
+;Date: 31/07/95
+
+*calibrate compass  0.50
+*calibrate clino    0.50
+
+1       2       1.59    334     -19     
+2       3       1.64    324     -44
+3       4       2.40    248     -59
+4       5       4.20    239     -33
+5       6       2.85    328     -21
+6       7       4.54    002     +04
+7       8       3.60    345     0
+8       9       3.67    307     -02
+9       10      2.93    -       down
+10      11      2.54    013     -12
+11      12      2.68    319     -15
+12      13      3.13    008     +09
+13      14      2.19    339     -12
+14      15      3.00    -       down
+15      16      2.35    328     -08
+16      17      2.41    349     0
+17      18      1.90    015     -49
+18      19      8.85    329     -48
+19      20      2.79    341     -04
+*end DGener
+
+;-----------------------------------------------------
+
+*equate DGener.20 DGener2.29
+
+*begin DGener2
+
+;From Well Jim to Walter's not coming
+;Book:          Pauline Rigby 
+;Tape:          OJH
+;Instruments:   Tim Guilford
+;
+;Date: 25/07/95
+
+*calibrate compass -2.00
+*calibrate clino    0.00
+
+29      28      8.70    353     +01.5   ;29 is PSS in Well Jim       
+28      27      3.67    006     -01.5
+27      26      9.15    354     -02
+26      25      3.38    001     -02
+25      24      4.24    334     -03.5
+24      23      2.39    358     +01.5
+23      22      7.92    344     -01
+22      21      2.85    312     +05.5
+21      20      5.05    008.5   +03
+20      19      4.82    007.5   -03
+19      18      11.06   003.5   -01.5
+18      17      5.50    349.5   +03.5
+17      16      9.69    359     -04.5
+16      15      4.0     022.5   -08
+15      14      9.67    007     0
+14      13      3.29    096.5   +02.5
+13      12      3.64    136.5   +03
+12      11      3.78    036     +08.5
+11      10      3.89    316     +06.5
+10      9       2.94    003     -18.5
+9       8       5.16    308.5   +08.5   
+8       7       6.40    083     +01.5
+7       6       3.00    034     -35
+6       5       6.60    357.5   -03     
+5       4       7.54    059     -05.5
+4       3       5.30    081.5   +14.5
+3       2       3.81    030.5   +10     ;3 is PSS 
+2       1       5.50    064     -05
+*end DGener2
+
+;-----------------------------------------------------
+
+*equate DGener2.3 Walter.4a
+
+*begin Walter
+
+;From Walter's not coming to Human Timebomb
+;Book:          Pauline Rigby 
+;Tape:          OJH
+;Instruments:   Tim Guilford
+;
+;Date: 25/07/95
+
+*calibrate compass -2.00
+*calibrate clino    0.00
+
+4a      3a      4.11    121     +37     ;4a is PSS
+3a      2a      12.1    056     +26     ;3a is PSS
+2a      1a      3.79    020     +12
+1a      a       44.8    -       down
+1       a       3.69    232     -14     ;1 is PSS at the  botom of "Walter..."
+2       1       11.89   159     +02.5
+3       2       3.71    187.5   +05
+4       3       3.32    207.5   -17.5
+5       4       6.35    165.5   0
+6       5       3.65    207     -03.5
+7       6       5.79    248     +00.5       
+8       7       3.96    266     +09.5
+9       8       2.29    319     +10.5
+10      9       2.72    327.5   +09
+11      10      1.40    314     +00.5
+12      11      4.72    352     -12.5
+13      12      2.35    280     -01
+14      13      6.89    265.5   +55.5   ;14 is PSS on roof of Human Time Bomb
+*end Walter
+
+;-----------------------------------------------------
+
+*equate Walter.14 Burger.1
+
+*begin Burger
+
+;From Timebomb to K.Burger
+;Book:          Paul Mann
+;Tape:          James Hooper
+;Instruments:   Will
+;
+;Date: 26/07/95
+
+*calibrate compass -2.00
+*calibrate clino    0.00
+
+1       2       2.48    068     -42     ;1 is PSS at the top of Human Time Bomb
+2       3       11.03   097     -63
+3       4       11.71   172     +33
+5       4       4.61    312     -03
+6       5       2.18    318     +08
+7       6       5.70    298     -06
+7       8       4.74    -       down
+9       8       5.12    353     -01
+9       10      13.43   154     +14     ;9 is PSS at bottom B.K.Burger
+11      10      18.29   332     +66
+11      12      6.85    072     -57
+12      13      7.59    156     +04     ;13 is PSS in "Thunderbolt & Light..."
+14      13      18.70   -       up
+*end Burger
+
+;-----------------------------------------------------
+
+*equate Burger.13 Thunder.1
+
+*begin Thunder
+
+;Bottom of Thunderbolt & Lighting
+;Book:          Rob Garrett
+;Tape:          Mike Coram
+;Instruments:   Snablet
+;
+;Date: 28/07/95
+
+*calibrate compass  0.50
+*calibrate clino    0.50
+
+1       2       15.75   -       down
+2       3       5.60    165     -37
+3       4       17.00   -       down
+4       5       3.00    315     0       
+4       6       4.00    244     0
+4       7       4.00    080     0
+*end Thunder
+
+;-----------------------------------------------------
+
+*equate Burger.9 3inboat.9
+*begin 3inboat
+
+;From Big K. Burger to 3 in a boat
+;Book:          Chris Densham
+;Tape:          Chris Densham
+;Instruments:   Will
+;
+;Date: 31/07/95
+
+*calibrate compass  0.50
+*calibrate clino    0.50
+
+9       8       20.95   154     +26
+8       7       5.97    225     +38  
+7       6       15.80   218     -76
+6       5       2.82    138     -42
+5       4       19.44   230     -62
+4       3       38.85   -       down
+3       2       5.65    352     +32
+2       1       10.17   333     -44     ;1 is PSS at the bottom of 3 in a boat
+*end 3inboat
+
+;-----------------------------------------------------
+
+*equate 3inboat.1 Boys.14
+
+*begin Boys
+
+;From 3 in a boat to Boys are back
+;Book:          
+;Tape:          
+;Instruments:   
+;
+;Date: 
+
+*calibrate compass  0.50
+*calibrate clino    0.50
+
+14      13      4.86    328     -34
+13      12      31.17   -       down
+11      12      20.90   159     -06
+10      11      6.86    170     +18
+9       10      11.90   180     +06
+8       9       9.87    191     +01
+7       8       8.63    196     -19
+6       7       4.41    218     +20
+5       6       8.68    203     +17
+4       5       15.43   192     +03
+3       4       4.80    250     +02
+2       3       6.24    209     +04
+1       2       6.52    133     -03
+*end Boys
+
+;-----------------------------------------------------
+
+*equate Boys.1 Overdrive.36
+
+*begin Overdrive
+
+;From Boys are back to Underground Overdrive
+;Book:          Wlodek S.          
+;Tape:          James Hooper          
+;Instruments:   Wlodek S.
+;
+;Date: 
+
+*calibrate compass  0.50
+*calibrate clino    0.50
+
+35      36      3.13    164     -03
+34      35      11.42   122     0
+33      34      3.04    138     +07
+32      33      4.31    059     0
+31      32      7.66    093     -08 
+30      31      5.48    158     +10
+29      30      6.04    121     +04
+28      29      3.46    228     -03
+27      28      3.23    174     -35
+26      27      2.57    144     -03
+25      26      3.59    171     +34
+24      25      6.60    100     -21     ;24 is PSS in T-junction
+23      24      8.47    220     +37
+22      23      5.94    222     -05
+21      22      15.04   193     -18
+20      21      9.48    217     +11
+19      20      10.07   222     +13
+18      19      14.58   215     +02
+17      18      14.15   218     -10
+16      17      22.72   212     +08     ;16 is PSS (boulder in the middle of streamway)???
+15      16      6.55    265     -05
+14      15      14.01   286     -09
+13      14      15.48   189     +05
+12      13      8.78    214     +14
+11      12      8.69    155     -04
+10      11      10.93   201     0
+9       10      11.42   235     -05
+8       9       18.71   201     +01
+7       8       8.44    248     +05
+6       7       8.23    165     +05
+5       6       9.24    234     0
+4       5       8.63    194     -11.5
+3       4       9.48    218     +05       
+2       3       7.88    209     +02
+1       2       10.10   236     0
+1a      1       19.35   208     0       ;1a is PSS (bolt) on the lake
+*end Overdrive
+
+;-----------------------------------------------------
+
+*equate Overdrive.24 Upstream.1
+
+*begin Upstream
+
+;Upstream of Underground Overdrive
+;Book:          Chris Densham                    
+;Tape:          Will                 
+;Instruments:   Chris Densham   
+;
+;Date:          5/08/95
+
+*calibrate compass  0.50
+*calibrate clino    0.50
+
+2       1       13.13   038     +16     ;1 is PSS in T-Junction
+3       2       3.04    088     -34
+4       3       2.36    051     +03
+5       4       4.24    321     +44
+6       5       3.07    000     -07
+7       6       6.48    049     +01
+8       7       3.75    054     0
+9       8       3.07    006     +09
+10      9       7.89    085     -44
+11      10      7.71    004     +38
+12      11      5.43    025     -07     ;11 is PSS - inlet
+13      12      13.23   052     -24
+14      13      23.41   035     +10     ;14 is PSS
+*end Upstream
+
+;-----------------------------------------------------
+
+*equate Upstream.14 Upstream2.1
+
+*begin Upstream2
+
+;Upstream of Underground Overdrive - 2nd part
+;Book:          Pivo                    
+;Tape:          Pivo                 
+;Instruments:   Snablet   
+;
+;Date:          5/08/95
+
+*calibrate compass  -2.0
+*calibrate clino     0.0
+
+1       2       6.31    260     +06
+2       3       6.25    285     +11
+1       4       3.30    052     -80      
+4       5       12.53   228     +09
+5       6       6.90    300     -08
+6       7       14.00   254     +16
+7       8       11.30   148     -16
+8       9       6.85    246     -04
+9       10      6.90    196     -06
+10      11      4.50    239     +06
+11      12      2.86    198     -10
+12      13      3.14    225     -32
+13      14      18.62   236     +03
+14      15      3.57    252     +34
+15      16      6.39    236     +21
+16      17      6.99    208     +06     ;17 is PSS
+17      18      3.12    178     -06
+18      19      3.69    225     +14
+17      20      5.44    228     +31
+20      21      8.13    290     -76     ;21 is PSS
+21      22      10.98   212     +01
+21      23      12.00   222     +23
+23      24      5.50    282     +45
+24      25      7.70    206     +03
+25      26      5.72    215     +47
+26      27      10.85   191     0
+27      28      6.60    287     +38
+28      29      8.97    207     +11
+29      30      8.14    211     -16
+*end Upstream2
+
+;-----------------------------------------------------
+
+*equate Upstream.11 InletUp.1a
+*begin InletUp
+
+;Inlet in Upstream of Underground Overdrive
+;Book:          Pivo                    
+;Tape:          Pivo                 
+;Instruments:   Snablet   
+;
+;Date:          6/08/95
+
+*calibrate compass  -2.0
+*calibrate clino    0.0
+
+1a      a       7.50    045     +39       
+a       1       4.70    263     -03
+1       2       3.37    337     -01
+2       3       5.46    258     +11
+3       4       4.25    301     +43
+4       5       5.01    232     +73
+5       6       3.37    341     +20
+6       7       1.85    028     +02
+7       8       2.53    338     +12
+8       9       3.55    281     -42
+9       10      3.92    237     -01
+10      11      3.10    319     +12
+11      12      1.93    273     -12
+12      13      2.45    009     -04
+13      14      3.03    307     +05
+14      15      2.91    297     -03
+15      16      3.40    268     +19
+16      17      4.45    339     -09
+17      18      1.39    341     +15
+*end InletUp
+
+;-----------------------------------------------------
+
+*equate Overdrive.16 Inlet2nd.1a
+*begin Inlet2nd
+
+;2nd Inlet on Right from the Lake
+;Book:          Pivo                
+;Tape:          Pivo                 
+;Instruments:   Snablet   
+;
+;Date:          6/08/95
+
+*calibrate compass  -2.0
+*calibrate clino    0.0
+
+1a      1       5.30    300     +22
+1       2       5.72    017     +03      
+2       3       6.35    358     -02
+3       4       7.76    034     +02
+4       5       6.90    004     +01
+5       6       6.92    044     +13
+6       7       9.17    007     +02
+7       8       10.40   034     -02
+7       9       11.42   214     -09
+9       10      10.30   229     -10
+*end Inlet2nd
+
+;-----------------------------------------------------
+
+*equate Overdrive.8 Inlet1st.1a      ;Probably wrong location of inlet
+
+*begin Inlet1st
+
+;1st Inlet on Right from the Lake
+;Book:          Pivo                
+;Tape:          Pivo                 
+;Instruments:   Snablet   
+;
+;Date:          6/08/95
+
+*calibrate compass  -2.0
+*calibrate clino    0.0
+
+1a      1       8.10    260     +02
+1       2       2.99    245     +02     
+2       3       4.81    317     +04
+3       4       5.18    039     +15
+4       5       4.10    043     -02
+5       6       5.20    318     +06
+6       7       6.00    043     -01
+7       8       2.41    258     -52
+8       9       3.82    057     -07
+9       10      3.53    346     +09
+10      11      4.85    017     +05
+11      12      2.25    019     -56
+12      13      2.97    283     -03
+13      14      2.66    007     +05
+14      15      2.30    076     0
+15      16      4.05    028     +08
+*end Inlet1st
+
+;-----------------------------------------------------
+
+*equate SAS_lake.1 Overdrive.1a
+*begin SAS_lake
+
+; final leg across lake
+; only rough with rope measurement
+; about Grade 3
+
+*calibrate compass 0    ; actually uncalibrated
+*calibrate clino 0      ; actually uncalibrated
+
+; following leg has been shortened to make the surveys fit together better
+;1	2	72	050	0 ; reported, but reportedly over estimated
+; station 1 is bolt at lake
+1	2	62	050	0   ; hacked
+*end SAS_lake

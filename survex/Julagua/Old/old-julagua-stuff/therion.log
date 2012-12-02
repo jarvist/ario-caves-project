@@ -1,0 +1,12 @@
+
+therion [-q] [-L] [-l log-file]
+	[-s source-file] [-p search-path]
+	[-g|-u] [-i] [-d] [-x] [cfg-file]
+
+therion [-h|--help]
+        [-v|--version]
+        [--print-encodings]
+        [--print-init-file]
+        [--print-tex-encodings]
+        [--print-environment]
+

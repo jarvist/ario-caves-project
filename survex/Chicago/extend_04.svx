@@ -1,0 +1,20 @@
+; OUCC - Picos Survey Data
+
+*data normal from to tape compass clino
+1     0     4.79    027    +42.5 ; 0=PSS small eyehole in RH wall at
+                                 ; top of undecended pitch.
+1     2     4.11    177.5  -70
+3     2     6.95    288    +47
+3     4     5.11    187    +48   ; 4= bolt half way up pitch
+4     5     6.61    280    +62.5
+5     6     2.62    246    +48.5
+7     6     1.52    326    +27.5
+8     7     7.45    041    +27.5 ; 8= bolt at top of climb
+8     9     6.55    158.5  -49
+10    9     2.44    171    +74
+10    11    2.10    340    -29.5 ; 11= PSS on rock st 1 from prev
+                                 ; survey (Rosa 22/7/05)
+
+11     r2     3.05  179.5      +9 
+r3     r2     4.60    357   +39.5
+;3     4     4.53    254   -13.5

@@ -1,0 +1,23 @@
+;fitxer boques.svx
+;poligonal exterior boca SIE 86 - Texa - Colgau
+;12/8/97 Maira, Josep
+;cinta: Maira
+;Llibreta i instruments: Josep
+;punt 0 es la boca pintada SIE 86
+
+*calibrate declination 2.874
+;*equate muxatexa.75 boques.4
+
+*begin boques
+
+0       1       7.5     65      -24     ;boca petita desobstruir?
+1       2       29.6    106     -37
+2       3       21.8    118     -25
+3       4       18.35   25      -26     ;Texa
+3       5       29.5    242     30
+5       6       16.25   260     53
+6       7       15.15   232     42
+7       8       9.85    237     39      ;cercle pintada SIE 97 Colgau
+
+*end boques
+

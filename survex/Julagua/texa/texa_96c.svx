@@ -1,0 +1,18 @@
+;fitxer texa_96c.svx
+;poligonal dia 8/8/96 Miguel Bueno Santos 50.952.385, Tomas Marin Arevalo 4.585.010
+*equate texa_95.61 texa_96c.0
+*begin texa_96c
+
+0       1       2.8     110     -45   ; inici topo 1996
+1       2       1.3     30      0
+2       3       3.2     80      40    ; primera sala
+3       4       3.4     0       90
+4       5       13.5    91      0     ; en mig d'aquesta tirada hi ha la segona sala
+5       6       3.8     90      0
+6       7       3.2     143     -40   ; 1 spit inici rampa
+7       8       3.6     80      -40   ; 1 spit
+8       9       5.5     65      -70   ; 1 spit
+9       10      7.5     0       -90   ; 1 spit
+10      11      6.7     140     20    ; pasama 3 spits
+11      12      15      0       -90   ; 1 spit
+*end texa_96c

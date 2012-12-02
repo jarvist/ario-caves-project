@@ -1,0 +1,17 @@
+; Sistema Jorcada Blanca (F2/F7)
+
+*include ../../Calib/1984.svx ; throughout the system
+
+*include perdices
+; *fix perdices.entrance 	-775.1	116.2	1893.7 [Old]
+;E 41 558.5, N 87 931.5, A 1893.7
+; *fix perdices.entrance 1558.5  7931.5  1893.7 ; [GN]
+*fix perdices.entrance 1449.01 7720.01  1893.7 ; Translation to [WGS94]
+
+*include jorblanc
+; *fix jb.entrance 	-662.1 	-65.7	1967.0 ; [Old]
+;E 41 671.5, N 87 749.6, A 1967.0
+; *fix jb.entrance 1671.5  7749.6  1967.0 ; [GN]
+*fix jb.entrance 1562.01 7538.11  1967.0 ; Translation to [WGS94]
+
+*equate jb.perdices121 perdices.121

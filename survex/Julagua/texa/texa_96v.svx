@@ -1,0 +1,30 @@
+;fitxer texa_96v.svx
+;poligonal 11/8/96 Ventura Munne, Joan C. Juderias
+
+*equate texa_96c.12 texa_96v.0
+*begin texa_96v
+*data normal from to bearing gradient length
+
+0       1       0       -90     5.6    ; 1 spit
+1       2       0       -90     11     ; 1 spit
+2       3       0       -90     2      ; 1 spit
+3       4       0       -90     8.6    ; 1 spit
+4       5       0       -90     5.4    ; 1 spit
+5       6       0       -90     8.6    ; 1 spit
+6       7       0       -90     10.6   ; 1 spit
+6       8       2       -2      1.5    ; finestra  
+8       9       68      -8      2.1
+9       10      287     -2      2.3    ; antotacio original era bruixola 257
+10      11      0       -90     14.5   ; 2 spits
+11      12      72      -12     4.5    
+12      13      0       -90     11.5   ; 2 spits
+13      14      0       -90     10     ; 1 spit (mateixa corda)
+14      15      18      -5      6.7    ; aport lateral
+15      16      313     -3      1.7
+16      17      270     -2      1.5
+17      18      338     5       3.8
+18      19      0       -90     13.7   ; 2 spits (balconet)
+
+*data normal from to length bearing gradient
+
+*end texa_96v

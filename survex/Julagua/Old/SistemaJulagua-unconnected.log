@@ -1,0 +1,17 @@
+Survex 1.0.35
+Copyright ¸ 1990-2005 Olly Betts
+Survey has no fixed points. Therefore I've fixed julagua.texa.texa_95.0 at (0,0,0)
+
+Survey contains 1075 survey stations, joined by 1077 legs.
+There are 3 loops.
+Total length of survey legs = 6986.51m (6986.55m adjusted)
+Total plan length of survey legs = 4926.95m
+Total vertical length of survey legs = 3188.01m
+Vertical range = 1103.59m (from julagua.tormenta.2002.ent.0 at 180.05m to julagua.texa.texa_05_05.0 at -923.54m)
+North-South range = 587.76m (from julagua.texa.texa_05_05.0 at 282.31m to julagua.tormenta.2002.s.2 at -305.46m)
+East-West range = 893.77m (from julagua.texa.texa_05_05.19 at 272.14m to julagua.tormenta.2002.g.14 at -621.63m)
+  38 1-nodes.
+ 998 2-nodes.
+  37 3-nodes.
+   1 4-node.
+   1 5-node.

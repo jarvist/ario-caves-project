@@ -1,0 +1,16 @@
+
+; Survey of C9 including 94 and 95 data,
+;  given in c9_94exp and c9_95exp
+;
+
+;*calibrate magdev 4.00
+;*data normal bcra_5 from to length bearing gradient
+
+*prefix \94
+*include c9_94exp
+
+*prefix \95
+*include c9_95exp
+
+
+;*equate \94.kling.8 \95.klingon.1

@@ -1,0 +1,330 @@
+survex 0.95
+Copyright (C) 1990-2000 Olly Betts
+
+In file included from systc4c9.svx:24,
+                      __svxtmp.svx:5:
+c9_94exp.svx:5: warning: *prefix is deprecated - use *begin and *end instead
+In file included from systc4c9.svx:24,
+                      __svxtmp.svx:5:
+c9_94exp.svx:41: warning: *prefix is deprecated - use *begin and *end instead
+In file included from systc4c9.svx:24,
+                      __svxtmp.svx:5:
+c9_94exp.svx:73: warning: *prefix is deprecated - use *begin and *end instead
+In file included from systc4c9.svx:24,
+                      __svxtmp.svx:5:
+c9_94exp.svx:98: warning: *prefix is deprecated - use *begin and *end instead
+In file included from systc4c9.svx:24,
+                      __svxtmp.svx:5:
+c9_94exp.svx:127: warning: *prefix is deprecated - use *begin and *end instead
+In file included from systc4c9.svx:24,
+                      __svxtmp.svx:5:
+c9_94exp.svx:159: warning: *prefix is deprecated - use *begin and *end instead
+In file included from systc4c9.svx:24,
+                      __svxtmp.svx:5:
+c9_94exp.svx:209: warning: *prefix is deprecated - use *begin and *end instead
+In file included from systc4c9.svx:24,
+                      __svxtmp.svx:5:
+c9_94exp.svx:246: warning: *prefix is deprecated - use *begin and *end instead
+In file included from systc4c9.svx:24,
+                      __svxtmp.svx:5:
+c9_94exp.svx:282: warning: *prefix is deprecated - use *begin and *end instead
+In file included from systc4c9.svx:24,
+                      __svxtmp.svx:5:
+c9_94exp.svx:306: warning: *prefix is deprecated - use *begin and *end instead
+In file included from systc4c9.svx:24,
+                      __svxtmp.svx:5:
+c9_94exp.svx:341: warning: *prefix is deprecated - use *begin and *end instead
+In file included from systc4c9.svx:24,
+                      __svxtmp.svx:5:
+c9_94exp.svx:384: warning: *prefix is deprecated - use *begin and *end instead
+In file included from c9_95exp.svx:3,
+                      systc4c9.svx:29,
+                      __svxtmp.svx:5:
+../../calib:3: Expecting numeric field
+in this line:
+1979 6.564
+Ignoring entire line
+In file included from c9_95exp.svx:3,
+                      systc4c9.svx:29,
+                      __svxtmp.svx:5:
+../../calib:3: Expecting numeric field
+in this line:
+1980 6.426
+Ignoring entire line
+In file included from c9_95exp.svx:3,
+                      systc4c9.svx:29,
+                      __svxtmp.svx:5:
+../../calib:3: Expecting numeric field
+in this line:
+1981 6.288
+Ignoring entire line
+In file included from c9_95exp.svx:3,
+                      systc4c9.svx:29,
+                      __svxtmp.svx:5:
+../../calib:3: Expecting numeric field
+in this line:
+1982 6.150
+Ignoring entire line
+In file included from c9_95exp.svx:3,
+                      systc4c9.svx:29,
+                      __svxtmp.svx:5:
+../../calib:3: Expecting numeric field
+in this line:
+1983 6.012
+Ignoring entire line
+In file included from c9_95exp.svx:3,
+                      systc4c9.svx:29,
+                      __svxtmp.svx:5:
+../../calib:3: Expecting numeric field
+in this line:
+1984 5.874
+Ignoring entire line
+In file included from c9_95exp.svx:3,
+                      systc4c9.svx:29,
+                      __svxtmp.svx:5:
+../../calib:3: Expecting numeric field
+in this line:
+1985 5.736
+Ignoring entire line
+In file included from c9_95exp.svx:3,
+                      systc4c9.svx:29,
+                      __svxtmp.svx:5:
+../../calib:3: Expecting numeric field
+in this line:
+1986 5.598
+Ignoring entire line
+In file included from c9_95exp.svx:3,
+                      systc4c9.svx:29,
+                      __svxtmp.svx:5:
+../../calib:3: Expecting numeric field
+in this line:
+1987 5.460
+Ignoring entire line
+In file included from c9_95exp.svx:3,
+                      systc4c9.svx:29,
+                      __svxtmp.svx:5:
+../../calib:3: Expecting numeric field
+in this line:
+1988 5.322
+Ignoring entire line
+In file included from c9_95exp.svx:3,
+                      systc4c9.svx:29,
+                      __svxtmp.svx:5:
+../../calib:3: Expecting numeric field
+in this line:
+1989 5.184
+Ignoring entire line
+In file included from c9_95exp.svx:3,
+                      systc4c9.svx:29,
+                      __svxtmp.svx:5:
+../../calib:3: Expecting numeric field
+in this line:
+1990 5.046
+Ignoring entire line
+In file included from c9_95exp.svx:3,
+                      systc4c9.svx:29,
+                      __svxtmp.svx:5:
+../../calib:3: Expecting numeric field
+in this line:
+1991 4.908
+Ignoring entire line
+In file included from c9_95exp.svx:3,
+                      systc4c9.svx:29,
+                      __svxtmp.svx:5:
+../../calib:3: Expecting numeric field
+in this line:
+1992 4.770
+Ignoring entire line
+In file included from c9_95exp.svx:3,
+                      systc4c9.svx:29,
+                      __svxtmp.svx:5:
+../../calib:3: Expecting numeric field
+in this line:
+1993 4.632
+Ignoring entire line
+In file included from c9_95exp.svx:3,
+                      systc4c9.svx:29,
+                      __svxtmp.svx:5:
+../../calib:3: Expecting numeric field
+in this line:
+1994 4.494
+Ignoring entire line
+In file included from c9_95exp.svx:3,
+                      systc4c9.svx:29,
+                      __svxtmp.svx:5:
+../../calib:3: Expecting numeric field
+in this line:
+1995 4.356
+Ignoring entire line
+In file included from c9_95exp.svx:3,
+                      systc4c9.svx:29,
+                      __svxtmp.svx:5:
+../../calib:3: Expecting numeric field
+in this line:
+1996 4.218
+Ignoring entire line
+In file included from c9_95exp.svx:3,
+                      systc4c9.svx:29,
+                      __svxtmp.svx:5:
+../../calib:3: Expecting numeric field
+in this line:
+1997 4.080
+Ignoring entire line
+In file included from c9_95exp.svx:3,
+                      systc4c9.svx:29,
+                      __svxtmp.svx:5:
+../../calib:3: Expecting numeric field
+in this line:
+1998 3.942
+Ignoring entire line
+In file included from c9_95exp.svx:3,
+                      systc4c9.svx:29,
+                      __svxtmp.svx:5:
+../../calib:3: Expecting numeric field
+in this line:
+1999 3.804
+Ignoring entire line
+In file included from c9_95exp.svx:3,
+                      systc4c9.svx:29,
+                      __svxtmp.svx:5:
+../../calib:3: Expecting numeric field
+in this line:
+2000 3.666
+Ignoring entire line
+In file included from c9_95exp.svx:3,
+                      systc4c9.svx:29,
+                      __svxtmp.svx:5:
+../../calib:4: Character `:' not allowed in station name (use *SET NAMES to set allowed characters)
+In file included from c9_95exp.svx:3,
+                      systc4c9.svx:29,
+                      __svxtmp.svx:5:
+../../calib:4: Character `:' not allowed in station name (use *SET NAMES to set allowed characters)
+In file included from systc4c9.svx:29,
+                      __svxtmp.svx:5:
+c9_95exp.svx:5: warning: *prefix is deprecated - use *begin and *end instead
+In file included from systc4c9.svx:29,
+                      __svxtmp.svx:5:
+c9_95exp.svx:28: warning: *prefix is deprecated - use *begin and *end instead
+In file included from systc4c9.svx:29,
+                      __svxtmp.svx:5:
+c9_95exp.svx:45: warning: *prefix is deprecated - use *begin and *end instead
+In file included from systc4c9.svx:29,
+                      __svxtmp.svx:5:
+c9_95exp.svx:78: warning: *prefix is deprecated - use *begin and *end instead
+In file included from systc4c9.svx:29,
+                      __svxtmp.svx:5:
+c9_95exp.svx:122: warning: *prefix is deprecated - use *begin and *end instead
+In file included from systc4c9.svx:29,
+                      __svxtmp.svx:5:
+c9_95exp.svx:156: warning: *prefix is deprecated - use *begin and *end instead
+In file included from systc4c9.svx:29,
+                      __svxtmp.svx:5:
+c9_95exp.svx:184: warning: *prefix is deprecated - use *begin and *end instead
+In file included from systc4c9.svx:29,
+                      __svxtmp.svx:5:
+c9_95exp.svx:205: warning: *prefix is deprecated - use *begin and *end instead
+In file included from systc4c9.svx:29,
+                      __svxtmp.svx:5:
+c9_95exp.svx:229: warning: *prefix is deprecated - use *begin and *end instead
+In file included from systc4c9.svx:29,
+                      __svxtmp.svx:5:
+c9_95exp.svx:258: warning: *prefix is deprecated - use *begin and *end instead
+In file included from systc4c9.svx:29,
+                      __svxtmp.svx:5:
+c9_95exp.svx:310: warning: *prefix is deprecated - use *begin and *end instead
+In file included from systc4c9.svx:29,
+                      __svxtmp.svx:5:
+c9_95exp.svx:339: warning: *prefix is deprecated - use *begin and *end instead
+In file included from systc4c9.svx:29,
+                      __svxtmp.svx:5:
+c9_95exp.svx:384: warning: *prefix is deprecated - use *begin and *end instead
+In file included from systc4c9.svx:29,
+                      __svxtmp.svx:5:
+c9_95exp.svx:419: warning: *prefix is deprecated - use *begin and *end instead
+In file included from systc4c9.svx:29,
+                      __svxtmp.svx:5:
+c9_95exp.svx:444: warning: *prefix is deprecated - use *begin and *end instead
+In file included from systc4c9.svx:29,
+                      __svxtmp.svx:5:
+c9_95exp.svx:476: warning: *prefix is deprecated - use *begin and *end instead
+Survey has no fixed points. Therefore I've fixed \c3.entrance at (0,0,0)
+
+Removing trailing traverses...
+
+Concatenating traverses between nodes...
+
+Simplifying network...
+
+Solving one equation
+
+Solving to find x coordinates...
+
+Calculating network...
+
+Calculating traverses between nodes...
+
+Writing out 3d image file 'systc4c9.3d'...
+
+Calculating trailing traverses...
+
+Calculating statistics...
+
+Survey contains 663 survey stations, joined by 663 legs.
+There is 1 loop.
+Total length of survey legs = 4566.26m (4566.35m adjusted)
+Total plan length of survey legs = 3006.54m
+Total vertical length of survey legs = 2271.50m
+Vertical range = 644.41m (from \c3.94.entrance.1 at 0.00m to \c3.95.upstream2.13 at -644.41m)
+North-South range = 957.66m (from \c3.95.sas_lake.2 at 956.59m to \c3.94.entrance.15 at -1.07m)
+East-West range = 387.10m (from \c3.95.sas_lake.2 at 263.65m to \c4.h.16f at -123.45m)
+cavern: warning: Station `\c3.94.4d.5b' referred to just once, with an explicit prefix - typo?
+cavern: warning: Station `\c3.94.65p.34' referred to just once, with an explicit prefix - typo?
+cavern: warning: Station `\c3.94.65p.35' referred to just once, with an explicit prefix - typo?
+cavern: warning: Station `\c3.94.65p.36' referred to just once, with an explicit prefix - typo?
+cavern: warning: Station `\c3.94.kling.11' referred to just once, with an explicit prefix - typo?
+cavern: warning: Station `\c3.94.meat.25' referred to just once, with an explicit prefix - typo?
+cavern: warning: Station `\c3.94.meat.27' referred to just once, with an explicit prefix - typo?
+cavern: warning: Station `\c3.94.vamos.1a' referred to just once, with an explicit prefix - typo?
+cavern: warning: Station `\c3.95.burger.14' referred to just once, with an explicit prefix - typo?
+cavern: warning: Station `\c3.95.dgener2.1' referred to just once, with an explicit prefix - typo?
+cavern: warning: Station `\c3.95.inlet1st.16' referred to just once, with an explicit prefix - typo?
+cavern: warning: Station `\c3.95.inlet2nd.10' referred to just once, with an explicit prefix - typo?
+cavern: warning: Station `\c3.95.inlet2nd.8' referred to just once, with an explicit prefix - typo?
+cavern: warning: Station `\c3.95.inletup.18' referred to just once, with an explicit prefix - typo?
+cavern: warning: Station `\c3.95.klingon.3' referred to just once, with an explicit prefix - typo?
+cavern: warning: Station `\c3.95.klingon2.3' referred to just once, with an explicit prefix - typo?
+cavern: warning: Station `\c3.95.sas_lake.2' referred to just once, with an explicit prefix - typo?
+cavern: warning: Station `\c3.95.thunder.5' referred to just once, with an explicit prefix - typo?
+cavern: warning: Station `\c3.95.thunder.6' referred to just once, with an explicit prefix - typo?
+cavern: warning: Station `\c3.95.thunder.7' referred to just once, with an explicit prefix - typo?
+cavern: warning: Station `\c3.95.upstream2.19' referred to just once, with an explicit prefix - typo?
+cavern: warning: Station `\c3.95.upstream2.22' referred to just once, with an explicit prefix - typo?
+cavern: warning: Station `\c3.95.upstream2.3' referred to just once, with an explicit prefix - typo?
+cavern: warning: Station `\c4.a.14' referred to just once, with an explicit prefix - typo?
+cavern: warning: Station `\c4.a.16' referred to just once, with an explicit prefix - typo?
+cavern: warning: Station `\c4.a.21' referred to just once, with an explicit prefix - typo?
+cavern: warning: Station `\c4.b.5a' referred to just once, with an explicit prefix - typo?
+cavern: warning: Station `\c4.b.8' referred to just once, with an explicit prefix - typo?
+cavern: warning: Station `\c4.c.12' referred to just once, with an explicit prefix - typo?
+cavern: warning: Station `\c4.e.20' referred to just once, with an explicit prefix - typo?
+cavern: warning: Station `\c4.entrance' referred to just once, with an explicit prefix - typo?
+cavern: warning: Station `\c4.g.13a' referred to just once, with an explicit prefix - typo?
+cavern: warning: Station `\c4.g.22' referred to just once, with an explicit prefix - typo?
+cavern: warning: Station `\c4.h.16g' referred to just once, with an explicit prefix - typo?
+cavern: warning: Station `\c4.r.1' referred to just once, with an explicit prefix - typo?
+cavern: warning: Station `\c4.r.13' referred to just once, with an explicit prefix - typo?
+cavern: warning: Station `\c4.r.20' referred to just once, with an explicit prefix - typo?
+cavern: warning: Station `\c4.r.21' referred to just once, with an explicit prefix - typo?
+cavern: warning: Station `\c4.r.22' referred to just once, with an explicit prefix - typo?
+cavern: warning: Station `\c4.r.23' referred to just once, with an explicit prefix - typo?
+cavern: warning: Station `\c4.r.8' referred to just once, with an explicit prefix - typo?
+  40 1-nodes.
+ 530 2-nodes.
+  27 3-nodes.
+  40 4-nodes.
+  22 5-nodes.
+   1 6-node.
+   3 7-nodes.
+CPU time used  0.39s
+Done.
+There were 69 warning(s) and 24 non-fatal error(s).

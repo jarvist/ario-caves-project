@@ -1,0 +1,11 @@
+; F64   also Torca del Feugo - Abyss of Fire
+; Explored 1994/95
+; 1994 data from Gavin Lowe
+; 1995 data entered by Alex Harding
+
+; *fix entrance   -210 180  1990      ;rough position and altitude
+*fix entrance   2042	7746	2010  ; [GPS-WGS94] 2000 (inc altitude)
+; *fix entrance 2151.49 7957.49 2010          ; translation of above
+*include f64_94
+
+*include f64_95

@@ -1,0 +1,13 @@
+Survey contains 163 survey stations, joined by 162 legs.
+There are 0 loops.
+Total length of survey legs = 1721.93m (1721.93m adjusted)
+Total plan length of survey legs = 1620.56m
+Total vertical length of survey legs =  315.65m
+Vertical range = 73.70m (from \2000d.1 at 72.05m to \2000a.4 at -1.65m)
+North-South range = 882.08m (from \2000d.16 at 499.56m to \2000f.99 at -382.53m)
+East-West range = 241.44m (from \2000f.24 at 99.81m to \2000c.10 at -141.63m)
+  10 1-nodes.
+ 140 2-nodes.
+   5 3-nodes.
+   6 4-nodes.
+   2 5-nodes.

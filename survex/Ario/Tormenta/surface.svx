@@ -1,0 +1,29 @@
+
+;JPNP 2003-09-21
+
+*begin
+*flags surface
+
+*include Surface/Boques
+*equate muxatexa.75 boques.4
+*include Surface/Muxatexa
+*equate muxatexa.50 50refugi.0
+*include Surface/50refugi
+
+*begin tormenta-surf
+*include Calib/2002
+*include Surface/tormenta-surface
+*end tormenta-surf
+
+*equate texa_ent muxatexa.75
+*equate tormenta_ent tormenta-surf.20
+*equate refugio_door 50refugi.29
+*equate joulagua tormenta-surf.1
+
+; Refugio Door:     343981.7  4789798.8  1630.5  ;OUCC proc.13 pag.103 [GN co-ords]
+; Cabeza Joulagua:  344275.58 4789970.96 1721.75 ;coordenades de Cabeza Joulagua OUCC proc.13
+
+*fix refugio_door  3981.7   9798.8   1630.5
+*fix joulagua      4275.58  9970.96  1721.75
+
+*end

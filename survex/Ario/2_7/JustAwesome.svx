@@ -1,0 +1,62 @@
+; Gusamo Grovel and Just Awesome
+
+*include ../../Calib/1988.svx
+
+; 1988 Data
+; Cemetry Gates to 4 Second drop
+; Notes William, C&C Paul ?
+; ie Through Gasumo's Grovel
+; 26.7.88
+
+H1	F16	3.8	163.0	-42.0
+H1	H2	8.6	327.0	13.0
+H3	H2	7.8	170.0	-6.0
+H3	H4	3.4	351.0	-9.0
+H5	H4	8.8	159.0	32.0
+H5	H6	4.0	337.0	-10.0
+H7	H6	3.1	132.0	26.0
+H7	H8	3.4	220.0	-42.0
+H9	H8	5.4	118.0	35.0
+H9	H10	8.5	203.0	1.0
+H11	H10	6.0	46.0	0.0
+H11	H12	8.9	277.0	-44.0
+H13	H12	4.2	39.0	25.0
+H13	H14	11.4	279.0	-36.0
+H14	H14A	13.1	323.0	-34.0; A side passage
+H14B	H14A	4.3	144.0	43.0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+; 4 second drop to bottom of Just Awesome
+; Notes Kate Lonsdale, C&C Sherry Mayo, Tape Gavin Lowe
+; 26.7.88
+
+H14	I2	2.7	106.0	-40.0
+I3	I2	4.8	36.0	54.0
+I3	I4	1.9	232.0	-69.0; JA1
+I4	I5	9.9	250.0	-85.0
+I5	I6	11.7	134.0	-36.0
+I7	I6	11.4	333.0	5.0
+I7	I8	3.7	220.0	-13.0
+I8	I9	9.5	268.0	-77.0
+I9	I10	33.0	-	down; JA2
+
+; Next three legs are part of a different survey trip, I think -- Gavin
+I10	I11	7.2	220.0	-35.0
+I11	I12	3.2	90.0	-30.0; Grade 1
+I12	I13	48.7	-	down; bottom of JA; Grade 1
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Survey around the Big Ledge
+I12a	I10	17.9	314.0	-23.0; 112a= near Monday Morning inlet 
+I10	I13a	15.5	10.0	12.0  
+I14	I13a	20.7	123.0	12    
+i14	i15	28.9	229.0	2.0; i14 Near Big Ledge camp Pool   
+i16	i15	19.1	348.0	-13.0
+i16	i17	13.9	131.0	-19.0
+i18	i17	12.7	177.0	-21.0
+i18	i19	25.8	46.0	-7.0
+i10	i19	11.5	336.0	-7.0; Bad loop closure
+i14	i20	11.3	273.0	0.0
+i21	i20	8.3	142.0	11.0; Upstream Pool
+

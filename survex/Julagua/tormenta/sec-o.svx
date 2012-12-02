@@ -1,0 +1,27 @@
+
+*begin O
+*title "Pearl Pitch Survey"
+*date 2003.08.06
+*team "JC" book, instruments
+*team "Gareth" tape
+
+; Entered from logbook 2003.09.09 by David Legg
+
+; data order
+; from to tape compass clino
+1 2 5.20 266 -12
+2 3 2.54 131 -10
+3 4 3.20 150 +10
+4 5 1.97 198 0
+5 6 4.92 265 +40
+6 7 6.46 238 +01
+7 8 4.50 322 +05
+8 9 6.40 266 +14
+9 10 4.12 300 +07
+10 11 16.00 168 +52
+11 12 6.75 160 +50
+12 13 23.67 - up
+13 14 11.05 - up
+14 15 1.25 120 -15 ; PSS 15 = PSS PG + CR 03/08/03
+
+*end O

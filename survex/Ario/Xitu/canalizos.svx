@@ -1,0 +1,356 @@
+#units meters order=dav
+; Canalizos I and III
+; Explored SIE 1978-1983
+; Extended OUCC 1997
+
+;*equate \entrance	\main.s
+;;*equate \surf.a	\main.s
+;*equate \rift.14	\Phreas.1
+;*equate \rift.14	\gerbil2.1
+;*equate \rift.9		\gerbil2.18
+;*equate \rift.1 	\choke.9
+;*equate \choke.2 	\gerbil1.1
+;*equate \main.9		\rift.21
+;*equate \main.0 	\pshaft.1
+;*equate \pshaft.16a 	\lead.18
+;*equate \lead.1		\link.1
+;*equate \link.3		\cluster.14
+;*equate \upstream.14	\cluster.14
+;*equate \-90 ; downstream.7	\upstream.8
+;*equate \surface.0	\main.s
+;*equate \surface.5	\can3a.1
+;*equate \can3a.6 	\can3b.0
+;;*equate \cluster.18	\can3b.4
+
+;Surface survey to Xitu
+; Gavin Lowe and Alison Waterfall
+;;*begin surf
+;#prefix surf
+;a	0	5.0	90	0; 0 = Green circle 5m west of can 1 shaft
+;0	1	50.0	105	1
+;2	1	50.1	258	-1
+;2	3	46.3	28	-18
+;4	3	40.2	174	7
+;4	5	50.0	82	-16; St.5 is South of 20x30m shakehole
+;6	5	50.2	258	4  ; within 150m dia depression
+;6	7	50.2	76	8
+;8	7	49.8	273	-10
+;8	9	26.7	77	25
+;10	9	50.1	265	-18
+;10	11	47.8	42	4
+;12	11	33.8	250	1
+;12	13	20.0	119	-17; 13 = Xitu???
+;;*end surf
+
+;Spanish Main Shaft to Inpenetrable rift
+;Based on Spanish survey
+;*begin \main
+#prefix main
+surf:a	0	49	0	-90; Entrance pitch
+0	1	120	0	-90
+1	2	14.3	338	0
+2	3	10	52	0
+3	4	7	0	-90; First Spanish Rift Pitch
+4	5	23.6	26	0
+5	6	10	0	-90; Second rift pitch
+6	7	27.1	359	0
+7	8	10	68	0
+8	9	8	0	-90 ;Third Rift Pitch
+;*end Main
+
+
+
+;Impenetrable Spanish Rift to "Sump"
+; Explored Gavin Lowe and Huw Jones 24/7/97
+;
+;*begin Rift
+#prefix Rift
+main:9	20	3.1	259	13; 21=Spanish limit
+20	19	5.58	41	12
+19	18	2.69	136	-42
+18	17	5.7	66	-2
+17	16	5.87	51	4
+16	15	9.56	54	-16
+15	14	5.1	54	-26
+14	13	2.72	37	-58; c2
+13	12	4.51	60	19
+12	11	5	359	9
+11	10	5.69	298	3
+10	9	6.48	8	-25
+9	8	4.34	17	-30
+8	7	10.85	12	-51; p8
+7	6	9.76	288	20
+6	5	13.92	316	-50; p10
+5	4	3.24	7	-2; Junction at 4 to rising sumps
+4	3	7.85	74	-3
+3	2	10.66	34	-3
+2	1	9.2	55	3
+;*end rift
+
+;High level phreas before "sump"
+;Andy King and Olly Hinton 25/7/97
+;*begin phreas
+#prefix phreas
+Rift:14	2	4.73	209	13; 1=rift.14
+2	3	4.76	35.5	36
+3	4	5.82	88	2
+4	5	3.7	124	1.5
+5	6	4.6	91.5	0.25
+6	7	3.13	66	-4.5
+7	8	5.56	33.5	-0.5
+8	9	1.8	83	9.5
+9	10	2.74	19.5	-6
+10	11	5.55	93.5	-6
+11	12	8.89	131.5	-0.5
+12	13	0.91	120	12
+13	14	2.89	211.5	-3
+14	15	6.18	229	-2
+15	16	5.72	206.5	-3
+16	17	1.38	135.5	-0.5
+17	18	4.78	133	-12
+18	19	5.1	78	-7
+19	20	4.26	37	-14
+20	21	3.47	98.5	18
+21	22	2.45	63	-24
+22	23	3.68	99	-38
+23	24	3.8	120	-41
+24	25	3.57	108	-41
+25	26	2.91	169	-22
+;*end phreas
+
+; Missing sump to start of choke
+; Gavin Lowe and Andy King 27/7/97
+
+;*begin choke
+#prefix choke
+Rift:1	8	10.4	48	-32; 9=rift.1
+8	7	4.67	32	6; 8=sink
+7	6	4.9	335	28
+6	5	5.77	12	34
+5	4	7.33	87	5
+4	3	8.62	358.5	2
+3	2	16.01	341	0;
+2	1	10.9	28	1;
+1	0	7.33	54	-4
+0	a	8	10	0; a=choke
+0	b	6	90	0
+;*end choke
+
+;Gerbilism 1
+;Night of the flaming gerbils
+;Fossil High leval before end choke
+;Chamber followed by unsurveyed popcorny rift
+;Explored and surveyed 30.7.1997 TG, RG, LM
+;*begin gerbil1
+#prefix gerbil1
+;0	1		338	0
+choke:2	2	3.52	198	40; St.1=choke.2??
+2	3	3.9	282	44
+3	4	4.05	222	0
+4	5	1.44	169	3
+5	a	4.5	155	41
+a	b	3.0	126	43
+b	c	2.9	235	0; Window to Gerbil Chamber
+b	d	3.8	317	47
+d	e	7.25	301	17
+e	f	15.0	30	-35; Choked Chamber
+5	6	2.02	202	24
+6	7	5.52	234	30
+7	8	7.87	194	35; start of Gerbil chamber
+8	9	9.39	204	25
+9	10	11.96	267	19
+10	11	50	228	40
+
+;*end gerbil1
+
+;Gerbilism 2
+;Fossil Phreas from breakthrough chamber
+;Pushed and surveyed 30.7.1997 AG, BL, AK
+;*begin gerbil2
+#prefix gerbil2
+Rift:14	2	6.1	298	39; 1=rift.14 Carbide mark in breakthrough chamber
+2	3	4.25	352	4
+3	4	1.2	0	-90
+4	5	5.72	292	-1
+5	6	4.0	322	16
+6	7	3.44	251	2
+7	8	4.54	236	2
+8	9	6.18	319	4
+9	10	3.76	237	0; 10 bottom of aven
+10	11	7.26	346	-1
+11	12	6.22	119	-3
+5	13	3.74	023	-38
+13	14	5.5	74	9
+14	15	4.3	90	23
+15	16	4.3	4	-6
+16	17	5.46	0	-90
+17	rift:9	0.94	229	-1; 18 = PSS in main rift
+;*end gerbil2
+
+; Parrellel shaft
+;* begin pshaft
+#prefix pshaft
+main:0	2	5.7	242	0; Ledge to parrallel shaft
+2	3	37	0	-90
+3	4	11.4	266	0
+4	5	81.4	0	-90
+5	6	7.1	334	0
+6	7	18.6	0	-90
+7	8	11.4	222	0
+8	9	74.3	218	-3; Ends in Inpenetrable rift
+5	10	4.3	0	90
+10	11	14.2	238	0
+11	12	51.4	216	0
+12	13	6.4	144	20
+12	14	4.3	290	-40; Stream in inpenetrable rift. ? Pushed by Nobby
+11	15	10	316	0
+15	16	32.1	230	-5; 16 = New route
+16	16a	5.1	290	-25
+16a	17	24	0	-90
+17	18	25.7	38	22; Clinmb back in rift with short pitch -90 ; down
+17	19	18.6	206	-5
+19	20	12.8	148	0
+20	21	38.6	192	0; Sump
+;*end pshaft
+
+;Ben's Lead
+;Explored to first pitch Kev and Ben
+;Surveyed 11.8.97 Ben Lovett and Rhys Williams
+;Set4
+;*begin lead
+#prefix lead
+1	2	11	216	7
+2	3	3.5	274	33
+3	4	4.22	225	-40
+4	5	3.14	213	5
+5	6	2.11	197	46
+6	7	6.02	224	10
+7	8	1.55	124	-74
+7	7a	7.35	209	-9
+8	9	18	0	90
+9	10	13.85	222	21
+10	11	3.04	251	-37
+11	12	12.72	168	30
+12	13	8.22	225	11
+13	14	10.27	208	-31
+14	15	10.09	112	-5
+15	16	2.35	0	90
+16	17	2.6	164	-2
+17	pshaft:16a	2.58	199	-40
+pshaft:16a	19	8.4	128	-24
+19	20	8.15	40	4
+20	21	8.88	67	-11
+;*end lead
+
+;Can I window to Can III pitch
+;Rob Garrett and Kev Welsh
+;data still not found
+;*begin link
+#prefix link
+lead:1 	2	27	0	-90
+2	3	4	80	0
+;*end link
+
+;Time's New Pitch (Clusterfuck)
+;Pushed Tim Guilford, Jonathan Cooper, Lou (Mad)
+;Surveyed Jonathan Cooper and Rob Garrett
+;*begin cluster
+#prefix cluster
+link:3	a	6	10	-4
+link:3	15	15.75	331	71; 14=PSS at bottom of pitch=link.3 etc.
+15	16	23.92	345	87
+16	17	4.72	32	63; 17=RH Bolt on Y-hang
+17	18	4.55	52	-38; 18=Top of Spanish pitch into Main Route
+;*end cluster
+
+;New stream at the bottom of clusterfuck
+;Rising sump to -90 ; downstream rift
+;With connection to Pitch bottom
+;*Begin upstream
+#prefix upstream
+0	1	5.79	255	-4.5; 0=PSS above Rsing Sump
+1	2	4.15	327	-14
+2	3	8.78	14	-12; P8
+3	4	3.84	88	-29
+4	5	4.02	105	15
+5	6	2.12	46.5	27.5
+6	7	7.5	351.5	-26
+7	8	2.84	65.5	3; 8=Tortellini Junction
+8	12	6.12	158.5	10
+12	13	5.38	104	3.5
+13	cluster:14	5.87	109.5	-15; 14=PSS at pitch bottom
+7	7a	1.2	168	0
+7a	11	3.9	166	-40
+11	10	6.05	330	-62
+10	9	6.55	0	-90
+9	9a	3	50	0
+;*end upstream
+
+;-90 ; downstream from Tortellini Junction
+;Initial exploration TG,JC,ML
+;Pushed and surveyed JC,RG
+;*begin -90 ; downstream
+#prefix downstream
+upstream:8	6	3.96	26	-10; 7=PSS at Tortellinni Junction
+6	5	4.44	60	-12
+5	4	3.97	107.5	-48
+4	3	3.19	35.5	-24.5
+3	2	6.29	37.5	-4
+2	1	2.53	0	-90
+1	0	2.88	69	-52
+0	a	3.15	0	-90
+a	b	15	230	2
+a	c	3	50	-2
+0	d	4	50	0
+;*end -90 ; downstream
+
+
+;Surface survey
+;JC and KW
+;*begin surface
+;#prefix surface
+;main:s	1	4	30	30; 0=Pitch head
+;1	2	25.3	345	0
+;2	3	25.6	300	-28
+;3	4	6.7	324	-30
+;4	5	1.1	0	-90; 6=Knot
+;*end surface
+
+
+
+
+
+;Canalizos 3 Old bit
+;Main shaft series
+;*begin can3a
+#prefix can3a
+surface:5	2	16	0	-90
+2	3	15	108	-
+3	4	17	0	-90
+4	5	20	106	-
+5	6	47	0	-90
+6	7	8	180	0
+7	8	90	0	-90
+8	9	2	40	0
+9	10	10	0	-90
+10	10a	10	0	-90
+10	11	32	45	0
+11	12	7	0	-90
+12	13	3	130	0
+13	14	6	232	0
+14	15	16	0	-90
+15	16	23	238	2
+15	17	13	68	-2
+17	18	18	332	-2
+18	19	17	88	0
+18	20	23	116	-2
+;*end can3a
+
+;*begin can3b
+#prefix can3b
+can3a:6	1	8	355	0
+1	2	29	0	-90
+2	3	10	316	0
+3	cluster:18	43	0	-90
+cluster:18	5	35	240	0
+;*end can3b

@@ -1,0 +1,14 @@
+Survex 1.0.35
+Copyright ¸ 1990-2005 Olly Betts
+Survey has no fixed points. Therefore I've fixed texa_05_03.0 at (0,0,0)
+
+Survey contains 27 survey stations, joined by 26 legs.
+There are 0 loops.
+Total length of survey legs =  228.27m ( 228.27m adjusted)
+Total plan length of survey legs =  202.75m
+Total vertical length of survey legs =   74.67m
+Vertical range = 31.51m (from texa_05_03.22 at 31.51m to texa_05_03.0 at 0.00m)
+North-South range = 101.94m (from texa_05_03.4 at 0.91m to texa_05_03.20 at -101.03m)
+East-West range = 50.69m (from texa_05_03.0 at 0.00m to texa_05_03.26 at -50.69m)
+   2 1-nodes.
+  25 2-nodes.

@@ -1,0 +1,218 @@
+
+
+;*fix N.1 0 0 0
+
+*begin N
+*title "Los Lagos to Pearl Pitch-Head"
+*date 2003.08.03
+*team "Paul Garver" tape
+*team "Chris Rogers" book, instruments
+
+; Entered from logbook 2003.09.09 by David Legg
+
+; data order
+; from to tape compass clino
+;1 2 7.56 25 -02 ; PSS 1 = U.59
+;2 3 2.32 74 +02
+;3 4 4.15 354 +42
+;4 5 13.15 - up
+;5 6 1.63 275 +13
+;6 7 3.37 18 +40
+;7 8 3.31 300 +11
+;8 9 3.61 296 -23
+;9 10 4.81 34 -35
+;10 11 1.82 339 -37
+;11 12 5.09 34 -24
+;12 13 2.38 357 +08 ; PSS 13 = square of paper
+
+;;2003-09-28 JPNP:Checked, and entered as unadjusted legs
+2  1  7.56  205 +02
+3  2  2.32  254 -02
+4  3  4.15  174 -42
+5  4  13.15 - down
+6  5  1.63 95 -13
+7  6  3.37 198 -40
+8  7  3.31 120 -11
+9  8  3.61 116 +23
+10 9  4.81 214 +35
+11 10 1.82 159 +37
+12 11 5.09 214 +24
+13 12 2.38 177 -08
+
+;;station LRUD
+;1  0.1 0.6 5 2
+;2  0 2 4 1
+;3  1 0 6 2
+;4  0 2.5 - 3
+
+*end N
+
+*equate N.13 O.15
+
+*begin O
+*title "Pearl Pitch Survey"
+*date 2003.08.06
+*team "JC" book, instruments
+*team "Gareth" tape
+
+; Entered from logbook 2003.09.09 by David Legg
+; Checked 2003-09-28 JPNP/JC LRUD added
+
+; data order
+; from to tape compass clino
+1 2 5.20 266 -12 ; PSS scratched on RH wall
+2 3 2.54 131 -10
+3 4 3.20 150 +10
+4 5 1.97 198 0
+5 6 4.92 265 +40
+6 7 6.46 238 +01
+7 8 4.50 322 +05
+8 9 6.40 266 +14
+9 10 4.12 300 +07
+10 11 16.00 168 +52
+11 12 6.73 160 +50 ;corrected from 6.75
+12 13 23.67 - up
+13 14 11.05 - up
+14 15 1.25 120 -15 ; PSS 15 = PSS PG + CR 03/08/03
+
+;; station LRUD
+; In direction of survey
+;1   0   1  10 - ;down ~5m
+;2   0.5 0  ? 1.5
+;3   0   0.5 ? 0.5
+;4   0   0.5 ? 0.5
+;5   0   0.5 ? 0.5
+;6   0.5 1   0 4
+;7   0   1   ?  3
+;8   1   0   ?  2
+;9   0   3   ?  3
+;10  4   0   ?  2
+;11  0   3   ?  3
+;12  3   0   ?  4
+;13  1   0   ?  ?
+;14  0   1   1  1
+
+*end O
+
+*equate O.1 P.21
+
+*begin P
+*title "Shark's Teeth to head of Fenris"
+*date 2003.08.12
+*team "JC" book
+*team "Simon Flower" instruments
+*team "Geoff O'Dell" tape
+
+; Entered from logbook 2003.09.10 by David Legg
+; 2003-09-28 JPNP: Checked with JC, added LRUD
+
+; data order
+; from to tape compass clino
+2 1 9.59 132 +01 ; 1= PSS Rock on shelf RH wall (into cave)
+3 2 17.80 050 -08
+4 3 9.25 031 -01
+5 4 14.60 095 +01 ;corrected from 14.50
+6 5 9.86 052 +02 ;corrected from 9.05
+7 6 8.80 301 +01 ;corrected from 6.50
+8 7 5.56 349 0
+9 8 13.79 101 -01
+10 9 5.08 145 -01
+11 10 8.42 041 -12
+12 11 4.19 056 +08
+13 12 6.63 120 -03
+14 13 13.19 005 -01
+15 14 20.06 146 -04
+16 15 5.29 180 -35
+17 16 15.50 165 -22
+18 17 5.52 212 -02
+19 18 21.60 220 -80
+20 19 2.42 150 -61 
+21 20 2.72 020 -64 ; 21 = PSS
+
+;;Station LRUD (in direction of survey - out of cave)
+;1   0 2 ? 2
+;2   4 1 0 2
+;3   0 4 10 3
+;4   0 4 ?  2
+;5   2 6 2 1
+;6   2 2 0 1
+;7   0 3 6 1
+;8   1 3 ? 1
+;9   1 2 ? 1
+;10  3 0 ? 1
+;11  1 1 ? 4
+;12  0 2 ? 1
+;13  4 0 ? 1
+;14  4 8 ? 1
+;15  0 0.5 2 2
+;16  2 0 2 4
+;17  0 2 2 2
+;18  3 0 ~25 2
+;19  0 1 ? ~20
+;20  1 0 ? 10
+;21  0 1 4 3
+
+*end P
+
+*equate P.1 Q.1
+
+*begin Q
+*title "Fenris to Asopladeru La Texa"
+*date 2003.08.17
+*team "Chris Densham" book
+*team "Simon Flowe" tape
+*team "David Legg" instruments
+
+; Entered from logbook 2003.09.10 by David Legg
+; 2003-09-28 JPNP: checked with CJD added LRUD
+
+; data order
+; from to tape compass clino
+1 2 4.10 123 +08 ; 1 = PSS from JC's survey
+2 3 12.10 160 -83 ; 2 = lip at head of Fenris
+3 4 12.45 106 -02
+4 5 3.05 122 +43
+5 6 1.75 188 -14
+6 7 20.20 110 -77
+7 8 0.7 135 -27
+8 9 12.4 090 -45 ; 9 = PSS Blue hanger on LH wall in La Texa!
+
+;LRUD
+;1  0.5 0 ~15 1
+;2  0 1 ~15 ~12
+;3  0 1.5 20 1.5
+;4  0 1 5 5
+;5  0.2 1.1 ~10 -
+;6  1.3 0 10 25
+;7  8 0 - -
+;9  0 7 - 1 ; down:1 - 
+
+*end Q
+
+
+*begin R
+*title "Breeze Blocks"
+*date 2003.07.20
+*team "Dave Legg" book
+*team "Gareth" tape
+*team "Chris Sinadinos" instruments
+
+1  2  5.56 227 +30 ; 1 = PSS (Breeze Blocks PSS) cairn in magic tree passage
+                   ; probably tormenta2002.e.18
+2  3  4.5  354 -4
+3  4  4.68 225 -38
+4  5  9.1  113 -51
+5  6  6.85 070 -15
+6  7  11.73 035 -40
+7  8  6.6  084 -25
+8  9  13.28 164 -8 ; 9 = Big Cairn in Area 4 (may be SS from 2002)
+9  10 13.36 260 +24
+10 11 23.07 233 +5
+11 12 15.93 350 +42
+
+1 2a 10.95 003 +30
+2a 3a 23.60 354 +36
+3a 4a 6.20 052 +25 ; 4a = top of boulder in middle of Aven
+4a 4b 30.00 - up
+
+*end R

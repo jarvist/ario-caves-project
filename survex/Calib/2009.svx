@@ -1,0 +1,3 @@
+;*calibrate declination 1.17
+*calibrate declination 1.12
+

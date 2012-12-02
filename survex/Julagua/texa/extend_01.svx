@@ -1,0 +1,9 @@
+
+;JPNP 2005-07-20
+
+;file for extended elevation of beyond lake
+
+*include texa_05_03
+*include texa_05_04
+
+*equate texa_05_03.0 texa_05_04.0

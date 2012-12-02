@@ -1,0 +1,5 @@
+; OUCC - Picos Survey Data
+
+
+18   17    25.46    306   -84.5
+19   18    13.30      -    down

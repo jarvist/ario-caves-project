@@ -1,0 +1,21 @@
+*date 2006.7.17
+*team CJD book
+*team Dave instruments
+
+*begin chicago_C
+
+; In the log book and original draw-ups, the names of stations 1 and 2 are
+; reversed
+
+1	2	10.56	028	-70
+; 1 is krab of rebelay on P40, The Crystal Ship
+; 2 is know at top of P40
+3	1	3.35	347	-16
+4	3	4.65	107	-36
+5	4	7.32	30	-40
+6	5	2.32	119	-14
+7	6	2.40	28	-31
+8	7	4.52	123	-46
+9	8	3.39	36	19 ; 9 is bolt at bottom of P58
+
+*end chicago_C

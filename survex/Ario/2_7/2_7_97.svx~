@@ -1,0 +1,86 @@
+;          2_7              Overall Survey
+; Also:    Pozu Jultayu 
+; 	or Pozu del Ojo de la Bruja
+
+; as at end of 1997
+
+*equate start entrance.A4_X_ ; fix the X as the start of the cave
+*equate rim entrance.a2 ; edge of shakehole, for coordinate fix
+; *fix rim	3871 	7808	1848.1	[GPS--WGS94], 2000, old altitude
+*fix 	rim 	3978.2 	8012.7 	1848.1 ; [GN]
+
+;;; Entrance series, and Old Rift Series
+*begin entrance
+*include entrance.svx
+*end entrance
+
+;;; GSP
+*equate GSP.b15 entrance.b15 ; start of GSP
+*begin GSP
+*include GSP_97.svx
+*end GSP
+
+;;; Shaft Series
+*equate shaft.D33 entrance.D33 ; top of Pessimist's
+; *equate shaft.e17 GSP.spacetrout.e17      ; Drippy Ledge, where GSP joins
+*begin shaft
+*include shaft.svx
+*end shaft
+
+;;; Gusamo Grovel and Just Awesome
+*equate JustAwesome.F16 shaft.F16
+*begin JustAwesome
+*include JustAwesome.svx
+*end JustAwesome
+
+;;; Streamway, from Just Awesome to Primula Point
+*equate streamway.I13 JustAwesome.I13 ; bottom of Just Awesome
+*begin streamway
+*include streamway.svx
+*end streamway
+
+;;; London Underground
+
+*equate LUG.I13 JustAwesome.I13   ; bottom of Just Awesome
+*equate LUG.QN0 streamway.QB34 ; Primula Point
+*begin LUG
+*include LUG.svx
+*end LUG
+
+;;; Primula Point to Drucilla, Postman Pat, Bod, Soup Dragon
+*equate PP.QB34 streamway.QB34 ; Primula Point
+*begin PP
+;*sd clino 3 degrees
+*include PP_97.svx
+*end PP
+
+;;; Pimpernell Streamway
+
+*equate Pimpernell.QD9 PP.QD9
+*begin Pimpernell
+*include Pimpernell_97.svx
+*end Pimpernell
+
+; Now a hack to get the stream to flow down through Drucilla
+*equate Hack.start PP.qk20
+*equate Hack.end Pimpernell.QD10
+*begin Hack
+*include ../../Calib/1989.svx
+*flags surface
+*sd clino 0.0001 degrees
+start temp 		16.0	-	down
+*sd tape 50 metres
+*sd compass 180 degrees
+temp	end	53.96	66	0
+*end Hack
+
+;;; Upstream
+
+;*eeleft
+*equate upstream.Blpss   JustAwesome.I14	
+*begin upstream
+*include upstream1.svx  ; to 1992 limit
+; *include upstream2.svx  ; from 1992 limit
+; *include upstream3.svx  ; 2000 explorations
+; *equate 2000A.1 i81
+*end upstream

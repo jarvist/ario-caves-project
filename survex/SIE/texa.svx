@@ -1,0 +1,27 @@
+;SIE survey
+;fitxer texa.svx
+;coordenades UTM referenciades per poligonal exterior al refugi d'Ariu
+;UTM coords are referred by surface survey to Airo refuge point.
+;also known as Asopladeru
+;*fix texa_95.0   45228.37       89807.86        1370.68 [Euro], presumably
+;*fix texa_95.0	2895	1992	1370	; [Old]
+
+
+*fix texa_95.0 5228.37 9807.86 1370.68
+
+*include ../Calib/1995.svx 
+*include texa_95
+
+*include ../Calib/1996.svx 
+*include texa_96c
+*include texa_96v
+*include texa_96j
+
+*include ../Calib/1997.svx 
+*include texa_97
+
+*include ../Calib/1998.svx 
+*include texa98_1
+*include texa98_2
+*include texa98_3
+

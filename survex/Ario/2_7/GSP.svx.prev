@@ -1,0 +1,95 @@
+; GSP
+
+;Gavin's Shit Pit to Tumbling Dice
+;Book PMM, Tape JT, C&C Dirk
+
+;*eereverse
+b15	qe1	2.12	141	-11
+qe1	qe2	9.72	168	81
+qe3	qe2	4.4	44	17
+qe3	qe4	4.71	0	90
+qe5	qe4	3.2	13	-60
+qe5	qe6	4.08	209	36
+qe7	qe6	2.48	40	27
+qe8	qe7	2.79	93	9
+qe9	qe8	4.31	22	-13
+qe10	qe9	2.14	7	10
+qe11	qe10	2.15	67	30
+qe11	qe12	2.27	278	-43
+;*eereverse
+qe12	qe13	33.6	0	-90
+qe13	qe14	10	012	-10
+qe15	qe14	9.4	183	50
+qe15	qe16	4.42	1	-59
+qe17	qe16	6.63	196	11
+qe17	qe18	4.28	1	-8
+qe19	qe18	2.01	193	11
+qe19	qe20	12.7	326	-69
+qe20	qe21	1.38	40	-21
+;*eereverse
+qe21	qe22	7.8	0	-90
+qe23	qe22	3.62	319	4
+qe23	qe24	5.09	0	-90
+qe24	qe25	7.48	136	-29
+qe26	qe25	2.56	248	17
+;*eereverse
+qe27	qe26	1.35	198	0
+qe28	qe27	0.98	157	29
+qe29	qe28	5.19	195	36
+qe29	qe30	3.46	352	2
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+; Tumbling Dice
+;18.7.89
+; Fred, Gavin SGR
+qe30	qf1	28.02	0	-90
+qf1	qf2	7.22	253	-63
+qf2	qf3	13.53	0	-90
+qf3	qf4	4.5	274	-52
+qf4	qf5	25.34	0	-90
+qf6	qf5	16.71	240	71
+;*eereverse
+qf8	qf6	4.08	13	24
+qf8	qf9	11.5	147	-42
+qf10	qf9	2.35	81	7
+qf10	qf11	6.07	187	-53
+qf12	qf11	5.15	293	42		
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+qf12    g981	4	090	0; guessed link leg
+
+;GSP from 1989 to 1998 LOE
+;Pushed Gavin Lowe August 1998
+;Surveyed Gavin and Lev Bishop July 1999
+
+g980	g981	10.10	092	-40
+;*eereverse
+g981	g982	2.38	004	11
+g982	g983	6.30	337	-7
+g983	g984	3.32	334	-47
+g984	g985	4.00	009	12
+g985	g986	4.78	318	32
+g986	g987	4.50	008	-56
+g987	g988	1.05	000	-30
+g988	g989	3.15	038	-5
+g989	g9810	2.84	357	-14
+g9810	g9811	3.47	047	0
+g9811	g9812	5.66	353	-4
+g9812	g9813	5.37	014	-59
+g9813	g9814	3.00	300	-84
+g9814	g9815	9.82	020	-28
+g9815	g9816	5.47	343	-20
+g9816	g9817	3.30	040	-79
+g9817	g9818	4.63	038	-10; st29= LH Bolt
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;Space Trout
+;Dropped Gavin Lowe and Lev Bishop 30/7/99
+;Surveyed Gavin, Lev and Jonathan Cooper 2/8/99
+gsp0	gsp1	83.00	042	-89;gsp0 is knot on Y-hang
+gsp1	gsp2	12.53	175	-83
+gsp2	e17	11.35	295	-84;e17 is Bolt on Drippy Ledge (See above)
+

@@ -1,0 +1,50 @@
+; Pimpernell Streamway, and everything off it
+
+*include ../../Calib/1989.svx
+
+;From Egbert to Druscilla
+; Notes Fred, C&C Lynn
+; 14.7.89
+
+QD0	QD1	5.7	35.0	-2.0; End of Druscilla
+QD2	QD1	7.7	257.0	8.0
+QD2	QD3	12.9	98.0	-10.0
+QD4	QD3	9.4	243.0	-2.0
+QD4	QD5	25.1	73.0	-2.0
+QD6	QD5	5.1	275.0	18.0
+QD6	QD7	2.6	70.0	22.0
+QD8	QD7	5.5	255.0	14.0
+QD8	QD9	11.8	80.0	14.0; Pitch from BOD
+QD10	QD9	26.3	251.0	7.0
+QD10	QD11	30.0	81.0	5.0
+QD12	QD11	8.5	191.0	22.0
+QD12	QD13	24.2	27.0	4.0
+QD14	QD13	13.3	230.0	-1.0
+QD14	QD15	15.1	54.0	0.0
+QD16	QD15	21.2	277.0	4.0
+QD16	QD17	7.1	66.0	7.0
+QD17	QD18	23.5	130.0	-1.0; Egbert end
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+; Pixie Footsteps, 1998
+; 
+; *include ../../Calib/1998.svx
+; 
+; *begin pixie
+; 2	1	15.12	078	-15 ; 1 is start of colostmy choke rift
+; 3	2	7.45	094	+14
+; 4	3	13.70	085	-20
+; 4	5	5.25	003.5	-8
+; 6	5	15.45	105	+21
+; 7	6	5.77	170	+41
+; 8	7	2.26	259	+31
+; 9	8	10.30	250	+48
+; 10	9	3.00	250	0
+; 11	10	12.45	228	+56
+; 12	11	3.58	154	+40 ; 12 is 2nd from last belay on final traverse of pimpernel stmwy
+; *end pixie
+; 
+; *equate qd14 pixie.12
+; 
+; 

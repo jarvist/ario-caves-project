@@ -1,0 +1,108 @@
+Coordinate systems
+==================
+
+We have used several different coordinate systems in the past.  The source of
+all entrance coordinates should be indicated as follows:
+
+[GN] Gerhard Niklasch et al.'s surface survey from the late 1980s, documented
+in OUCC Proc 13, using the European UTM datum.  This is highly accurate.
+
+[GPS-WGS94] Readings from a GPS using the WGS94 UTM datum.
+
+[GPS-Euro] Readings from a GPS using the European datum.
+
+[Old] Old entrance coordinate system, relative to Verdelluenga, using magnetic
+north from an unknown year (possibly mixed with some grid norths).  Most of
+these are derived from [GN], but some have been tied in via surface survey
+(often ignoring magnetic deviation).
+
+In future, we should locate only using the European UTM datum.  
+
+Experiments in 2000 suggested that [GPS-WGS94] differs from [GN] by (107,205),
+and that [GPS-Euro] differs from [GN] by (-5,5).  However, in theory the
+difference is (109.49, 211.49), and that is the figure used in the
+translations.  Here are figures for translating *from* various formats into
+European datum:
+
+[GPS-WGS94] add (109.49, 211.49)
+[Old]       add (2333.6, 7815.3)
+
+
+Declination
+===========
+
+Declination is as follows; data from www.ngdc.noaa.gov/seg/potfld/geomag.html
+
+  1979.58   -6d  39.2m
+  1980.58   -6d  30.0m
+  1981.58   -6d  20.9m
+  1982.58   -6d  11.8m
+  1983.58   -6d   2.7m
+  1984.58   -5d  53.7m
+  1985.58   -5d  45.0m
+  1986.58   -5d  36.5m
+  1987.58   -5d  28.0m
+  1988.58   -5d  19.5m
+  1989.58   -5d  11.1m
+  1990.58   -5d   3.2m
+  1991.58   -4d  55.6m
+  1992.58   -4d  48.1m
+  1993.58   -4d  40.6m
+  1994.58   -4d  33.0m
+  1995.58   -4d  24.6m
+  1996.58   -4d  15.6m
+  1997.58   -4d   6.6m
+  1998.58   -3d  57.6m
+  1999.58   -3d  48.6m
+  2000.58   -3d  40.0m
+  2001.58   -3d  31.7m
+
+Convergence is +1.31 degrees
+
+Following figures from
+http://www.ngdc.noaa.gov/seg/geomag/jsp/struts/calcDeclination, calculated in
+2006, based on Latitude 43.24 N, 4.89 W.
+
+  2000.7.15  3d 39'W
+  2001.7.15  3d 31'W
+  2002.7.15  3d 22'W
+  2003.7.15  3d 14'W
+  2004.7.15  3d 06'W
+  2005.7.15  2d 58'W
+  2006.7.15  2d 50'W
+  2007.7.15  2d 43'W
+  2008.7.15  2d 35'W
+
+Following calculated in 2010, now at
+http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+
+  2009.7.15  2d 26'W
+  2010.7.15  2d 18'W
+  2011.7.15  2d 10'W
+  2012.7.15  2d 02'W
+
+So GPS bearing =(ish) grid bearing = mag bearing + declination + convergence
+and declination + convergence = -2.36 (2000) increasing by 0.138 degrees per
+year roughly.  Or more precisely:
+
+  1981 	5.03
+  1982	4.89
+  1983  4.74
+  1984  4.59
+  1985  4.44
+  1986  4.30
+  1987  4.16
+  1988  4.02
+  1989  3.88
+  1990  3.74
+  1991  3.62
+  1992  3.49
+  1993  3.37
+  1994  3.24
+  1995  3.10
+  1996  2.95
+  1997	2.80
+  1998	2.65
+  1999	2.50
+  2000	2.36
+

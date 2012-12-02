@@ -1,0 +1,87 @@
+;          2_7              Overall Survey
+; Also:    Pozu Jultayu 
+; 	or Pozu del Ojo de la Bruja
+
+; created 25/3/96
+
+;*fix start	43978.2	88012.7	1848.1	
+
+*equate start entrance.A4_X_ ; fix the X as the start of the cave
+
+;;; Entrance series, and Old Rift Series
+
+*begin entrance
+*include entrance.svx
+*end entrance
+
+;;; GSP
+
+*begin GSP
+*equate b15 \entrance.b15 ; start of GSP
+*include GSP.svx
+*end GSP
+
+;;; Shaft Series
+
+*begin shaft
+*include shaft.svx
+*equate D33 \entrance.D33 ; top of Pessimist's
+*equate e17 \GSP.spacetrout.e17      ; Drippy Ledge, where GSP joins
+*end shaft
+
+;;; Gusamo Grovel and Just Awesome
+
+*begin JustAwesome
+*include JustAwesome.svx
+*equate F16 \shaft.F16
+*end JustAwesome
+
+;;; Streamway, from Just Awesome to Primula Point
+
+*begin streamway
+*include streamway.svx
+*equate I13 \JustAwesome.I13 ; bottom of Just Awesome
+*end streamway
+
+;;; London Underground
+
+*begin LUG
+*include LUG.svx
+*equate I13 \JustAwesome.I13   ; bottom of Just Awesome
+*equate QN0 \streamway.QB34 ; Primula Point
+*end LUG
+
+;;; Primula Point to Drucilla, Postman Pat, Bod, Soup Dragon
+
+*begin PP
+;*sd clino 3 degrees
+*include PP.svx
+*equate QB34 \streamway.QB34 ; Primula Point
+*end PP
+
+;;; Pimpernell Streamway
+
+*begin Pimpernell
+*include Pimpernell.svx
+*equate QD9 \PP.QD9
+*end Pimpernell
+
+; Now a hack to get the stream to flow down through Drucilla
+*begin Hack
+*sd clino 0 degrees
+\PP.qk20 temp 		16.0	-	down
+*sd tape 50 metres
+*sd compass 180 degrees
+temp	\Pimpernell.QD10	53.96	66	0
+*end Hack
+
+;;; Upstream
+
+;*eeleft
+*begin upstream
+*include upstream1.svx  ; to 1992 limit
+*include upstream2.svx  ; from 1992 limit
+*include upstream3.svx  ; 2000 explorations
+*equate Blpss   \JustAwesome.I14	
+*equate 2000A.1 i81
+*end upstream

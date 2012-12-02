@@ -1,0 +1,31 @@
+
+; CDG Culiembro survey
+;
+; Please log all
+;  Date        Who    What
+;
+; 2009-07-31  Madphil   Data entered
+
+
+; Sump 3
+;
+; Surveyed by
+; Book: Chris Jewel 
+; Instruments:Chris Jewel 
+;Tape: Chris Jewel  
+
+*begin 2009_04
+
+*data normal from to length compass clino
+
+
+
+
+Sump3Ent	Sump3-2	30.00	180.00	-27.82
+Sump3-2	Sump3-3	30.00	210.00	11.54
+Sump3-3	Sump3-4	30.00	210.00	-15.47
+Sump3-4	Sump3-5	10.00	300.00	53.13
+Sump3-5	Sump3-6	5.00	30.00	0.00
+Sump3-6	Sump3Out	10.00	300.00	53.13
+
+*end 2009_04

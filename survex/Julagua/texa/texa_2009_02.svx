@@ -1,0 +1,32 @@
+
+; OUCC Texa survey
+;
+; Please log all changes below:
+;
+;  Date        Who    What
+;
+; 2009-07-30  Madphil   Data entered
+
+
+; Texa,Cheese Cake 3
+;
+; Surveyed;
+; Book: Madphil Rowsell
+; Instruments (WRPC set): Hillary Greeves Disto x
+
+*begin texa_2009_02
+
+*data normal from to length compass clino
+
+
+701	702	4.37	21.70	-3.10
+702	703	5.44	317.60	-34.80
+703	704	4.95	257.00	-46.30
+704	705	12.20	228.50	-47.20
+706	705	6.47	349.80	-29.90
+706	707	10.99	269.60	-57.80
+707	708	4.53	167.40	2.50
+
+
+
+*end texa_2009_02

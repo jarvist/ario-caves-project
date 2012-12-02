@@ -1,0 +1,52 @@
+;
+; Systema Julagua
+; (Pozu Tormenta & Aspladeru la Texa)
+;
+; John Pybus 2003-09-21
+
+; Caves not linked
+
+*include tormenta/tormenta
+
+*include texa/texa
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Fix entrances to know position
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+; Original entrance co-ords
+;; tormenta entrance: GPS UTM Zone 30T / WGS 84 datum E:0344532 N:4789727 altitude 1540m. logbook 13/8/02
+;;*fix tormenta2002.entrance 4532 9727 1540 ; translation of above
+;;*fix texa_95.0 5228.37 9807.86 1370.68
+
+; Entrances as fixed by Surface survey
+
+;*fix tormenta2002.entrance  4657.54 9933.67 1541.24 ;from surface survey (to GNpoints)
+;*fix texa_95.0    5226.35 9870.36 1370.68 ;from surface survey (to GN points)
+
+
+;;;;;;;;;;;;;;;;;;;;;;;
+;make system connection
+;;;;;;;;;;;;;;;;;;;;;;;
+
+*equate texa_97.51 connection_point
+
+;*equate texa_97.51 tormenta2003.Q.9
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Surface surveys to entrances
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+*equate texa_ent texa_95.0
+*equate tormenta_ent tormenta2002.entrance
+*include surface
+
+;; Tie surface surveys together with made up leg
+; Otherwise the loop correction pulls the two surveys 
+; (which, I think,  follow the same ridge) apart.
+*begin
+*flags surface
+*data cartesian from to northing easting altitude
+;;50refugi.4 tormenta-surf.14  3.0  -4.6  -2.5
+*end

@@ -1,0 +1,35 @@
+; Various small caves round Ario; entrance coordinates only
+
+*begin 10_9
+;*fix 0	3027	8624	1790 ; [GPS-WGS], 2000; alt guesses
+*fix 0	3136.49 8835.49	1790 ; translation of above
+*include ../Symbols/cave
+*end 10_9
+
+*begin TLJ ; Tras La Jayada, location only
+*equate 0 Tras_La_Jay
+; *fix Tras_La_Jay 954.28 880.39  1705.81 ;Surface surveyed to Pico Gustuteru
+; *fix Tras_La_Jay 3150	8377  1705.81 ; [GPS-WGS94] 2000, old altitude
+*fix Tras_La_Jay 3259.49 8588.49 1705.81 ; translation of above
+*include ../Symbols/cave
+*end TLJ
+
+*begin LaJayada
+;*fix 0 2986	7929	1821 ; [GPS-WGS], 2000
+*fix 0  3095.49 8140.49	1821 ; translation of above
+*include ../Symbols/cave
+*end LaJayada
+
+*begin Jenga
+; *fix 0 4244	8462	1541 ;  [GPS-WGS], 2000
+*fix 0 4353.49 8673.49	1541 ; translation of above
+*include ../Symbols/cave
+*end Jenga
+
+*begin 53_5
+; *fix GPS 4609 8907 1381 ;  [GPS-WGS], 2000
+*fix GPS 4718.49 9118.49 1381 ; translation of above
+0	GPS	15	300	-18
+*include ../Symbols/cave
+*end 53_5
+

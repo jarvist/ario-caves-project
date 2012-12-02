@@ -1,0 +1,18 @@
+*date 2006.7.18
+*team Gavin instruments, tape
+*team Gareth book
+
+*begin chicago_D
+
+1	0	4.57	124	27 
+; 0 is bolt at start of traverse towards P45
+2	1	4.25	68	32
+3	2	5.54	91	33
+4	3	4.07	53	60
+5	4	5.79	92	36
+6	5	7.28	40	-80
+7	6	5.41	21	8
+8	7	29.22	125	-87
+9	8	4.24	255	-83 ; 9 is krab on P40, Crystal Ship
+
+*end chicago_D

@@ -1,0 +1,59 @@
+; OUCC Texa survey
+
+; Please log all changes below:
+
+;  Date        Who    What
+
+; 2008-05-19  JPNP   Data entered (presumably 2009-5-19)
+
+; Texa, from knife pitch: Who needs divers
+
+; Surveyed: 2008-07-16
+; Book: MadPhil
+; Instruments (WRPC set): Steve Maccallagh
+
+*begin texa_2008_02
+
+;*export 1
+
+*data normal from to length compass clino
+
+;bodged leg to connect into texa survey
+0	1	14	60	+45
+;end bodge
+
+1	2	18.40	-	up	;2 = lower y-hang bolt
+3	2	2.52	031	+02
+3	4	9.05	-	up
+5	4	11.85	227	-57
+6	5	1.66	185	-50
+7	6	16.30	250	-38	; 6= bolt
+7	8	4.57	054	0	; 8 = lower bolt
+9	8	11.26	200	+20.5
+9	10	5.95	071	+01
+10	11	10.30	001	+74
+11	12	1.47	024	+01	; 12 = top of calcite crystal
+12	13	7.81	326	+52.5
+13	14	7.16	331	+32
+14	15	9.90	353	+21
+13	16	7.03	250	+42
+16	17	8.72	292	+67
+17	18	8.49	229	+32	; 18 = Stal with marker on it
+19	9	7.99	333	-05	; ?(leg direction changed from notes) 
+19	20	0.92	-	down
+20	21	1.79	126	0
+21	22	1.33	-	up
+22	23	5.77	093	0
+200	201	5.44	278	+18	; 200 = PSS: waterproof paper note
+201	202	8.16	253	0
+202	203	5.50	258	+21
+203	204	3.98	264	-15
+204	205	14.39	190.5	+28
+205	206	15.45	200	+18
+206	207	8.80	185	+02
+207	208	5.40	213	-28
+208	209	3.46	217	-33
+209	210	16.87	239	-52
+210	23	8.73	198	-21.5
+
+*end texa_2008_02

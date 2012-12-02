@@ -1,0 +1,45 @@
+; OUCC - Picos Survey Data
+;
+; Sistema Julagua
+; (Pozu Tormenta & Asopladeru la Texa)
+
+; 2005-07-19 JPNP: Created file
+; 2005-07-24 JPNP: Adjust connection point
+; 2005-07-28 JPNP: Add in GPS fixes for entrances
+
+*begin Julagua
+
+; GPS fixes
+; JPNP (14/7/2005) OUCC eTrex
+; Texa entrance: WSG84 UTM30T 0345134E 4789657N 1370m
+;*fix texa.entrance 45134 89657 1370 10 20
+*fix texa.entrance 5134 9657 1370 10 20
+
+; JPNP (9/7/2005) Magellan SportTrek
+; Tormenta entrance: WSG84 UTM30T 0344535E 4789734N 1546m
+;*fix tormenta.entrance 44535 89734 1546 10 10
+*fix tormenta.entrance 4535 9734 1546 10 10
+
+; Surface survey tieing the two entrances
+*include Surface/surface_05_01.svx
+
+*equate surface_05_01.1  texa.entrance
+*equate surface_05_01.36 tormenta.entrance
+
+*begin texa
+; Texa survey seems to be lower standard than tormenta
+; set it to BCRA Grade3
+*include bcra3.svx
+*include texa/texa.svx
+*end texa
+
+; Use BCRA Grade 5 for rest of data
+*include bcra5.svx
+
+*include tormenta/tormenta.svx
+
+; Connect the two caves
+; Changed tie-in to better match description
+*equate tormenta.texa_connection texa.texa_97.47
+
+*end Julagua

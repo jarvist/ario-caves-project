@@ -1,0 +1,140 @@
+; GSP
+
+*include ../../Calib/1989.svx
+
+;Gavin's Splendid Passage to Tumbling Dice
+;Book PMM, Tape JT, C&C Dirk
+
+*begin ; section to top of Serendipity
+;*eereverse
+b15	qe1	2.12	141	-11
+qe1	qe2	9.72	168	81
+qe3	qe2	4.4	44	17
+qe3	qe4	4.71	0	90
+qe5	qe4	3.2	13	-60
+qe5	qe6	4.08	209	36
+qe7	qe6	2.48	40	27
+qe8	qe7	2.79	93	9
+qe9	qe8	4.31	22	-13
+qe10	qe9	2.14	7	10
+qe11	qe10	2.15	67	30
+qe11	qe12	2.27	278	-43
+*end
+
+; Now down Serendipity
+qe12	qe13	33.6	0	-90
+qe13	qe14	10	012	-10
+qe15	qe14	9.4	183	50
+qe15	qe16	4.42	1	-59
+qe17	qe16	6.63	196	11
+qe17	qe18	4.28	1	-8
+qe19	qe18	2.01	193	11
+qe19	qe20	12.7	326	-69
+qe20	qe21	1.38	40	-21
+
+*begin
+; *eereverse
+qe21	qe22	7.8	0	-90
+qe23	qe22	3.62	319	4
+qe23	qe24	5.09	0	-90
+qe24	qe25	7.48	136	-29
+qe26	qe25	2.56	248	17
+*end
+qe27	qe26	1.35	198	0
+qe28	qe27	0.98	157	29
+qe29	qe28	5.19	195	36
+qe29	qe30	3.46	352	2
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+; Tumbling Dice
+;18.7.89
+; Fred, Gavin SGR
+qe30	qf1	28.02	0	-90
+qf1	qf2	7.22	253	-63
+qf2	qf3	13.53	0	-90
+qf3	qf4	4.5	274	-52
+qf4	qf5	25.34	0	-90
+qf6	qf5	16.71	240	71
+; *eereverse
+qf8	qf6	4.08	13	24
+qf8	qf9	11.5	147	-42
+qf10	qf9	2.35	81	7
+qf10	qf11	6.07	187	-53
+qf12	qf11	5.15	293	42		
+
+; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Start of 1999 data
+
+*begin
+*flags surface
+*include ../../Calib/1999.svx
+
+*begin ; two guessed connection legs
+; *include bcra1
+qf12    stream1.1	1	80	-30; guessed link leg
+; *eebreak qf11    stream1.0
+qf11    stream1.0	3	210	0; guessed link leg
+;*equate qf12 stream1.0
+*end
+
+;GSP from 1989 LOE to 1998 LOE
+;Pushed Gavin Lowe August 1998
+;Surveyed Gavin and Lev Bishop July 1999
+
+*begin stream1
+0	1	10.10	092	-40
+; *eereverse
+1	2	2.38	004	11
+2	3	6.30	337	-7
+3	4	3.32	334	-47
+4	5	4.00	009	12
+5	6	4.78	318	32
+6	7	4.50	008	-56
+7	8	1.05	000	-30
+8	9	3.15	038	-5
+9	10	2.84	357	-14
+10	11	3.47	047	0
+11	12	5.66	353	-4
+12	13	5.37	014	-59
+; First Streamway Pitch
+13	14	3.00	300	-84
+14	15	9.82	020	-28
+15	16	5.47	343	-20
+16	17	3.30	040	-79
+17	18	4.63	038	-10; st18= LH Bolt
+*end stream1
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+; GSP, from top of Second Streamway Pitch to top of Space Trout
+; Gavin Lowe, Rich Doyle
+*begin stream2
+*begin
+; *eereverse
+1	0	3.90	358	-17
+*end
+1	2	2.89	252	31
+2	3	4.20	152.5	19
+3	4	6.88	172	49
+4	5	3.98	109.5	29
+5	6	4.80	175	38
+6	7	4.38	108	46
+7	8	4.69	165	28
+8	9	4.74	107	34
+9	10	9.85	169	74
+*end stream2
+*equate stream2.0 spacetrout.0
+*equate stream2.10 stream1.18
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;Space Trout, P107
+;Dropped Gavin Lowe and Lev Bishop 30/7/99
+;Surveyed Gavin, Lev and Jonathan Cooper 2/8/99
+
+; *eereverse
+*begin spacetrout
+0	1	83.00	042	-89;gsp0 is at top of Y-hang
+1	2	12.53	175	-83
+2	e17	11.35	295	-84;e17 is Bolt on Drippy Ledge (See above)
+*end spacetrout
+*end

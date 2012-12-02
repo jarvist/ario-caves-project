@@ -1,0 +1,39 @@
+
+; OUCC Texa survey
+;
+; Please log all changes below:
+;
+;  Date        Who    What
+;
+; 2008-05-19  JPNP   Data entered
+
+
+; Texa, continuing in phreas above Knife
+;
+; Surveyed: 2008-07-18
+; Book: MadPhil
+; Instruments (WRPC set): Simon Cornhill
+; Tape: Noel Snape (ULSA)
+
+*begin texa_2008_03
+
+*data normal from to length compass clino
+
+300	301	11.40	276	-41	; 300 = Rock projection, tape marker
+301	302	4.30	214	-05
+302	303	1.60	286	0
+303	304	12.09	322	-01
+304	305	4.59	230	-06
+305	306	7.99	282	+09
+306	307	10.49	-	up	; 307 = bolt
+307	308	3.07	327	+36
+308	309	10.12	009	+51	; 309 = lower bolt
+309	310	3.55	346	+09
+310	311	7.57	088	+58
+311	312	2	341	+02
+312	313	4.16	034	+34
+313	314	7.60	017	+02
+314	315	3.41	036	+05	; 315 = tape marker (possible aven)
+315	200	21.01	323	+48
+
+*end texa_2008_03

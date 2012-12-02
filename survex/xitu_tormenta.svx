@@ -1,0 +1,10 @@
+*begin xitu  ;Xitu (1/5) all entrances
+*include .\Ario\Xitu\Xitu
+*end xitu
+
+
+
+*begin tormenta
+*include Ario/Tormenta/tormenta
+*end tormenta
+

@@ -1,0 +1,22 @@
+
+*begin Q
+*title "Fenris to Asopladeru La Texa"
+*date 2003.08.17
+*team "Chris Densham" book
+*team "Simon Flowe" tape
+*team "David Legg" instruments
+
+; Entered from logbook 2003.09.10 by David Legg
+
+; data order
+; from to tape compass clino
+1 2 4.10 123 +08 ; 1 = PSS head of Fenris
+2 3 12.10 160 -83
+3 4 12.45 106 -02
+4 5 3.05 122 +43
+5 6 1.75 188 -14
+6 7 20.20 110 -77
+7 8 0.7 135 -27
+8 9 12.4 090 -45 ; 9 = PSS Blue hanger in La Texa!
+
+*end Q
